@@ -1,0 +1,10 @@
+{
+    "rpc": "https://api.binance.com",
+    "ws_url": "wss://stream.binance.com:9443/stream",
+    "tokens": [
+      {"symbol": "BTCUSDT", "large_order_amount": 0.1, "huge_order_amount": 0.1},
+      {"symbol": "ETHUSDT", "large_order_amount": 0.005, "huge_order_amount": 0.5},
+      {"symbol": "SOLUSDT", "large_order_amount": 0.001, "huge_order_amount": 0.1}
+    ],
+    "price_change_threshold": 0
+  }
