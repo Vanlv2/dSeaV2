@@ -152,6 +152,7 @@ func run_chains() {
 }
 
 func main() {
+	InitTokenPrices()
 	go printGlobalTransactions()
 	run_chains()
 	select {}
