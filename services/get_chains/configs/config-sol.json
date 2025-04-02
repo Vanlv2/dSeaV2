@@ -1,0 +1,12 @@
+{
+  "rpc2": "https://api.mainnet-beta.solana.com",  
+  "rpc": "https://solana-mainnet.core.chainstack.com/36381dc2934edee5941b26ec38c556e6",  
+  "wssRpc": "wss://solana-mainnet.core.chainstack.com/36381dc2934edee5941b26ec38c556e6",  
+  "ethContractAddress": "", 
+  "usdtContractAddress": "Es9vMFrzrQKMe8Fzwo4p2YjqedWiGQfpdpvxzvTPhnQy",  
+  "usdcContractAddress": "A2xNeomgLjTJPX3PoBHiNGYUKYb6VwMwPKdKDdZdCCNs",  
+  "wrappedBTCAddress": "8sXqU3WuNAbCh6HqUgx67v5fN9JeZ1YNvQbGZFXkPVdH", 
+  "transferSignature": "0x0000000000000000000000000000000000000000000000000000000000000000",  
+  "chain": "solana",  
+  "timeNeedToBlock": 400  
+}
