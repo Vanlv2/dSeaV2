@@ -1,0 +1,140 @@
+# **Tỷ lệ tài trợ và Số lượng hợp đồng mở trên thị trường tiền điện tử: Phân tích API từ các sàn giao dịch lớn**
+
+**1\. Giới thiệu**
+
+* **1.1 Định nghĩa Tỷ lệ tài trợ và Số lượng hợp đồng mở trong các công cụ phái sinh tiền điện tử:**  
+  Tỷ lệ tài trợ, hay còn gọi là Funding Rate, là một khoản thanh toán định kỳ được trao đổi giữa những người nắm giữ vị thế mua (long) và vị thế bán (short) trong các hợp đồng tương lai vĩnh cửu. Cơ chế này đóng vai trò then chốt trong việc neo giá của hợp đồng tương lai vĩnh cửu vào giá giao ngay của tài sản cơ sở. Khi giá hợp đồng tương lai vĩnh cửu cao hơn giá giao ngay, tỷ lệ tài trợ sẽ dương, và những người nắm giữ vị thế mua phải trả tiền cho những người nắm giữ vị thế bán. Điều này tạo động lực cho việc mở các vị thế bán và đóng các vị thế mua, từ đó đẩy giá hợp đồng tương lai xuống gần với giá giao ngay hơn. Ngược lại, khi giá hợp đồng tương lai thấp hơn giá giao ngay, tỷ lệ tài trợ sẽ âm, và những người nắm giữ vị thế bán phải trả tiền cho những người nắm giữ vị thế mua. Điều này khuyến khích việc mở các vị thế mua và đóng các vị thế bán, giúp giá hợp đồng tương lai tăng lên. Như vậy, tỷ lệ tài trợ hoạt động như một lực lượng cân bằng, liên tục điều chỉnh để duy trì sự hội tụ giữa giá của hợp đồng tương lai vĩnh cửu và giá giao ngay của tài sản cơ sở. Một tỷ lệ tài trợ dương ổn định cho thấy nhu cầu đối với các vị thế mua đang cao hơn, trong khi tỷ lệ âm cho thấy xu hướng nghiêng về các vị thế bán.  
+  Số lượng hợp đồng mở, hay Open Interest (OI), là tổng số lượng hợp đồng phái sinh chưa được thanh toán hoặc chưa đáo hạn tại một thời điểm cụ thể. Nó đại diện cho tổng số vị thế đang hoạt động trong một hợp đồng cụ thể, chẳng hạn như hợp đồng tương lai Bitcoin vĩnh cửu hoặc quyền chọn Ethereum. OI khác với khối lượng giao dịch, vốn đo lường tổng số hợp đồng đã được giao dịch trong một khoảng thời gian nhất định, bao gồm cả việc mở và đóng vị thế. OI chỉ tính các hợp đồng vẫn còn hiệu lực và thể hiện mức độ tham gia và dòng vốn đang chảy vào một thị trường cụ thể. Khi OI tăng lên, điều đó thường cho thấy các hợp đồng mới đang được mở, mà nhiều nhà phân tích xem là sự xác nhận của một xu hướng giá hiện tại. Ngược lại, sự sụt giảm trong OI có thể gợi ý rằng các nhà giao dịch đang đóng vị thế của họ, báo hiệu rằng xu hướng có thể sắp kết thúc.  
+  Cả tỷ lệ tài trợ và số lượng hợp đồng mở đều là những chỉ số quan trọng để đánh giá tâm lý thị trường và xác định các cơ hội giao dịch tiềm năng. Bằng cách theo dõi sự thay đổi của hai chỉ số này, các nhà giao dịch có thể thu được những hiểu biết sâu sắc về hướng đi tiềm năng của thị trường và mức độ tin cậy của các xu hướng giá.  
+* **1.2 Yêu cầu cụ thể của người dùng:**  
+  Người dùng yêu cầu tìm kiếm các sàn giao dịch tiền điện tử lớn cung cấp API miễn phí để truy cập dữ liệu lịch sử và theo thời gian thực về cả tỷ lệ tài trợ và số lượng hợp đồng mở. Đặc biệt, người dùng quan tâm đến cách dữ liệu này được thể hiện thông qua API, với mong muốn tỷ lệ tài trợ được biểu thị bằng các cột màu xanh lá cây (dương) và đỏ (âm) theo tỷ lệ phần trăm, còn số lượng hợp đồng mở được biểu thị bằng đường màu đen theo giá trị tiền tệ (USD). Mục tiêu của người dùng là sử dụng dữ liệu này để nhận biết được liệu thị trường đang có nhiều lệnh mua (long) hay lệnh bán (short) hơn.
+
+**2\. Xác định các sàn giao dịch tiền điện tử lớn**
+
+* **2.1 Các sàn giao dịch hàng đầu theo khối lượng giao dịch:**  
+  Nghiên cứu đã xác định một số sàn giao dịch tiền điện tử lớn trên thế giới dựa trên khối lượng giao dịch. Các sàn giao dịch này bao gồm: Binance, Coinbase Exchange, Kraken, KuCoin, Binance.US, Bitfinex, Gemini, Coincheck, OKX, Bybit, DigiFinex, Toobit, Bitget, WEEX, Bitmart, Crypto.com, Bitstamp, bitFlyer USA, eToro, Robinhood, BingX và Toobit. Sự xuất hiện nhất quán của các sàn giao dịch như Binance, Coinbase, Kraken và KuCoin trong nhiều nguồn khác nhau cho thấy vị thế hàng đầu của chúng trên thị trường. Dữ liệu gần đây hơn cũng cho thấy OKX và Bybit là những sàn giao dịch lớn với khối lượng giao dịch đáng kể. Số lượng lớn các sàn giao dịch được liệt kê phản ánh sự cạnh tranh cao trong lĩnh vực giao dịch tiền điện tử. Tuy nhiên, việc tập trung vào các sàn giao dịch hàng đầu theo khối lượng là rất quan trọng để đảm bảo khả năng tiếp cận dữ liệu đáng tin cậy và API phát triển.  
+* **2.2 Danh sách rút gọn ban đầu để điều tra API:**  
+  Để tiến hành phân tích API hiệu quả, báo cáo này sẽ tập trung vào các sàn giao dịch tập trung (CEX) được xếp hạng hàng đầu một cách nhất quán theo khối lượng giao dịch. Danh sách rút gọn ban đầu bao gồm: Binance, Coinbase Exchange, Kraken, KuCoin, Bybit và OKX. Các sàn giao dịch này được chọn do khối lượng giao dịch cao và khả năng cung cấp API toàn diện cho dữ liệu phái sinh, bao gồm tỷ lệ tài trợ và số lượng hợp đồng mở. Việc tập trung vào các sàn giao dịch lớn này sẽ giúp tối ưu hóa nỗ lực phân tích, vì chúng có nhiều khả năng có API trưởng thành và được ghi chép đầy đủ do nhu cầu từ cơ sở người dùng lớn và nhu cầu hỗ trợ giao dịch tổ chức.
+
+**3\. Phân tích API của các sàn giao dịch về Tỷ lệ tài trợ và Số lượng hợp đồng mở**
+
+* **3.1 Binance:**  
+  * **Tỷ lệ tài trợ lịch sử:** Binance cung cấp dữ liệu tỷ lệ tài trợ lịch sử cho các hợp đồng tương lai USDⓈ-M thông qua API REST tại endpoint /fapi/v1/fundingRate. API này trả về fundingRate (giá trị số dưới dạng chuỗi), fundingTime (dấu thời gian theo mili giây) và markPrice (chuỗi số). Người dùng có thể lọc dữ liệu theo symbol, startTime, endTime và limit (mặc định 100, tối đa 1000). Dữ liệu được trả về theo thứ tự tăng dần của fundingTime. Giá trị fundingRate cần được nhân với 100 để biểu thị dưới dạng phần trăm theo yêu cầu của người dùng. Việc bao gồm markPrice cung cấp bối cảnh về điều kiện thị trường tại thời điểm tính phí tài trợ.  
+  * **Số lượng hợp đồng mở lịch sử:** Dữ liệu về số lượng hợp đồng mở lịch sử cho các hợp đồng tương lai USDⓈ-M có thể được truy cập thông qua API REST tại endpoint /fapi/v1/openInterest. API này cung cấp openInterest (chuỗi số), symbol và time (dấu thời gian theo mili giây). Tham số symbol là bắt buộc. Mặc dù đơn vị (USD) không được nêu rõ trong mô tả endpoint này, nhưng bối cảnh của hợp đồng tương lai USDⓈ-M cho thấy giá trị có thể được tính bằng tài sản cơ sở (ví dụ: BTC cho BTCUSDT) hoặc đơn vị hợp đồng. Để có giá trị bằng USD, có thể cần sử dụng endpoint /fapi/v1/openInterestStatistics, cung cấp sumOpenInterestValue bằng USD.  
+  * **Tỷ lệ tài trợ theo thời gian thực (WebSocket):** Tỷ lệ tài trợ theo thời gian thực cho các hợp đồng tương lai USDⓈ-M có sẵn thông qua Mark Price Stream (\<symbol\>@markPrice). Định dạng tin nhắn bao gồm các trường như "e": "markPriceUpdate", "E" (thời gian sự kiện), "s" (ký hiệu), "p" (giá đánh dấu), "i" (giá chỉ số), "P" (giá thanh toán ước tính), "r" (tỷ lệ tài trợ dưới dạng chuỗi) và "T" (thời gian tài trợ tiếp theo). Luồng này cập nhật sau mỗi 3 giây hoặc mỗi giây. Tương tự như API REST, tỷ lệ tài trợ ("r") được cung cấp dưới dạng chuỗi biểu thị giá trị thập phân và cần được chuyển đổi thành phần trăm.  
+  * **Số lượng hợp đồng mở theo thời gian thực (WebSocket):** Số lượng hợp đồng mở theo thời gian thực có sẵn cho các quyền chọn thông qua luồng \<underlyingAsset\>@openInterest@\<expirationDate\>, cung cấp "o" (số lượng hợp đồng mở) và "h" (số lượng hợp đồng mở bằng USDT). Luồng này cập nhật sau mỗi 60 giây. Đối với các hợp đồng tương lai USDⓈ-M, số lượng hợp đồng mở được bao gồm trong luồng Ticker (\<symbol\>@ticker) dưới dạng "openInterestValue" (chuỗi). Luồng Ticker cung cấp nhiều cập nhật dữ liệu thị trường khác nhau. Việc cung cấp giá trị bằng USDT cho cả quyền chọn và hợp đồng tương lai USD-M phù hợp với yêu cầu của người dùng về đơn vị USD.  
+* **3.2 Coinbase Exchange:**  
+  Các đoạn nghiên cứu chủ yếu tập trung vào giao dịch giao ngay, phí và thông tin chung về sàn giao dịch. Không có đề cập trực tiếp đến các endpoint API cụ thể cho Tỷ lệ tài trợ hoặc Số lượng hợp đồng mở cho các công cụ phái sinh trong các đoạn được cung cấp. Mặc dù đoạn S17 định nghĩa Số lượng hợp đồng mở trong bối cảnh các công cụ phái sinh tiền điện tử, nhưng nó không chỉ ra endpoint API cụ thể nào của Coinbase. Các đoạn S18 và S19 đề cập đến tỷ lệ tài trợ trong bối cảnh chung hoặc liên quan đến các tính năng cho vay, chứ không nhất thiết liên quan đến giao dịch phái sinh. Đoạn S20 đề cập đến "PERP \= Perpetual futures" trong SecurityType, cho thấy Coinbase có thể cung cấp hợp đồng tương lai vĩnh cửu. Tuy nhiên, không có thông tin chi tiết nào về việc liệu họ có cung cấp dữ liệu Tỷ lệ tài trợ và Số lượng hợp đồng mở thông qua API miễn phí hay không. Do đó, cần nghiên cứu chuyên sâu hơn về tài liệu API chính thức của Coinbase, đặc biệt là cho nền tảng giao dịch nâng cao hoặc phái sinh của họ, để xác định xem họ có cung cấp các điểm dữ liệu này thông qua API miễn phí hay không.  
+* **3.3 Kraken:**  
+  * **Tỷ lệ tài trợ lịch sử:** Kraken cung cấp dữ liệu tỷ lệ tài trợ lịch sử cho các hợp đồng tương lai thông qua API REST tại endpoint /historical-funding-rates. API này trả về fundingRate (double, tỷ lệ tài trợ tuyệt đối), relativeFundingRate (double) và timestamp (date-time theo định dạng ISO 8601). Tham số symbol là bắt buộc và phải tham chiếu đến một thị trường vĩnh cửu. Dữ liệu được sắp xếp theo thứ tự tăng dần theo dấu thời gian. Giá trị fundingRate được cung cấp dưới dạng số thập phân và cần được nhân với 100 để biểu thị dưới dạng phần trăm. Việc cung cấp cả tỷ lệ tài trợ tuyệt đối và tương đối có thể hữu ích cho phân tích nâng cao.  
+  * **Số lượng hợp đồng mở lịch sử:** Dữ liệu về số lượng hợp đồng mở lịch sử cho các hợp đồng tương lai có thể được truy cập thông qua API REST tại endpoint /tickers. Phản hồi bao gồm openInterest (số). Đơn vị của openInterest không được nêu rõ trong tài liệu về endpoint get-tickers và có khả năng là số lượng hợp đồng. Ngoài ra, endpoint API REST cho Market Analytics /charts/market-analytics cũng cho phép truy vấn dữ liệu open-interest, trả về một mảng big-decimal.  
+  * **Tỷ lệ tài trợ theo thời gian thực (WebSocket):** Tỷ lệ tài trợ theo thời gian thực cho các hợp đồng tương lai có sẵn trong feed Ticker (ticker). Nội dung tin nhắn bao gồm "funding\_rate" (float) và "funding\_rate\_prediction" (float). Tỷ lệ tài trợ được cung cấp dưới dạng số thực và cần được chuyển đổi thành phần trăm. Việc dự đoán tỷ lệ tài trợ tiếp theo là một thông tin giá trị.  
+  * **Số lượng hợp đồng mở theo thời gian thực (WebSocket):** Số lượng hợp đồng mở theo thời gian thực cho các hợp đồng tương lai cũng có sẵn trong feed Ticker (ticker). Nội dung tin nhắn bao gồm "openInterest" (float). Tương tự như API REST, đơn vị có khả năng là số lượng hợp đồng.  
+* **3.4 KuCoin:**  
+  Các đoạn nghiên cứu cung cấp thông tin chung về client API. Đoạn S28, liên quan đến SDK Go, đề cập đến một lệnh gọi API FundingRate() trong Futures và liệt kê nhiều endpoint dữ liệu thị trường khác nhau như Ticker(), Level2Snapshot(), TradeHistory(), InterestQuery(), IndexQuery(), MarkPrice(), PremiumQuery() và FundingRate(), nhưng không mô tả chi tiết cấu trúc API REST hoặc WebSocket. Không tìm thấy tài liệu API REST hoặc WebSocket trực tiếp, dễ sử dụng cho Tỷ lệ tài trợ hoặc Số lượng hợp đồng mở trong các đoạn được cung cấp. Do đó, cần nghiên cứu chuyên sâu về tài liệu API chính thức của KuCoin cho thị trường Futures của họ để xác định tính khả dụng, định dạng và điều kiện truy cập miễn phí cho dữ liệu Tỷ lệ tài trợ và Số lượng hợp đồng mở thông qua API REST và WebSocket của họ.  
+* **3.5 Bybit:**  
+  * **Tỷ lệ tài trợ lịch sử:** Bybit cung cấp dữ liệu tỷ lệ tài trợ lịch sử cho các hợp đồng vĩnh cửu thông qua API REST tại endpoint /v5/market/funding/history. API này cung cấp category (linear hoặc inverse), list (mảng các đối tượng) và time (dấu thời gian máy chủ). Mỗi đối tượng trong list chứa symbol (chuỗi), fundingRate (chuỗi) và fundingRateTimestamp (chuỗi, mili giây). Các tham số truy vấn bắt buộc bao gồm category và symbol. Các tham số tùy chọn bao gồm startTime, endTime và limit (mặc định 200, tối đa 200). Giá trị fundingRate được cung cấp dưới dạng chuỗi biểu thị giá trị thập phân và cần được nhân với 100 để biểu thị dưới dạng phần trăm. Sự phân biệt category rất quan trọng vì cách tính tỷ lệ tài trợ có thể khác nhau đối với hợp đồng linear và inverse.  
+  * **Số lượng hợp đồng mở lịch sử:** Dữ liệu về số lượng hợp đồng mở lịch sử có thể được truy cập thông qua API REST tại endpoint /v5/market/open-interest. API này cung cấp retCode, retMsg, result (đối tượng với symbol, category, list, nextPageCursor), retExtInfo và time. list chứa các đối tượng với openInterest (chuỗi) và timestamp (chuỗi, mili giây). Các tham số truy vấn bắt buộc bao gồm category, symbol và intervalTime. Các tham số tùy chọn bao gồm startTime, endTime, limit (mặc định 50, tối đa 200\) và cursor. Đơn vị của openInterest phụ thuộc vào category: USD cho hợp đồng inverse (ví dụ: BTCUSD) và tài sản cơ sở (ví dụ: BTC) cho hợp đồng linear (ví dụ: BTCUSDT). Sự khác biệt này rất quan trọng đối với yêu cầu của người dùng về đơn vị USD.  
+  * **Tỷ lệ tài trợ theo thời gian thực (WebSocket):** Tỷ lệ tài trợ theo thời gian thực có sẵn trong luồng Ticker (Public) (ticker). Mảng data trong phản hồi bao gồm "symbol", "nextFundingTime" (chuỗi, mili giây) và "fundingRate" (chuỗi). Cần chuyển đổi thành phần trăm. Việc bao gồm "nextFundingTime" cho phép theo dõi chu kỳ tài trợ.  
+  * **Số lượng hợp đồng mở theo thời gian thực (WebSocket):** Số lượng hợp đồng mở theo thời gian thực có sẵn trong luồng Ticker (Public) (ticker). Mảng data bao gồm "symbol", "openInterest" (chuỗi, kích thước) và "openInterestValue" (chuỗi, giá trị). Đơn vị của "openInterestValue" có khả năng là USD dựa trên bối cảnh của các hợp đồng vĩnh cửu của Bybit. Việc cung cấp cả số lượng và giá trị bằng USD trực tiếp đáp ứng yêu cầu của người dùng về đơn vị USD theo thời gian thực.  
+* **3.6 OKX:**  
+  * **Tỷ lệ tài trợ lịch sử:** OKX cung cấp dữ liệu tỷ lệ tài trợ lịch sử cho SWAP thông qua API REST tại endpoint /api/v5/public/funding-rate-history. API này cung cấp code, msg và data (mảng các đối tượng). Mỗi đối tượng trong data chứa fundingRate (chuỗi), fundingTime (chuỗi, mili giây), instId, instType, method và realizedRate (chuỗi). Tham số truy vấn bắt buộc là instId. Các tham số tùy chọn bao gồm before (dấu thời gian theo mili giây), after (dấu thời gian theo mili giây) và limit (chuỗi, tối đa 100, mặc định 100). Giá trị fundingRate được cung cấp dưới dạng chuỗi biểu thị giá trị thập phân và cần được nhân với 100 để biểu thị dưới dạng phần trăm. realizedRate có thể cung cấp thông tin bổ sung về khoản tài trợ thực tế đã trả/nhận.  
+  * **Số lượng hợp đồng mở lịch sử:** Dữ liệu về số lượng hợp đồng mở lịch sử cho Futures và Perpetual Futures có thể được truy cập thông qua API REST tại endpoint /api/v5/rubik/stat/contracts/open-interest-volume. API này cung cấp ts (dấu thời gian), oi (tổng số lượng hợp đồng mở dưới dạng chuỗi) và vol (tổng khối lượng giao dịch dưới dạng chuỗi). Đơn vị tính bằng ccy (tiền tệ được chỉ định trong yêu cầu). Tham số truy vấn bắt buộc là ccy (tiền tệ). Các tham số tùy chọn bao gồm begin, end và period (mặc định 5m). Để có giá trị bằng USD, yêu cầu cần được thực hiện với ccy=USD nếu có cho công cụ cụ thể.  
+  * **Tỷ lệ tài trợ theo thời gian thực (WebSocket):** Tỷ lệ tài trợ theo thời gian thực cho Perpetual SWAP có sẵn thông qua kênh funding-rate (Public). Mảng data trong tin nhắn được đẩy bao gồm instId, fundingRate (chuỗi), fundingTime (chuỗi, mili giây), nextFundingRate (chuỗi), nextFundingTime (chuỗi, mili giây) và ts (chuỗi, mili giây). Cần chuyển đổi thành phần trăm. Cung cấp cả tỷ lệ tài trợ hiện tại và tỷ lệ tài trợ tiếp theo cùng với dấu thời gian của chúng.  
+  * **Số lượng hợp đồng mở theo thời gian thực:** Số lượng hợp đồng mở theo thời gian thực có sẵn thông qua kênh open-interest (Public). Mảng data trong tin nhắn được đẩy bao gồm instType, instId, oi (số lượng hợp đồng mở dưới dạng chuỗi), oiCcy (tiền tệ của số lượng hợp đồng mở dưới dạng chuỗi) và ts (chuỗi, mili giây). Tiền tệ của Số lượng hợp đồng mở (oiCcy) được cung cấp rõ ràng, cho phép người dùng lọc hoặc sử dụng dữ liệu mà oiCcy là USD.
+
+**4\. Định dạng và biểu diễn dữ liệu**
+
+* **4.1 Tỷ lệ tài trợ:**  
+  Binance, Kraken, Bybit và OKX đều cung cấp Tỷ lệ tài trợ dưới dạng giá trị số (dưới dạng double/float hoặc chuỗi biểu thị số thập phân). Để đáp ứng yêu cầu của người dùng về biểu diễn phần trăm, cần nhân giá trị này với 100 đối với tất cả các sàn giao dịch này. Dấu dương hoặc âm vốn có trong giá trị số sẽ trực tiếp chỉ ra liệu tỷ lệ này là dương (để hiển thị màu xanh lá cây) hay âm (để hiển thị màu đỏ). Dữ liệu API trực tiếp hỗ trợ yêu cầu mã hóa màu dựa trên dấu của tỷ lệ tài trợ. Giá trị số cho phép biểu diễn chính xác và chuyển đổi thành phần trăm.  
+* **4.2 Số lượng hợp đồng mở:**  
+  Đơn vị của Số lượng hợp đồng mở khác nhau giữa các sàn giao dịch và thậm chí giữa các endpoint API khác nhau của cùng một sàn giao dịch. Binance (cho Quyền chọn và Hợp đồng tương lai USD-M qua WebSocket dưới dạng openInterestUsd hoặc openInterestValue) và Bybit (qua WebSocket Ticker cho hợp đồng linear dưới dạng openInterestValue) cung cấp rõ ràng Số lượng hợp đồng mở bằng USD hoặc USDT trong các luồng WebSocket theo thời gian thực của họ. Kênh open-interest WebSocket của OKX bao gồm oiCcy, cho phép xác định số lượng hợp đồng mở bằng USD nếu có cho công cụ mong muốn. API REST của Kraken cho tickers cung cấp openInterest (số), nhưng đơn vị có khả năng là số lượng hợp đồng. Tương tự, API REST của Binance cho Số lượng hợp đồng mở không nêu rõ đơn vị là USD. Trong khi một số sàn giao dịch cung cấp Số lượng hợp đồng mở bằng USD trực tiếp, đặc biệt thông qua API theo thời gian thực của họ, những sàn giao dịch khác có thể yêu cầu người dùng truy vấn các endpoint cụ thể hoặc thực hiện chuyển đổi nếu giá trị được cung cấp bằng tiền tệ cơ sở hoặc số lượng hợp đồng.  
+* **4.3 Tính khả thi của hình ảnh trực quan mà người dùng mong muốn:**  
+  Định dạng số của Tỷ lệ tài trợ từ Binance, Kraken, Bybit và OKX có thể dễ dàng điều chỉnh thành hình ảnh trực quan cột xanh/đỏ dựa trên dấu của nó sau khi chuyển đổi thành phần trăm. Đối với Số lượng hợp đồng mở, các sàn giao dịch như Binance và Bybit cung cấp dữ liệu theo thời gian thực trực tiếp bằng USD (hoặc USDT) thông qua API WebSocket của họ, điều này phù hợp trực tiếp với yêu cầu hình ảnh trực quan đường màu đen. OKX cũng cung cấp đơn vị tiền tệ, cho phép chọn dữ liệu bằng USD. Dữ liệu của Kraken có thể yêu cầu xử lý thêm hoặc sử dụng các endpoint thay thế nếu cần USD. Việc đạt được hình ảnh trực quan chính xác có thể yêu cầu chọn các sàn giao dịch cung cấp trực tiếp dữ liệu ở định dạng ưu tiên hoặc triển khai logic để chuyển đổi dữ liệu cho phù hợp.
+
+**5\. Tổng hợp các sàn giao dịch đáp ứng yêu cầu**
+
+* **5.1 Các sàn giao dịch có API miễn phí truy cập cả hai loại dữ liệu:**  
+  Dựa trên phân tích ban đầu của các đoạn được cung cấp, Binance, Kraken, Bybit và OKX đều có vẻ cung cấp API miễn phí để truy cập cả dữ liệu Tỷ lệ tài trợ lịch sử và theo thời gian thực, cũng như dữ liệu Số lượng hợp đồng mở lịch sử và theo thời gian thực. Cần điều tra thêm tài liệu API chuyên dụng của Coinbase và KuCoin để xác nhận liệu chúng có đáp ứng các yêu cầu này hay không.  
+* **5.2 Sự phù hợp với các tùy chọn hình ảnh trực quan:**  
+  Bybit và Binance cho thấy sự phù hợp nhất với các tùy chọn hình ảnh trực quan của người dùng. Cả hai đều cung cấp dữ liệu Số lượng hợp đồng mở theo thời gian thực trực tiếp bằng USD (hoặc USDT) thông qua API WebSocket của họ. Tất cả bốn sàn giao dịch được xác định đều cung cấp dữ liệu Tỷ lệ tài trợ ở định dạng số có thể dễ dàng chuyển đổi thành phần trăm và hiển thị bằng cột xanh/đỏ dựa trên dấu.
+
+**6\. Thông tin chi tiết về Endpoint API**
+
+* **6.1 Binance:**  
+  * **Tỷ lệ tài trợ lịch sử (USDⓈ-M Futures):**  
+    * REST API: GET /fapi/v1/fundingRate  
+    * Tham số: symbol (tùy chọn), startTime (tùy chọn), endTime (tùy chọn), limit (tùy chọn, mặc định 100, tối đa 1000).  
+    * Phản hồi: Mảng JSON các đối tượng, mỗi đối tượng chứa symbol (chuỗi), fundingRate (chuỗi), fundingTime (long), markPrice (chuỗi).  
+  * **Số lượng hợp đồng mở lịch sử (USDⓈ-M Futures):**  
+    * REST API: GET /fapi/v1/openInterest  
+    * Tham số: symbol (bắt buộc).  
+    * Phản hồi: Đối tượng JSON chứa openInterest (chuỗi), symbol (chuỗi), time (long). Cân nhắc sử dụng /fapi/v1/openInterestStatistics để có giá trị USD (sumOpenInterestValue).  
+  * **Tỷ lệ tài trợ theo thời gian thực (USDⓈ-M Futures):**  
+    * WebSocket Stream: \<symbol\>@markPrice  
+    * Ví dụ đăng ký: {"method": "SUBSCRIBE", "params":, "id": 1}  
+    * Định dạng tin nhắn bao gồm "e": "markPriceUpdate", "E" (long), "s" (chuỗi), "p" (chuỗi), "i" (chuỗi), "P" (chuỗi), "r" (chuỗi), "T" (long).  
+  * **Số lượng hợp đồng mở theo thời gian thực (USDⓈ-M Futures):**  
+    * WebSocket Stream: \<symbol\>@ticker  
+    * Ví dụ đăng ký: {"method": "SUBSCRIBE", "params":, "id": 1}  
+    * Định dạng tin nhắn bao gồm "openInterestValue" (chuỗi).  
+* **6.2 Kraken:**  
+  * **Tỷ lệ tài trợ lịch sử (Futures):**  
+    * REST API: GET https://futures.kraken.com/derivatives/api/v3/historical-funding-rates  
+    * Tham số: symbol (chuỗi, bắt buộc, ví dụ: PI\_XBTUSD).  
+    * Phản hồi: Đối tượng JSON với result (chuỗi), serverTime (chuỗi) và rates (mảng các đối tượng với fundingRate (double), relativeFundingRate (double), timestamp (chuỗi)).  
+  * **Số lượng hợp đồng mở lịch sử (Futures):**  
+    * REST API: GET https://futures.kraken.com/derivatives/api/v3/tickers  
+    * Tham số: contractType (mảng chuỗi, tùy chọn).  
+    * Phản hồi: Đối tượng JSON với result (chuỗi), serverTime (chuỗi) và tickers (mảng các đối tượng, mỗi đối tượng chứa openInterest (number)).  
+  * **Tỷ lệ tài trợ theo thời gian thực (Futures):**  
+    * WebSocket Feed: ticker  
+    * Ví dụ đăng ký: {"event": "subscribe", "feed": "ticker", "product\_ids":}  
+    * Định dạng tin nhắn bao gồm "feed": "ticker", "product\_id" (chuỗi), "funding\_rate" (float), "funding\_rate\_prediction" (float).  
+  * **Số lượng hợp đồng mở theo thời gian thực (Futures):**  
+    * WebSocket Feed: ticker  
+    * Ví dụ đăng ký: {"event": "subscribe", "feed": "ticker", "product\_ids":}  
+    * Định dạng tin nhắn bao gồm "feed": "ticker", "product\_id" (chuỗi), "openInterest" (float).  
+* **6.3 Bybit:**  
+  * **Tỷ lệ tài trợ lịch sử (Perpetual):**  
+    * REST API: GET /v5/market/funding/history  
+    * Tham số: category (chuỗi, bắt buộc, ví dụ: linear), symbol (chuỗi, bắt buộc, ví dụ: BTCUSDT), startTime (integer, tùy chọn), endTime (integer, tùy chọn), limit (integer, tùy chọn).  
+    * Phản hồi: Đối tượng JSON với retCode (integer), retMsg (chuỗi), result (đối tượng với category (chuỗi), list (mảng các đối tượng với symbol (chuỗi), fundingRate (chuỗi), fundingRateTimestamp (chuỗi))), retExtInfo (đối tượng), time (integer).  
+  * **Số lượng hợp đồng mở lịch sử:**  
+    * REST API: GET /v5/market/open-interest  
+    * Tham số: category (chuỗi, bắt buộc, ví dụ: linear), symbol (chuỗi, bắt buộc, ví dụ: BTCUSDT), intervalTime (chuỗi, bắt buộc, ví dụ: 5min), startTime (integer, tùy chọn), endTime (integer, tùy chọn), limit (integer, tùy chọn), cursor (chuỗi, tùy chọn).  
+    * Phản hồi: Đối tượng JSON với retCode (integer), retMsg (chuỗi), result (đối tượng với category (chuỗi), symbol (chuỗi), list (mảng các đối tượng với openInterest (chuỗi), timestamp (chuỗi))), retExtInfo (đối tượng), time (integer).  
+  * **Tỷ lệ tài trợ theo thời gian thực (Perpetual):**  
+    * WebSocket Stream (Public): ticker  
+    * Ví dụ đăng ký: {"op": "subscribe", "args":}  
+    * Định dạng tin nhắn bao gồm "topic": "tickers", "data" (mảng các đối tượng với "symbol" (chuỗi), "fundingRate" (chuỗi), "nextFundingTime" (chuỗi)).  
+  * **Số lượng hợp đồng mở theo thời gian thực:**  
+    * WebSocket Stream (Public): ticker  
+    * Ví dụ đăng ký: {"op": "subscribe", "args":}  
+    * Định dạng tin nhắn bao gồm "topic": "tickers", "data" (mảng các đối tượng với "symbol" (chuỗi), "openInterestValue" (chuỗi)).  
+* **6.4 OKX:**  
+  * **Tỷ lệ tài trợ lịch sử (SWAP):**  
+    * REST API: GET /api/v5/public/funding-rate-history  
+    * Tham số: instId (chuỗi, bắt buộc, ví dụ: BTC-USD-SWAP), before (chuỗi, tùy chọn), after (chuỗi, tùy chọn), limit (chuỗi, tùy chọn).  
+    * Phản hồi: Đối tượng JSON với code (chuỗi), msg (chuỗi), data (mảng các đối tượng với fundingRate (chuỗi), fundingTime (chuỗi), instId (chuỗi), instType (chuỗi), method (chuỗi), realizedRate (chuỗi)).  
+  * **Số lượng hợp đồng mở lịch sử (Futures and Perpetual Futures):**  
+    * REST API: GET /api/v5/rubik/stat/contracts/open-interest-volume  
+    * Tham số: ccy (chuỗi, bắt buộc, ví dụ: USD), begin (chuỗi, tùy chọn), end (chuỗi, tùy chọn), period (chuỗi, tùy chọn).  
+    * Phản hồi: Đối tượng JSON với ts (chuỗi), oi (chuỗi), vol (chuỗi).  
+  * **Tỷ lệ tài trợ theo thời gian thực (Perpetual SWAP):**  
+    * WebSocket Channel (Public): funding-rate  
+    * Ví dụ đăng ký: {"op": "subscribe", "args":}  
+    * Định dạng tin nhắn bao gồm "arg" (đối tượng với "channel" và "instId"), "data" (mảng các đối tượng với "instId" (chuỗi), "fundingRate" (chuỗi), "fundingTime" (chuỗi), "nextFundingRate" (chuỗi), "nextFundingTime" (chuỗi), "ts" (chuỗi)).  
+  * **Số lượng hợp đồng mở theo thời gian thực:**  
+    * WebSocket Channel (Public): open-interest  
+    * Ví dụ đăng ký: {"op": "subscribe", "args":}  
+    * Định dạng tin nhắn bao gồm "arg" (đối tượng với "channel" và "instId"), "data" (mảng các đối tượng với "instType" (chuỗi), "instId" (chuỗi), "oi" (chuỗi), "oiCcy" (chuỗi), "ts" (chuỗi)).
+
+**7\. Kết luận và khuyến nghị**
+
+* **7.1 Tóm tắt các phát hiện:**  
+  Binance, Kraken, Bybit và OKX đều cung cấp API miễn phí để truy cập dữ liệu lịch sử và theo thời gian thực về cả Tỷ lệ tài trợ và Số lượng hợp đồng mở cho các công cụ phái sinh tiền điện tử. Bybit và Binance cho thấy là những lựa chọn phù hợp nhất để có được dữ liệu Số lượng hợp đồng mở theo thời gian thực bằng USD (hoặc USDT) thông qua API WebSocket của họ. Tất cả bốn sàn giao dịch được xác định đều cung cấp dữ liệu Tỷ lệ tài trợ ở định dạng số có thể dễ dàng chuyển đổi thành phần trăm và hiển thị bằng cột xanh/đỏ dựa trên dấu.  
+* **7.2 Khuyến nghị:**  
+  Ưu tiên sử dụng API của Bybit và Binance cho nhu cầu giám sát theo thời gian thực của bạn, vì chúng cung cấp trực tiếp Số lượng hợp đồng mở bằng USD thông qua WebSocket. Nghiên cứu thêm kênh open-interest WebSocket của OKX để kiểm tra tính khả dụng của USD làm đơn vị tiền tệ cho Số lượng hợp đồng mở đối với các cặp giao dịch bạn quan tâm. Đối với dữ liệu Số lượng hợp đồng mở lịch sử bằng USD trên các hợp đồng tương lai USDⓈ-M của Binance, hãy cân nhắc sử dụng endpoint /fapi/v1/openInterestStatistics. Tận dụng tính năng dự đoán tỷ lệ tài trợ tiếp theo của API WebSocket của Kraken. Đừng quên nhân giá trị Tỷ lệ tài trợ từ tất cả các sàn giao dịch với 100 để hiển thị chúng dưới dạng phần trăm. Sử dụng API WebSocket để truyền dữ liệu theo thời gian thực với độ trễ thấp cho cả Tỷ lệ tài trợ và Số lượng hợp đồng mở. Luôn xem xét và tuân thủ các giới hạn tỷ lệ API được chỉ định trong tài liệu của mỗi sàn giao dịch để đảm bảo truy cập dữ liệu không bị gián đoạn.  
+* **7.3 Nghiên cứu thêm:**  
+  Tiến hành nghiên cứu chuyên sâu về tài liệu API của Coinbase và KuCoin để đánh giá chắc chắn các dịch vụ của họ về dữ liệu Tỷ lệ tài trợ và Số lượng hợp đồng mở cho các công cụ phái sinh. Khám phá xem liệu bất kỳ sàn giao dịch nào được xác định có cung cấp dữ liệu Số lượng hợp đồng mở tổng hợp theo các khung thời gian khác nhau trực tiếp thông qua API của họ hay không. Nghiên cứu các thư viện biểu đồ hoặc công cụ trực quan hóa API có thể dễ dàng tích hợp với các định dạng dữ liệu được cung cấp bởi các sàn giao dịch này để tạo biểu đồ cột xanh/đỏ và biểu đồ đường màu đen mà bạn mong muốn.
