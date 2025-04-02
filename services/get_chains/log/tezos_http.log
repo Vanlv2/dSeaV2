@@ -1,0 +1,483 @@
+2025/04/03 00:12:40 Initialized data for chain tezos, last processed block: 0
+2025/04/03 00:12:40 ======= BEGIN PROCESSING TEZOS CHAIN tezos =======
+2025/04/03 00:12:40 Step 1: Scanning backwards into the past (1h0m0s)
+2025/04/03 00:12:40 ======= STARTING REVERSE SYSTEM FOR TEZOS CHAIN tezos =======
+2025/04/03 00:12:40 Starting scan from current block = 8461358
+2025/04/03 00:12:40 Target time: 2025-04-02 16:12:36 +0000 UTC
+2025/04/03 00:12:40 ==================================
+2025/04/03 00:12:40 🔍 Fetching block info: 8461358
+2025/04/03 00:12:41 ✅ Fetched block: 8461358
+2025/04/03 00:12:41 BLOCK MỚI #8461358 | Chain: NetXdQprcVkpaWU | Time: 2025-04-02T17:12:36Z | Hash: BLhBPLQ7kaLvgQuWpB7nf1uDfNxfoLGoF5GjCxtTbuYTUX29mGU
+2025/04/03 00:12:41 Number of transactions in block #8461358: 4
+2025/04/03 00:12:41 GIAO DỊCH TRONG BLOCK #8461358:
+{
+  "block_height": "8461358",
+  "block_hash": "BLhBPLQ7kaLvgQuWpB7nf1uDfNxfoLGoF5GjCxtTbuYTUX29mGU",
+  "block_time": "2025-04-02T17:12:36Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "970d2480216ea9d9d638ed5f4aa1094ebd01d9901daacad2060ea6ab487688f9",
+  "from": "tz1f6X7efekfmRiQaUtPtZnTwPsyp1D4DomK",
+  "to": "KT1JiAQMCic553622XknLt1M5Gfz2Ca6wdB5",
+  "amount": "0",
+  "token": "XTZ",
+  "total_amount": "0",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:12:36Z"
+}
+2025/04/03 00:12:41 GIAO DỊCH TRONG BLOCK #8461358:
+{
+  "block_height": "8461358",
+  "block_hash": "BLhBPLQ7kaLvgQuWpB7nf1uDfNxfoLGoF5GjCxtTbuYTUX29mGU",
+  "block_time": "2025-04-02T17:12:36Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "d0454059f78172544fb06dbd024545d340d80df205f54beaa05c8c131defc92f",
+  "from": "tz1f6X7efekfmRiQaUtPtZnTwPsyp1D4DomK",
+  "to": "KT1EQKv32hAVRApPSw6qAnYw4Badz657eZ7c",
+  "amount": "0",
+  "token": "XTZ",
+  "total_amount": "0",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:12:36Z"
+}
+2025/04/03 00:12:41 GIAO DỊCH TRONG BLOCK #8461358:
+{
+  "block_height": "8461358",
+  "block_hash": "BLhBPLQ7kaLvgQuWpB7nf1uDfNxfoLGoF5GjCxtTbuYTUX29mGU",
+  "block_time": "2025-04-02T17:12:36Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "4dca11a3307daf6410d346ceee15378b0ac632cd0642f4c4353ef3b932e45b6f",
+  "from": "tz2V7UFgEXMX6DoCRRxTpkzhBDiqTiAwoji5",
+  "to": "KT1JiAQMCic553622XknLt1M5Gfz2Ca6wdB5",
+  "amount": "0",
+  "token": "XTZ",
+  "total_amount": "0",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:12:36Z"
+}
+2025/04/03 00:12:41 GIAO DỊCH TRONG BLOCK #8461358:
+{
+  "block_height": "8461358",
+  "block_hash": "BLhBPLQ7kaLvgQuWpB7nf1uDfNxfoLGoF5GjCxtTbuYTUX29mGU",
+  "block_time": "2025-04-02T17:12:36Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "54dcf0c6d5d87d7a05698d86e37c58ee96fe5dd74fb6449265242076a83e79a1",
+  "from": "tz2V7UFgEXMX6DoCRRxTpkzhBDiqTiAwoji5",
+  "to": "KT1EQKv32hAVRApPSw6qAnYw4Badz657eZ7c",
+  "amount": "0",
+  "token": "XTZ",
+  "total_amount": "0",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:12:36Z"
+}
+2025/04/03 00:12:41 ✅ Completed processing block 8461358
+2025/04/03 00:12:42 🔍 Fetching block info: 8461357
+2025/04/03 00:12:42 ✅ Fetched block: 8461357
+2025/04/03 00:12:42 BLOCK MỚI #8461357 | Chain: NetXdQprcVkpaWU | Time: 2025-04-02T17:12:28Z | Hash: BLKz1aXuwN9Qbw3QBh7HY1j3Fypcjy8M2jENSR55CnMQM1bXdnL
+2025/04/03 00:12:42 Number of transactions in block #8461357: 1
+2025/04/03 00:12:42 GIAO DỊCH TRONG BLOCK #8461357:
+{
+  "block_height": "8461357",
+  "block_hash": "BLKz1aXuwN9Qbw3QBh7HY1j3Fypcjy8M2jENSR55CnMQM1bXdnL",
+  "block_time": "2025-04-02T17:12:28Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "196341f0a3dbcdd8daf5a40e05260dc7ae848d43016e1c7387b97b85788d4a53",
+  "from": "tz2Par94ss59B1Nsyw3FrAhABYgxbVa5ygAD",
+  "to": "KT1NRLjyE7wxeSZ6La6DfuhSKCAAnc9Lnvdg",
+  "amount": "0",
+  "token": "XTZ",
+  "total_amount": "0",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:12:28Z"
+}
+2025/04/03 00:12:42 ✅ Completed processing block 8461357
+2025/04/03 00:12:42 🔍 Fetching block info: 8461356
+2025/04/03 00:12:43 ✅ Fetched block: 8461356
+2025/04/03 00:12:43 BLOCK MỚI #8461356 | Chain: NetXdQprcVkpaWU | Time: 2025-04-02T17:12:20Z | Hash: BLAeFrWE1RKdWfM7NVFCsqCoDgoFkeceQb9QzpdmjkTegKj4pit
+2025/04/03 00:12:43 Number of transactions in block #8461356: 2
+2025/04/03 00:12:43 GIAO DỊCH TRONG BLOCK #8461356:
+{
+  "block_height": "8461356",
+  "block_hash": "BLAeFrWE1RKdWfM7NVFCsqCoDgoFkeceQb9QzpdmjkTegKj4pit",
+  "block_time": "2025-04-02T17:12:20Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "aa798e9e901d7584bcb2be7c0dd8211f1b5aaff487fa9d709daf212e602c930e",
+  "from": "tz1SPJPFPAZhSYYKNYVNcwDzx4Wv6FoeLRFh",
+  "to": "tz1bDXD6nNSrebqmAnnKKwnX1QdePSMCj4MX",
+  "amount": "2977512579",
+  "token": "XTZ",
+  "total_amount": "2977512579",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:12:20Z"
+}
+2025/04/03 00:12:43 GIAO DỊCH TRONG BLOCK #8461356:
+{
+  "block_height": "8461356",
+  "block_hash": "BLAeFrWE1RKdWfM7NVFCsqCoDgoFkeceQb9QzpdmjkTegKj4pit",
+  "block_time": "2025-04-02T17:12:20Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "ec6eed8a14918c32c741fdbaa9fc508cb94a45e8b5068b10473f61cfda9f550e",
+  "from": "tz1bFLkLL3TVZytQjvHVUnFzwHGwkwHebB94",
+  "to": "KT1Aq4wWmVanpQhq4TTfjZXB5AjFpx15iQMM",
+  "amount": "0",
+  "token": "XTZ",
+  "total_amount": "0",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:12:20Z"
+}
+2025/04/03 00:12:43 ✅ Completed processing block 8461356
+2025/04/03 00:12:43 🔍 Fetching block info: 8461355
+2025/04/03 00:12:44 ✅ Fetched block: 8461355
+2025/04/03 00:12:44 BLOCK MỚI #8461355 | Chain: NetXdQprcVkpaWU | Time: 2025-04-02T17:12:12Z | Hash: BMYnApgNvJk3UKbR1anarDYFzf7PHKzZPPnxdvV794vySDUCTrN
+2025/04/03 00:12:44 Number of transactions in block #8461355: 6
+2025/04/03 00:12:44 GIAO DỊCH TRONG BLOCK #8461355:
+{
+  "block_height": "8461355",
+  "block_hash": "BMYnApgNvJk3UKbR1anarDYFzf7PHKzZPPnxdvV794vySDUCTrN",
+  "block_time": "2025-04-02T17:12:12Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "34832e6649af542f4ab8ca75bc2652fed73c82057f73a0e54a5cf62338b05f03",
+  "from": "tz1LjECwffTJUhLz3q1PvMrfryDbyqKjhXYq",
+  "to": "KT1AWMWw1mvp9fkZgFqoJwxwviRY3i3WMumM",
+  "amount": "0",
+  "token": "XTZ",
+  "total_amount": "0",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:12:12Z"
+}
+2025/04/03 00:12:44 GIAO DỊCH TRONG BLOCK #8461355:
+{
+  "block_height": "8461355",
+  "block_hash": "BMYnApgNvJk3UKbR1anarDYFzf7PHKzZPPnxdvV794vySDUCTrN",
+  "block_time": "2025-04-02T17:12:12Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "222182d1289113f9c0d2f0dbd49d678fc4554d3dbc829b0d8488d5b367af94f2",
+  "from": "tz1MivYGeRXoKtTVxm5nFQVLAhkFAavjUcMo",
+  "to": "KT1ExbCyFbsvPQTUitHAK7HSfYkJgiCtBGpM",
+  "amount": "0",
+  "token": "XTZ",
+  "total_amount": "0",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:12:12Z"
+}
+2025/04/03 00:12:44 GIAO DỊCH TRONG BLOCK #8461355:
+{
+  "block_height": "8461355",
+  "block_hash": "BMYnApgNvJk3UKbR1anarDYFzf7PHKzZPPnxdvV794vySDUCTrN",
+  "block_time": "2025-04-02T17:12:12Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "222182d1289113f9c0d2f0dbd49d678fc4554d3dbc829b0d8488d5b367af94f2",
+  "from": "tz1MivYGeRXoKtTVxm5nFQVLAhkFAavjUcMo",
+  "to": "KT1ExbCyFbsvPQTUitHAK7HSfYkJgiCtBGpM",
+  "amount": "0",
+  "token": "XTZ",
+  "total_amount": "0",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:12:12Z"
+}
+2025/04/03 00:12:44 GIAO DỊCH TRONG BLOCK #8461355:
+{
+  "block_height": "8461355",
+  "block_hash": "BMYnApgNvJk3UKbR1anarDYFzf7PHKzZPPnxdvV794vySDUCTrN",
+  "block_time": "2025-04-02T17:12:12Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "222182d1289113f9c0d2f0dbd49d678fc4554d3dbc829b0d8488d5b367af94f2",
+  "from": "tz1MivYGeRXoKtTVxm5nFQVLAhkFAavjUcMo",
+  "to": "KT1ExbCyFbsvPQTUitHAK7HSfYkJgiCtBGpM",
+  "amount": "0",
+  "token": "XTZ",
+  "total_amount": "0",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:12:12Z"
+}
+2025/04/03 00:12:44 GIAO DỊCH TRONG BLOCK #8461355:
+{
+  "block_height": "8461355",
+  "block_hash": "BMYnApgNvJk3UKbR1anarDYFzf7PHKzZPPnxdvV794vySDUCTrN",
+  "block_time": "2025-04-02T17:12:12Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "2fd46a20eeb5193bb6387af7428ee7e1c1b1b79fd609159f9530588caa0b25af",
+  "from": "tz2Par94ss59B1Nsyw3FrAhABYgxbVa5ygAD",
+  "to": "KT1TkjKV9mNCyYJdzjZ39XdGP6YMwB5ipYGQ",
+  "amount": "0",
+  "token": "XTZ",
+  "total_amount": "0",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:12:12Z"
+}
+2025/04/03 00:12:44 GIAO DỊCH TRONG BLOCK #8461355:
+{
+  "block_height": "8461355",
+  "block_hash": "BMYnApgNvJk3UKbR1anarDYFzf7PHKzZPPnxdvV794vySDUCTrN",
+  "block_time": "2025-04-02T17:12:12Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "d40a2cf25d3bb15526d33159a166eed7a619d44d87623643a31c50706c940c14",
+  "from": "tz2Par94ss59B1Nsyw3FrAhABYgxbVa5ygAD",
+  "to": "KT1LmURXt7v7jzUB1NTZKg6gtFUMAWJ2ZECM",
+  "amount": "0",
+  "token": "XTZ",
+  "total_amount": "0",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:12:12Z"
+}
+2025/04/03 00:12:44 ✅ Completed processing block 8461355
+2025/04/03 00:12:44 🔍 Fetching block info: 8461354
+2025/04/03 00:12:44 ✅ Fetched block: 8461354
+2025/04/03 00:12:44 BLOCK MỚI #8461354 | Chain: NetXdQprcVkpaWU | Time: 2025-04-02T17:12:04Z | Hash: BLJWcYz1rRM3JvHop2jyWDbYAdpcDd1QnLfjKzDvBcqTGWMAehF
+2025/04/03 00:12:44 Number of transactions in block #8461354: 2
+2025/04/03 00:12:44 GIAO DỊCH TRONG BLOCK #8461354:
+{
+  "block_height": "8461354",
+  "block_hash": "BLJWcYz1rRM3JvHop2jyWDbYAdpcDd1QnLfjKzDvBcqTGWMAehF",
+  "block_time": "2025-04-02T17:12:04Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "896c028d996b3a6481453bd6ecd23db2a54a072262526f62735a313c6781d32c",
+  "from": "tz1PVeuW9eQ1ZkUVmMyqYgTL6qWuiVunneXe",
+  "to": "KT1H5b7LxEExkFd2Tng77TfuWbM5aPvHstPr",
+  "amount": "3",
+  "token": "XTZ",
+  "total_amount": "3",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:12:04Z"
+}
+2025/04/03 00:12:44 GIAO DỊCH TRONG BLOCK #8461354:
+{
+  "block_height": "8461354",
+  "block_hash": "BLJWcYz1rRM3JvHop2jyWDbYAdpcDd1QnLfjKzDvBcqTGWMAehF",
+  "block_time": "2025-04-02T17:12:04Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "a42e826490f5d831a74d44c3a6f13b528a93f243aec2a3a3a8f8997db8fbd70f",
+  "from": "tz2PK3tqi3KNHhhXftPovwtkgeeoufD2nCAT",
+  "to": "tz1X7XzwGoBRdDGanQrPDLNYPSN1MdeuGjdH",
+  "amount": "1349160000",
+  "token": "XTZ",
+  "total_amount": "1349160000",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:12:04Z"
+}
+2025/04/03 00:12:44 ✅ Completed processing block 8461354
+2025/04/03 00:12:45 🔍 Fetching block info: 8461353
+2025/04/03 00:12:45 ✅ Fetched block: 8461353
+2025/04/03 00:12:45 BLOCK MỚI #8461353 | Chain: NetXdQprcVkpaWU | Time: 2025-04-02T17:11:56Z | Hash: BMdrBRHMBkVdStgoAudkLhXGBRPssKFLjYjDWxAnZARtf1KHutJ
+2025/04/03 00:12:45 Number of transactions in block #8461353: 5
+2025/04/03 00:12:45 GIAO DỊCH TRONG BLOCK #8461353:
+{
+  "block_height": "8461353",
+  "block_hash": "BMdrBRHMBkVdStgoAudkLhXGBRPssKFLjYjDWxAnZARtf1KHutJ",
+  "block_time": "2025-04-02T17:11:56Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "276228eb708096287796934d9be740041e1ddd9f0ced01942d93c9bd4ac664f8",
+  "from": "tz1L5weVPFzw7VuTPY8JZdmFVDyrmfAEdhSu",
+  "to": "KT1SwbTqhSKF6Pdokiu1K4Fpi17ahPPzmt1X",
+  "amount": "50000000",
+  "token": "XTZ",
+  "total_amount": "50000000",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:11:56Z"
+}
+2025/04/03 00:12:45 GIAO DỊCH TRONG BLOCK #8461353:
+{
+  "block_height": "8461353",
+  "block_hash": "BMdrBRHMBkVdStgoAudkLhXGBRPssKFLjYjDWxAnZARtf1KHutJ",
+  "block_time": "2025-04-02T17:11:56Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "6f7b2c2ba9728dbf4eece6fa52474efdbbca3e663f45428f168108d0d5eb9ea1",
+  "from": "tz1iPag6quHNiD7TZXNc5SpveHri89Tdqut9",
+  "to": "KT1LYdfRP1PKAjtMJBFkXBtwqzKddXdBWuTF",
+  "amount": "0",
+  "token": "XTZ",
+  "total_amount": "0",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:11:56Z"
+}
+2025/04/03 00:12:45 GIAO DỊCH TRONG BLOCK #8461353:
+{
+  "block_height": "8461353",
+  "block_hash": "BMdrBRHMBkVdStgoAudkLhXGBRPssKFLjYjDWxAnZARtf1KHutJ",
+  "block_time": "2025-04-02T17:11:56Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "6f7b2c2ba9728dbf4eece6fa52474efdbbca3e663f45428f168108d0d5eb9ea1",
+  "from": "tz1iPag6quHNiD7TZXNc5SpveHri89Tdqut9",
+  "to": "KT1LYdfRP1PKAjtMJBFkXBtwqzKddXdBWuTF",
+  "amount": "0",
+  "token": "XTZ",
+  "total_amount": "0",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:11:56Z"
+}
+2025/04/03 00:12:45 GIAO DỊCH TRONG BLOCK #8461353:
+{
+  "block_height": "8461353",
+  "block_hash": "BMdrBRHMBkVdStgoAudkLhXGBRPssKFLjYjDWxAnZARtf1KHutJ",
+  "block_time": "2025-04-02T17:11:56Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "6f7b2c2ba9728dbf4eece6fa52474efdbbca3e663f45428f168108d0d5eb9ea1",
+  "from": "tz1iPag6quHNiD7TZXNc5SpveHri89Tdqut9",
+  "to": "KT1LYdfRP1PKAjtMJBFkXBtwqzKddXdBWuTF",
+  "amount": "0",
+  "token": "XTZ",
+  "total_amount": "0",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:11:56Z"
+}
+2025/04/03 00:12:45 GIAO DỊCH TRONG BLOCK #8461353:
+{
+  "block_height": "8461353",
+  "block_hash": "BMdrBRHMBkVdStgoAudkLhXGBRPssKFLjYjDWxAnZARtf1KHutJ",
+  "block_time": "2025-04-02T17:11:56Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "771e48f75eba33f94c746e10975e6ef27bc7da6cdcbb3f960c607d3ca6b63053",
+  "from": "tz1YpBAXdSPyaCbgWSUWRRh3ieit5bQoo9fo",
+  "to": "KT1SwbTqhSKF6Pdokiu1K4Fpi17ahPPzmt1X",
+  "amount": "9190000",
+  "token": "XTZ",
+  "total_amount": "9190000",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:11:56Z"
+}
+2025/04/03 00:12:45 ✅ Completed processing block 8461353
+2025/04/03 00:12:45 🔍 Fetching block info: 8461352
+2025/04/03 00:12:46 ✅ Fetched block: 8461352
+2025/04/03 00:12:46 BLOCK MỚI #8461352 | Chain: NetXdQprcVkpaWU | Time: 2025-04-02T17:11:48Z | Hash: BMamd1fL3JZevg7445fYbnqsJRZgwxWXbbBkFhy5owckKftdnsh
+2025/04/03 00:12:46 Number of transactions in block #8461352: 4
+2025/04/03 00:12:46 GIAO DỊCH TRONG BLOCK #8461352:
+{
+  "block_height": "8461352",
+  "block_hash": "BMamd1fL3JZevg7445fYbnqsJRZgwxWXbbBkFhy5owckKftdnsh",
+  "block_time": "2025-04-02T17:11:48Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "b55f30ef932f9cba06a9fb1b354bd6ec4e6f6479b6fb5aae96a4c4a706bba1d9",
+  "from": "tz1e8XGv6ngNoLt1ZNkEi6sG1A39yF48iwdS",
+  "to": "KT1U6EHmNxJTkvaWJ4ThczG4FSDaHC21ssvi",
+  "amount": "0",
+  "token": "XTZ",
+  "total_amount": "0",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:11:48Z"
+}
+2025/04/03 00:12:46 GIAO DỊCH TRONG BLOCK #8461352:
+{
+  "block_height": "8461352",
+  "block_hash": "BMamd1fL3JZevg7445fYbnqsJRZgwxWXbbBkFhy5owckKftdnsh",
+  "block_time": "2025-04-02T17:11:48Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "74547ce48aebbdd121f8a6d7a709b478bc2ae0e875949ee98ed4b6fde287ffe1",
+  "from": "tz1d2V4WACSe25J4tRGSi2pmB5dasQrqkfv3",
+  "to": "KT1Fm7kvvtW1BbhwMmNnD9kZ9LYJ9VoGrtGG",
+  "amount": "0",
+  "token": "XTZ",
+  "total_amount": "0",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:11:48Z"
+}
+2025/04/03 00:12:46 GIAO DỊCH TRONG BLOCK #8461352:
+{
+  "block_height": "8461352",
+  "block_hash": "BMamd1fL3JZevg7445fYbnqsJRZgwxWXbbBkFhy5owckKftdnsh",
+  "block_time": "2025-04-02T17:11:48Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "7e096e0e06bcc43517ce985f0a0bba73a887378bc643614f903e838f8285814a",
+  "from": "tz1d2V4WACSe25J4tRGSi2pmB5dasQrqkfv3",
+  "to": "KT1PY45GngMqrcJv59oUeom4BNDJMHhVCWhL",
+  "amount": "0",
+  "token": "XTZ",
+  "total_amount": "0",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:11:48Z"
+}
+2025/04/03 00:12:46 GIAO DỊCH TRONG BLOCK #8461352:
+{
+  "block_height": "8461352",
+  "block_hash": "BMamd1fL3JZevg7445fYbnqsJRZgwxWXbbBkFhy5owckKftdnsh",
+  "block_time": "2025-04-02T17:11:48Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "74547ce48aebbdd121f8a6d7a709b478bc2ae0e875949ee98ed4b6fde287ffe1",
+  "from": "tz1d2V4WACSe25J4tRGSi2pmB5dasQrqkfv3",
+  "to": "KT1Fm7kvvtW1BbhwMmNnD9kZ9LYJ9VoGrtGG",
+  "amount": "0",
+  "token": "XTZ",
+  "total_amount": "0",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:11:48Z"
+}
+2025/04/03 00:12:46 ✅ Completed processing block 8461352
+2025/04/03 00:12:47 🔍 Fetching block info: 8461351
+2025/04/03 00:12:47 ✅ Fetched block: 8461351
+2025/04/03 00:12:47 BLOCK MỚI #8461351 | Chain: NetXdQprcVkpaWU | Time: 2025-04-02T17:11:40Z | Hash: BMRqbmg6z9ozTHsdMm3LbiZnLgFF6LHqpB9NLkBkGLP8nG52Uzz
+2025/04/03 00:12:47 Block #8461351 has no transactions
+2025/04/03 00:12:47 ✅ Completed processing block 8461351
+2025/04/03 00:12:47 🔍 Fetching block info: 8461350
+2025/04/03 00:12:48 ✅ Fetched block: 8461350
+2025/04/03 00:12:48 BLOCK MỚI #8461350 | Chain: NetXdQprcVkpaWU | Time: 2025-04-02T17:11:32Z | Hash: BLBQhj1rNQEeSWAEKFb1sykXEaW4bvywDuDge3QFssYEydmpBic
+2025/04/03 00:12:48 Number of transactions in block #8461350: 3
+2025/04/03 00:12:48 GIAO DỊCH TRONG BLOCK #8461350:
+{
+  "block_height": "8461350",
+  "block_hash": "BLBQhj1rNQEeSWAEKFb1sykXEaW4bvywDuDge3QFssYEydmpBic",
+  "block_time": "2025-04-02T17:11:32Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "cf18582070b6361ee7f2cbc282d1f8e6d1424c15e18b9595a26d16f933fe2dd0",
+  "from": "tz1igMHAJZR5tp6fNsHsP8FTSkVWkNLkhRQ5",
+  "to": "KT1SRjvhhKCmtXNieptaUh4heTvmzYAvvuR8",
+  "amount": "0",
+  "token": "XTZ",
+  "total_amount": "0",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:11:32Z"
+}
+2025/04/03 00:12:48 GIAO DỊCH TRONG BLOCK #8461350:
+{
+  "block_height": "8461350",
+  "block_hash": "BLBQhj1rNQEeSWAEKFb1sykXEaW4bvywDuDge3QFssYEydmpBic",
+  "block_time": "2025-04-02T17:11:32Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "c136df47da538268e741bf87bbbcf4a5f2759c2629d262d3688d8e79317055bb",
+  "from": "tz1L5bjRazyKZkUFsfz9Kpob5LsBqri5AMEx",
+  "to": "KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton",
+  "amount": "0",
+  "token": "XTZ",
+  "total_amount": "0",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:11:32Z"
+}
+2025/04/03 00:12:48 GIAO DỊCH TRONG BLOCK #8461350:
+{
+  "block_height": "8461350",
+  "block_hash": "BLBQhj1rNQEeSWAEKFb1sykXEaW4bvywDuDge3QFssYEydmpBic",
+  "block_time": "2025-04-02T17:11:32Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "4bbfce4ac6c5007e711a91a9c64dbb57ab4f75f58470b27bdc675ff8fe480252",
+  "from": "tz1UoboNM5dHa793H6srtFFBLWFAoQJfeJCU",
+  "to": "KT1SwbTqhSKF6Pdokiu1K4Fpi17ahPPzmt1X",
+  "amount": "6000000",
+  "token": "XTZ",
+  "total_amount": "6000000",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:11:32Z"
+}
+2025/04/03 00:12:48 ✅ Completed processing block 8461350
+2025/04/03 00:12:48 🔍 Fetching block info: 8461349
+2025/04/03 00:12:48 ✅ Fetched block: 8461349
+2025/04/03 00:12:48 BLOCK MỚI #8461349 | Chain: NetXdQprcVkpaWU | Time: 2025-04-02T17:11:24Z | Hash: BMR3K9UrPZZDo5yaXxRXAvQPxWKB3YpL4JAg82kMgi7nUziTcv9
+2025/04/03 00:12:48 Block #8461349 has no transactions
+2025/04/03 00:12:48 ✅ Completed processing block 8461349
+2025/04/03 00:12:49 🔍 Fetching block info: 8461348
+2025/04/03 00:12:49 ✅ Fetched block: 8461348
+2025/04/03 00:12:49 BLOCK MỚI #8461348 | Chain: NetXdQprcVkpaWU | Time: 2025-04-02T17:11:16Z | Hash: BKmWgChMdBHF8NNQYknVq3NJ4dyuTYUNsAmu4N4XZWZydrUocpJ
+2025/04/03 00:12:49 Number of transactions in block #8461348: 1
+2025/04/03 00:12:49 GIAO DỊCH TRONG BLOCK #8461348:
+{
+  "block_height": "8461348",
+  "block_hash": "BKmWgChMdBHF8NNQYknVq3NJ4dyuTYUNsAmu4N4XZWZydrUocpJ",
+  "block_time": "2025-04-02T17:11:16Z",
+  "chain_id": "NetXdQprcVkpaWU",
+  "tx_hash": "154a609043e3763b15402af1348c8580f2e432277d2d42064a36ce6e66d6712f",
+  "from": "tz1PQxdPrjwhSKVpu7GjceYsu9rfXBxZ8VxS",
+  "to": "KT1Aq4wWmVanpQhq4TTfjZXB5AjFpx15iQMM",
+  "amount": "0",
+  "token": "XTZ",
+  "total_amount": "0",
+  "tx_type": "transfer",
+  "timestamp": "2025-04-02T17:11:16Z"
+}
+2025/04/03 00:12:49 ✅ Completed processing block 8461348
+2025/04/03 00:12:50 🔍 Fetching block info: 8461347
