@@ -35,6 +35,8 @@ func main() {
 		// services.Handle_algorand_http()
 		// handle_http()
 		// handle_ws()
+		services.RunCryptoDataProcessor("./configs/config-binance.json")
+
 
 	}()
 	select {}
