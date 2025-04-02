@@ -9,27 +9,6 @@ import (
 	"time"
 )
 
-// BTCBDecimals là số chữ số thập phân cho token BTCB
-const BTCBDecimals = 18
-
-// Ngưỡng để phân loại địa chỉ
-const ExchangeThreshold = 1000.0    // 1000 BTCB cho sàn giao dịch
-const OrganizationThreshold = 100.0 // 100 BTCB cho tổ chức
-
-// Danh sách toàn bộ địa chỉ đã thu thập
-var allAddresses []string
-
-// Cấu trúc dữ liệu để lưu trữ thông tin địa chỉ
-type AddressInfo struct {
-	Balance    float64
-	Percentage float64
-}
-
-// Khai báo lại các biến lưu trữ theo phân loại mới
-var highBalanceAddresses = make(map[string]AddressInfo)  // Tất cả địa chỉ có số dư lớn
-var organizationAddresses = make(map[string]AddressInfo) // Địa chỉ tổ chức (100-1000 BTCB)
-var exchangeAddresses = make(map[string]AddressInfo)     // Địa chỉ sàn giao dịch (>1000 BTCB)
-
 // convertWeiToToken chuyển đổi giá trị wei sang giá trị token dễ đọc
 func convertWeiToToken(weiValue string, decimals int) (string, error) {
 	wei, ok := new(big.Int).SetString(weiValue, 10)
@@ -57,7 +36,6 @@ func CollectAllAddresses(apiKey string) ([]string, error) {
 		return nil, fmt.Errorf("lỗi khi lấy địa chỉ BTCB: %v", err)
 	}
 
-	log.Printf("Đã thu thập được %d địa chỉ duy nhất từ các giao dịch BTCB\n", len(addresses))
 	return addresses, nil
 }
 
@@ -94,12 +72,20 @@ func UpdateHighBalanceAddresses(address string, balance float64) {
 		// Phân loại theo ngưỡng mới
 		if balance >= ExchangeThreshold {
 			// Địa chỉ sàn giao dịch (>1000 BTCB)
+			if _, exists := exchangeAddresses[address]; !exists {
+				log.Printf("[PHÂN LOẠI] Địa chỉ %s được phân loại là SÀN GIAO DỊCH với %.8f BTCB (%.4f%%)", 
+					address, balance, percentHold)
+			}
 			exchangeAddresses[address] = AddressInfo{
 				Balance:    balance,
 				Percentage: percentHold,
 			}
 		} else {
 			// Địa chỉ tổ chức (100-1000 BTCB)
+			if _, exists := organizationAddresses[address]; !exists {
+				log.Printf("[PHÂN LOẠI] Địa chỉ %s được phân loại là TỔ CHỨC với %.8f BTCB (%.4f%%)", 
+					address, balance, percentHold)
+			}
 			organizationAddresses[address] = AddressInfo{
 				Balance:    balance,
 				Percentage: percentHold,
@@ -125,17 +111,13 @@ func MonitorNewTransactions(apiKey string) {
 	for {
 		time.Sleep(30 * time.Second) // Kiểm tra giao dịch mới mỗi 30 giây
 
-		log.Println("Kiểm tra các giao dịch mới...")
-
 		transactions, err := api.GetLatestTransactions(lastCheckTime)
 		if err != nil {
-			log.Printf("Lỗi khi lấy giao dịch mới: %v", err)
+			log.Printf("[LỖI] Không thể lấy giao dịch mới: %v", err)
 			continue
 		}
 
 		if len(transactions) > 0 {
-			log.Printf("Tìm thấy %d giao dịch mới", len(transactions))
-
 			// Cập nhật thời gian kiểm tra cuối cùng
 			lastCheckTime = time.Now().Unix()
 
@@ -147,6 +129,7 @@ func MonitorNewTransactions(apiKey string) {
 			}
 
 			// Thêm các địa chỉ mới vào danh sách
+			newCount := 0
 			for addr := range newAddresses {
 				// Kiểm tra xem địa chỉ đã có trong danh sách chưa
 				found := false
@@ -159,10 +142,14 @@ func MonitorNewTransactions(apiKey string) {
 
 				if !found {
 					allAddresses = append(allAddresses, addr)
+					newCount++
 				}
 			}
-
-			log.Printf("Đã cập nhật danh sách địa chỉ, tổng số: %d", len(allAddresses))
+			
+			if newCount > 0 {
+				log.Printf("[CẬP NHẬT] Đã thêm %d địa chỉ mới vào danh sách theo dõi, tổng số: %d", 
+					newCount, len(allAddresses))
+			}
 		}
 	}
 }
@@ -171,23 +158,20 @@ func MonitorNewTransactions(apiKey string) {
 func ScanAddressesForHighBalances(apiKey string, addresses []string) (map[string]string, error) {
 	api := NewBscScanAPI(apiKey)
 
-	log.Printf("Quét %d địa chỉ để tìm số dư lớn (>= %.2f BTCB)\n", len(addresses), OrganizationThreshold)
-
 	// Map để lưu trữ địa chỉ -> số dư (chỉ cho các địa chỉ có số dư >= OrganizationThreshold)
 	highBalances := make(map[string]string)
+	foundCount := 0
 
 	// Lấy số dư cho từng địa chỉ
 	for _, address := range addresses {
 		balance, err := api.GetAddressBalance(address)
 		if err != nil {
-			log.Printf("Cảnh báo: Không thể lấy số dư cho địa chỉ %s: %v", address, err)
 			continue
 		}
 
 		// Chuyển đổi số dư từ wei sang BTCB (định dạng dễ đọc)
 		humanReadableBalance, err := convertWeiToToken(balance, BTCBDecimals)
 		if err != nil {
-			log.Printf("Cảnh báo: Không thể chuyển đổi số dư cho địa chỉ %s: %v", address, err)
 			continue
 		}
 
@@ -204,9 +188,18 @@ func ScanAddressesForHighBalances(apiKey string, addresses []string) (map[string
 		if balanceFloat >= OrganizationThreshold {
 			highBalances[address] = humanReadableBalance
 			usdValue := ConvertBTCBToUSD(balanceFloat)
-			log.Printf("Tìm thấy địa chỉ có số dư lớn: %s với %.8f BTCB (%.2f USD) - %.6f%% tổng cung\n",
-				address, balanceFloat, usdValue, percentHold)
+			foundCount++
+			
+			// Chỉ log khi tìm thấy địa chỉ có số dư lớn mới
+			if _, exists := highBalanceAddresses[address]; !exists {
+				log.Printf("[TÌM THẤY] Địa chỉ có số dư lớn: %s với %.8f BTCB (%.2f USD) - %.6f%% tổng cung",
+					address, balanceFloat, usdValue, percentHold)
+			}
 		}
+	}
+	
+	if foundCount > 0 {
+		log.Printf("[QUÉT] Đã tìm thấy %d địa chỉ có số dư lớn (>= %.2f BTCB)", foundCount, OrganizationThreshold)
 	}
 
 	return highBalances, nil
