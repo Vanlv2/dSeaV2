@@ -292,13 +292,14 @@ func create_query(chainName string, fromBlock, toBlock *big.Int) ethereum.Filter
 		FromBlock: fromBlock,
 		ToBlock:   toBlock,
 		Addresses: addresses,
-		Topics: topics,
+		Topics:    topics,
 	}
 }
 
 func extract_transaction_data(logData *types.Log, chainName string) map[string]interface{} {
 	txData := make(map[string]interface{})
 
+	// Phần code hiện tại của bạn
 	txData["name_chain"] = chainName
 	txData["timestamp"] = time.Now().Format("2006-01-02 15:04:05")
 	txData["block_number"] = logData.BlockNumber
@@ -309,10 +310,10 @@ func extract_transaction_data(logData *types.Log, chainName string) map[string]i
 	chainData := GetChainData(chainName)
 	if chainData != nil {
 		tokenAddresses := map[string]string{
-			strings.ToLower(chainData.Config.WrappedBTCAddress): "WBTC",
+			strings.ToLower(chainData.Config.WrappedBTCAddress):     "WBTC",
 			strings.ToLower(chainData.Config.WrapWrappedBNBAddress): "WBNB",
 		}
-		
+
 		// Kiểm tra nếu địa chỉ log trùng với bất kỳ địa chỉ token nào
 		if symbol, exists := tokenAddresses[strings.ToLower(logData.Address.Hex())]; exists {
 			txData["tokenSymbol"] = symbol
@@ -347,6 +348,14 @@ func extract_transaction_data(logData *types.Log, chainName string) map[string]i
 	if len(logData.Topics) > 2 {
 		toAddr := common.HexToAddress(logData.Topics[2].Hex()).Hex()
 		txData["to_address"] = toAddr
+	}
+
+	// Thêm mới: Tính giá trị USD nếu có tokenSymbol
+	if _, hasSymbol := txData["tokenSymbol"]; hasSymbol {
+		err := EnrichTransactionWithUSDValue(txData)
+		if err != nil {
+			fmt.Printf("Không thể tính giá trị USD: %v\n", err)
+		}
 	}
 
 	// Lưu dữ liệu vào ChainData
