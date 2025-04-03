@@ -598,3 +598,11 @@
 2025/04/03 18:21:30 ======= BẮT ĐẦU QUÁ TRÌNH XỬ LÝ CHAIN COSMOS cosmos =======
 2025/04/03 18:21:30 Bước 1: Quét ngược về quá khứ (1h0m0s)
 >>>>>>> origin/test
+2025/04/03 20:20:11 Khởi tạo dữ liệu cho chain cosmos, khối cuối cùng: 0
+2025/04/03 20:20:45 Warning: Cannot load config: open ./configs/config-algorand.json: no such file or directory, using default settings
+2025/04/03 20:20:45 ======= BẮT ĐẦU QUÉT NGƯỢC BLOCKCHAIN ALGORAND algorand =======
+2025/04/03 20:20:45 Sẽ quét lùi 1000 blocks từ block hiện tại
+2025/04/03 20:20:45 API URL: https://mainnet-api.algonode.cloud
+2025/04/03 20:20:45 Indexer URL: https://mainnet-idx.algonode.cloud
+2025/04/03 20:20:45 ==================================
+2025/04/03 20:20:45 Fetching current block from: https://mainnet-api.algonode.cloud/v2/status

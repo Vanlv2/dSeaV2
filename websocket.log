@@ -255,3 +255,4 @@
 2025/04/03 18:21:53 Nhận tín hiệu thoát, đang đóng kết nối...
 2025/04/03 18:21:53 Chương trình đã kết thúc
 2025/04/03 18:21:53 Lỗi khi đọc tin nhắn: read tcp 192.168.1.155:57618->172.67.22.207:443: use of closed network connection
+2025/04/03 20:20:45 Kết nối đến blockchain cosmos qua WebSocket: wss://cosmos-rpc.publicnode.com:443/websocket

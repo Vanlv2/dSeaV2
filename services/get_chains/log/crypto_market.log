@@ -2618,3 +2618,144 @@
 2025/04/03 18:34:11 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
 2025/04/03 18:34:11 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
 >>>>>>> origin/test
+2025/04/03 20:20:11 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ THỜI GIAN THỰC =======
+2025/04/03 20:20:11 Đã tải cấu hình từ file: ./services/get_chains/configs/config-binance.json
+2025/04/03 20:20:11 WebSocket URL: wss://stream.binance.com:9443/stream
+2025/04/03 20:20:11 Số lượng token cần theo dõi: 3
+2025/04/03 20:20:11 Token #1: BTCUSDT (Giao dịch lớn: 0.100000, Giao dịch rất lớn: 0.100000)
+2025/04/03 20:20:11 Token #2: ETHUSDT (Giao dịch lớn: 0.005000, Giao dịch rất lớn: 0.500000)
+2025/04/03 20:20:11 Token #3: SOLUSDT (Giao dịch lớn: 0.001000, Giao dịch rất lớn: 0.100000)
+2025/04/03 20:20:11 Bắt đầu theo dõi kline cho BTCUSDT tại wss://stream.binance.com:9443/ws/btcusdt@kline_1m
+2025/04/03 20:20:11 Bắt đầu theo dõi kline cho ETHUSDT tại wss://stream.binance.com:9443/ws/ethusdt@kline_1m
+2025/04/03 20:20:11 Bắt đầu theo dõi kline cho SOLUSDT tại wss://stream.binance.com:9443/ws/solusdt@kline_1m
+2025/04/03 20:20:11 Bắt đầu theo dõi giao dịch cho BTCUSDT tại wss://stream.binance.com:9443/ws/btcusdt@trade
+2025/04/03 20:20:11 Bắt đầu theo dõi giao dịch cho ETHUSDT tại wss://stream.binance.com:9443/ws/ethusdt@trade
+2025/04/03 20:20:11 Bắt đầu theo dõi giao dịch cho SOLUSDT tại wss://stream.binance.com:9443/ws/solusdt@trade
+2025/04/03 20:20:11 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 20:20:11 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 20:20:45 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ THỜI GIAN THỰC =======
+2025/04/03 20:20:45 Đã tải cấu hình từ file: ./services/get_chains/configs/config-binance.json
+2025/04/03 20:20:45 WebSocket URL: wss://stream.binance.com:9443/stream
+2025/04/03 20:20:45 Số lượng token cần theo dõi: 3
+2025/04/03 20:20:45 Token #1: BTCUSDT (Giao dịch lớn: 0.100000, Giao dịch rất lớn: 0.100000)
+2025/04/03 20:20:45 Token #2: ETHUSDT (Giao dịch lớn: 0.005000, Giao dịch rất lớn: 0.500000)
+2025/04/03 20:20:45 Token #3: SOLUSDT (Giao dịch lớn: 0.001000, Giao dịch rất lớn: 0.100000)
+2025/04/03 20:20:45 Bắt đầu theo dõi kline cho BTCUSDT tại wss://stream.binance.com:9443/ws/btcusdt@kline_1m
+2025/04/03 20:20:45 Bắt đầu theo dõi kline cho ETHUSDT tại wss://stream.binance.com:9443/ws/ethusdt@kline_1m
+2025/04/03 20:20:45 Bắt đầu theo dõi kline cho SOLUSDT tại wss://stream.binance.com:9443/ws/solusdt@kline_1m
+2025/04/03 20:20:45 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 20:20:45 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 20:20:45 Bắt đầu theo dõi giao dịch cho BTCUSDT tại wss://stream.binance.com:9443/ws/btcusdt@trade
+2025/04/03 20:20:45 Bắt đầu theo dõi giao dịch cho ETHUSDT tại wss://stream.binance.com:9443/ws/ethusdt@trade
+2025/04/03 20:20:45 Bắt đầu theo dõi giao dịch cho SOLUSDT tại wss://stream.binance.com:9443/ws/solusdt@trade
+2025/04/03 20:20:45 Đã kết nối thành công đến WebSocket kline cho ETHUSDT
+2025/04/03 20:20:45 Đã kết nối thành công đến WebSocket kline cho BTCUSDT
+2025/04/03 20:20:45 Đã kết nối thành công đến WebSocket cho ETHUSDT
+2025/04/03 20:20:45 Đã kết nối thành công đến WebSocket kline cho SOLUSDT
+2025/04/03 20:20:45 Đã kết nối thành công đến WebSocket cho BTCUSDT
+2025/04/03 20:20:45 Đã kết nối thành công đến WebSocket cho SOLUSDT
+2025/04/03 20:20:46 [BIẾN ĐỘNG GIÁ] BTC GIẢM 0.12% trong 1 phút (81990.38 -> 81891.77 USDT)
+2025/04/03 20:20:46 [BIẾN ĐỘNG GIÁ] ETH GIẢM 0.09% trong 1 phút (1768.02 -> 1766.50 USDT)
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.64 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH RẤT LỚN] SOL | BÁN | Số lượng: 1.68700000 | Giá: 113.64 USDT | Tổng: 191.71 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] ETH | BÁN | Số lượng: 0.44090000 | Giá: 1766.50 USDT | Tổng: 778.85 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] ETH | BÁN | Số lượng: 0.01730000 | Giá: 1766.50 USDT | Tổng: 30.56 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.63 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.63 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.63 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04500000 | Giá: 113.63 USDT | Tổng: 5.11 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.63 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.63 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH RẤT LỚN] SOL | BÁN | Số lượng: 0.31200000 | Giá: 113.63 USDT | Tổng: 35.45 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.63 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.63 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.63 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.63 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.63 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.63 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.62 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.62 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.62 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.62 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04500000 | Giá: 113.62 USDT | Tổng: 5.11 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.62 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH RẤT LỚN] SOL | BÁN | Số lượng: 3.52000000 | Giá: 113.62 USDT | Tổng: 399.94 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.08900000 | Giá: 113.62 USDT | Tổng: 10.11 USDT
+2025/04/03 20:20:46 [GIAO DỊCH RẤT LỚN] SOL | BÁN | Số lượng: 3.82900000 | Giá: 113.62 USDT | Tổng: 435.05 USDT
+2025/04/03 20:20:46 [GIAO DỊCH RẤT LỚN] SOL | BÁN | Số lượng: 21.02100000 | Giá: 113.62 USDT | Tổng: 2388.41 USDT
+2025/04/03 20:20:46 [GIAO DỊCH RẤT LỚN] SOL | BÁN | Số lượng: 2.17200000 | Giá: 113.62 USDT | Tổng: 246.78 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04500000 | Giá: 113.61 USDT | Tổng: 5.11 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.61 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.61 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH RẤT LỚN] SOL | BÁN | Số lượng: 3.52000000 | Giá: 113.61 USDT | Tổng: 399.91 USDT
+2025/04/03 20:20:46 [GIAO DỊCH RẤT LỚN] SOL | BÁN | Số lượng: 3.52000000 | Giá: 113.61 USDT | Tổng: 399.91 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.61 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.08900000 | Giá: 113.61 USDT | Tổng: 10.11 USDT
+2025/04/03 20:20:46 [GIAO DỊCH RẤT LỚN] SOL | BÁN | Số lượng: 0.44000000 | Giá: 113.61 USDT | Tổng: 49.99 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.09100000 | Giá: 113.61 USDT | Tổng: 10.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.61 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.61 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04500000 | Giá: 113.61 USDT | Tổng: 5.11 USDT
+2025/04/03 20:20:46 [GIAO DỊCH RẤT LỚN] SOL | BÁN | Số lượng: 0.82200000 | Giá: 113.61 USDT | Tổng: 93.39 USDT
+2025/04/03 20:20:46 [GIAO DỊCH RẤT LỚN] SOL | BÁN | Số lượng: 2.71800000 | Giá: 113.61 USDT | Tổng: 308.79 USDT
+2025/04/03 20:20:46 [GIAO DỊCH RẤT LỚN] SOL | BÁN | Số lượng: 0.88000000 | Giá: 113.61 USDT | Tổng: 99.98 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.61 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04500000 | Giá: 113.60 USDT | Tổng: 5.11 USDT
+2025/04/03 20:20:46 [GIAO DỊCH RẤT LỚN] SOL | BÁN | Số lượng: 3.52000000 | Giá: 113.60 USDT | Tổng: 399.87 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04500000 | Giá: 113.60 USDT | Tổng: 5.11 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.08900000 | Giá: 113.60 USDT | Tổng: 10.11 USDT
+2025/04/03 20:20:46 [GIAO DỊCH RẤT LỚN] SOL | BÁN | Số lượng: 0.38900000 | Giá: 113.60 USDT | Tổng: 44.19 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.06700000 | Giá: 113.60 USDT | Tổng: 7.61 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.60 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.60 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH RẤT LỚN] SOL | BÁN | Số lượng: 0.85000000 | Giá: 113.60 USDT | Tổng: 96.56 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.60 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH RẤT LỚN] SOL | BÁN | Số lượng: 5.27600000 | Giá: 113.60 USDT | Tổng: 599.35 USDT
+2025/04/03 20:20:46 [GIAO DỊCH RẤT LỚN] SOL | BÁN | Số lượng: 1.93300000 | Giá: 113.60 USDT | Tổng: 219.59 USDT
+2025/04/03 20:20:46 [GIAO DỊCH RẤT LỚN] SOL | BÁN | Số lượng: 4.00000000 | Giá: 113.60 USDT | Tổng: 454.40 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] ETH | BÁN | Số lượng: 0.10050000 | Giá: 1766.49 USDT | Tổng: 177.53 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] ETH | BÁN | Số lượng: 0.10120000 | Giá: 1766.49 USDT | Tổng: 178.77 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] ETH | BÁN | Số lượng: 0.00690000 | Giá: 1766.49 USDT | Tổng: 12.19 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] ETH | BÁN | Số lượng: 0.10140000 | Giá: 1766.45 USDT | Tổng: 179.12 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.61 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.61 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.61 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.61 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.61 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.61 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.61 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.61 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [BIẾN ĐỘNG GIÁ] SOL GIẢM 0.17% trong 1 phút (113.80 -> 113.61 USDT)
+2025/04/03 20:20:46 [GIAO DỊCH RẤT LỚN] SOL | BÁN | Số lượng: 1.42800000 | Giá: 113.61 USDT | Tổng: 162.24 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.62 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.62 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.62 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.62 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.62 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:46 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.02900000 | Giá: 113.62 USDT | Tổng: 3.29 USDT
+2025/04/03 20:20:47 [GIAO DỊCH LỚN] ETH | BÁN | Số lượng: 0.02600000 | Giá: 1766.40 USDT | Tổng: 45.93 USDT
+2025/04/03 20:20:47 [GIAO DỊCH LỚN] ETH | BÁN | Số lượng: 0.05660000 | Giá: 1766.40 USDT | Tổng: 99.98 USDT
+2025/04/03 20:20:47 [GIAO DỊCH LỚN] ETH | BÁN | Số lượng: 0.15000000 | Giá: 1766.34 USDT | Tổng: 264.95 USDT
+2025/04/03 20:20:47 [GIAO DỊCH LỚN] ETH | BÁN | Số lượng: 0.16510000 | Giá: 1766.34 USDT | Tổng: 291.62 USDT
+2025/04/03 20:20:47 [GIAO DỊCH LỚN] ETH | BÁN | Số lượng: 0.01550000 | Giá: 1766.32 USDT | Tổng: 27.38 USDT
+2025/04/03 20:20:47 [GIAO DỊCH LỚN] ETH | BÁN | Số lượng: 0.00560000 | Giá: 1766.32 USDT | Tổng: 9.89 USDT
+2025/04/03 20:20:47 [GIAO DỊCH LỚN] ETH | BÁN | Số lượng: 0.18080000 | Giá: 1766.31 USDT | Tổng: 319.35 USDT
+2025/04/03 20:20:47 [GIAO DỊCH RẤT LỚN] ETH | BÁN | Số lượng: 1.14230000 | Giá: 1766.30 USDT | Tổng: 2017.64 USDT
+2025/04/03 20:20:47 [GIAO DỊCH LỚN] ETH | BÁN | Số lượng: 0.08900000 | Giá: 1766.27 USDT | Tổng: 157.20 USDT
+2025/04/03 20:20:47 [GIAO DỊCH RẤT LỚN] ETH | BÁN | Số lượng: 0.50950000 | Giá: 1766.26 USDT | Tổng: 899.91 USDT
+2025/04/03 20:20:47 [GIAO DỊCH LỚN] ETH | BÁN | Số lượng: 0.08490000 | Giá: 1766.25 USDT | Tổng: 149.95 USDT
+2025/04/03 20:20:47 [GIAO DỊCH LỚN] ETH | BÁN | Số lượng: 0.04000000 | Giá: 1766.25 USDT | Tổng: 70.65 USDT
+2025/04/03 20:20:47 [GIAO DỊCH LỚN] ETH | BÁN | Số lượng: 0.10140000 | Giá: 1766.22 USDT | Tổng: 179.09 USDT
+2025/04/03 20:20:47 [GIAO DỊCH LỚN] ETH | BÁN | Số lượng: 0.05660000 | Giá: 1766.21 USDT | Tổng: 99.97 USDT
+2025/04/03 20:20:47 [GIAO DỊCH LỚN] ETH | BÁN | Số lượng: 0.01350000 | Giá: 1766.20 USDT | Tổng: 23.84 USDT
+2025/04/03 20:20:48 [BIẾN ĐỘNG GIÁ] ETH GIẢM 0.10% trong 1 phút (1768.02 -> 1766.20 USDT)
+2025/04/03 20:20:48 [BIẾN ĐỘNG GIÁ] BTC GIẢM 0.13% trong 1 phút (81990.38 -> 81885.56 USDT)
+2025/04/03 20:20:48 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.01800000 | Giá: 113.62 USDT | Tổng: 2.05 USDT
+2025/04/03 20:20:48 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.62 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:48 [GIAO DỊCH RẤT LỚN] SOL | BÁN | Số lượng: 0.93500000 | Giá: 113.62 USDT | Tổng: 106.23 USDT
+2025/04/03 20:20:48 [GIAO DỊCH RẤT LỚN] SOL | BÁN | Số lượng: 0.84300000 | Giá: 113.62 USDT | Tổng: 95.78 USDT
+2025/04/03 20:20:48 [GIAO DỊCH RẤT LỚN] ETH | BÁN | Số lượng: 1.00480000 | Giá: 1766.21 USDT | Tổng: 1774.69 USDT
+2025/04/03 20:20:48 [GIAO DỊCH RẤT LỚN] SOL | BÁN | Số lượng: 0.44900000 | Giá: 113.62 USDT | Tổng: 51.02 USDT
+2025/04/03 20:20:48 [BIẾN ĐỘNG GIÁ] SOL GIẢM 0.16% trong 1 phút (113.80 -> 113.62 USDT)
+2025/04/03 20:20:49 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04700000 | Giá: 113.62 USDT | Tổng: 5.34 USDT
+2025/04/03 20:20:49 [GIAO DỊCH LỚN] SOL | BÁN | Số lượng: 0.04100000 | Giá: 113.62 USDT | Tổng: 4.66 USDT
