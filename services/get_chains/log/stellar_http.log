@@ -4,3 +4,5 @@
 2025/04/03 07:33:50 Bước 1: Quét ngược về quá khứ (1h0m0s)
 2025/04/03 07:33:50 Initialized data for chain stellar, last processed ledger: 0
 2025/04/03 07:33:50 Kết nối đến blockchain cosmos qua WebSocket: wss://cosmos-rpc.publicnode.com:443/websocket
+2025/04/03 09:29:07 Initialized data for chain stellar, last processed ledger: 0
+2025/04/03 09:29:07 Cannot load config: open ./configs/config-stellar.json: no such file or directory

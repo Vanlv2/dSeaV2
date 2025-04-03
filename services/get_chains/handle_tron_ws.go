@@ -1,4 +1,4 @@
-package main
+package get_chains
 
 import (
 	"bytes"
@@ -29,7 +29,7 @@ func setupTronWSLogger() {
 
 	// Tạo file log với tên bao gồm timestamp
 	timeStr := time.Now().Format("2006-01-02_15-04-05")
-	logFile, err := os.Create(fmt.Sprintf("logs/tron_ws_%s.log", timeStr))
+	logFile, err := os.Create(fmt.Sprintf("./services/get_chains/logs/tron_ws_%s.log", timeStr))
 	if err != nil {
 		log.Fatalf("Không thể tạo file log: %v", err)
 	}

@@ -1,4 +1,4 @@
-package main
+package get_chains
 
 import (
 	"context"
@@ -143,7 +143,7 @@ func importLogFileToDatabase(logFilePath string, chainName string) error {
 
 // Hàm ghi block vào file
 func write_block_to_file(blockNumber *big.Int, block map[string]interface{}, txCount int, chainName string) {
-	filePath := fmt.Sprintf("./block_data_%s.log", chainName)
+	filePath := fmt.Sprintf("./services/get_chains/block_data_%s.log", chainName)
 	file, err := os.OpenFile(filePath, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0644)
 	if err != nil {
 		log.Printf("Không thể mở file %s: %v", filePath, err)
