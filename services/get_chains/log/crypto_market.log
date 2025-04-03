@@ -2565,3 +2565,5 @@
 2025/04/03 09:32:20 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
 2025/04/03 09:35:46 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
 2025/04/03 09:35:46 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 09:45:49 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 09:45:49 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: The system cannot find the path specified.
