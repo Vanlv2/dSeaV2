@@ -2,9 +2,7 @@ package main
 
 import (
 	"log"
-	"main/services/bitcoinNetFlow"
-	"main/services/narrativesPerforments"
-	"main/services/stablecoin"
+	"main/services/ohlcv"
 )
 
 // BinanceView KrakenView, binance, kraken, models
@@ -12,9 +10,9 @@ import (
 func main() {
 	log.Println("Starting to fetch Binance coin prices...")
 
-	go narrativesPerforments.NarrativesPerforment()
-	go stablecoin.Stablecoin()
-	go bitcoinNetFlow.BitcoinNetFlow()
+	go ohlcv.RunOHLCV()
+	// go stablecoin.Stablecoin()
+	// go bitcoinNetFlow.BitcoinNetFlow()
 
 	select {}
 	// WaitGroup để đảm bảo tất cả goroutines đều kết thúc an toàn

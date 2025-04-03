@@ -1,11 +1,11 @@
-package narrativesPerforments
+package ohlcv
 
 import (
 	"context"
 	"crypto/ecdsa"
 	"fmt"
 	"log"
-	"main/config"
+	ohlcvConfig "main/config/ohlcv"
 	"math/big"
 	"strings"
 
@@ -17,25 +17,25 @@ import (
 	"github.com/ethereum/go-ethereum/ethclient"
 )
 
-func ConnectToSMCMonth(timestamp int64, nameCoin, open, high, low, close, volume, percentTotal, priceChange, changePercent, marketCap, tokenSymbol string) {
-	log.Printf("weekkkkkkkkkkkkkk\ntimestamp: %d\nnameCoin: %s\nopen: %s\nhigh: %s\nlow: %s\nclose: %s\nvolume: %s\ntokenSymbol: %s",
-		timestamp, nameCoin, open, high, low, close, volume, tokenSymbol)
+// func ConnectToSMCDate(symbol string, openTime int, open string, high string, low string, close string, volume string, closeTime int, quoteAssetVolume string, numberOfTrades int, takerBuyBaseVolume string, takerBuyQuoteVolume string) {
+func ConnectToSMCMonth(responseOHLCV ResponseOHLCV) {
+	// Kết nối WebSocket tới node BSC Testnet
 	client, err := ethclient.Dial("wss://bsc-testnet-rpc.publicnode.com")
 	if err != nil {
 		log.Fatalf("Error creating client: %v", err)
 	}
 
 	// Địa chỉ hợp đồng mà bạn muốn lắng nghe sự kiện
-	contractAddr := common.HexToAddress(config.ContractAddressMonth)
+	contractAddr := common.HexToAddress(ohlcvConfig.ContractAddressMonth)
 
 	// Parse ABI
-	contractABI, err := abi.JSON(strings.NewReader(config.ContractABIMonth))
+	contractABI, err := abi.JSON(strings.NewReader(ohlcvConfig.ContractABIMonth))
 	if err != nil {
 		fmt.Printf("Error parsing ABI: %v\n", err)
 	}
 
 	// Private key của người gửi (dùng cho giao dịch)
-	privateKey, err := crypto.HexToECDSA(config.PrivateKey)
+	privateKey, err := crypto.HexToECDSA(ohlcvConfig.PrivateKeyMonth)
 	if err != nil {
 		log.Fatalf("Failed to load private key: %v", err)
 	}
@@ -60,18 +60,10 @@ func ConnectToSMCMonth(timestamp int64, nameCoin, open, high, low, close, volume
 		log.Fatalf("Failed to get gas price: %v", err)
 	}
 
-	// Convert timestamp (int64) to *big.Int for uint256 compatibility
-	timestampBig := big.NewInt(timestamp)
-	if timestamp < 0 {
-		log.Fatalf("Timestamp cannot be negative for uint256")
-	}
-
 	// Dữ liệu được mã hóa cho hàm recordData
-	data, err := contractABI.Pack("recordData",
-		timestampBig, // Use *big.Int instead of int64
-		tokenSymbol, open, high, low, close, volume)
+	data, err := contractABI.Pack("recordData", responseOHLCV)
 	if err != nil {
-		log.Fatalf("Failed to pack function call moth: %v", err)
+		log.Fatalf("Failed to pack function call date: %v", err)
 	}
 
 	// Tạo giao dịch
@@ -101,6 +93,6 @@ func ConnectToSMCMonth(timestamp int64, nameCoin, open, high, low, close, volume
 	// Gửi giao dịch
 	err = client.SendTransaction(context.Background(), signedTx)
 	if err != nil {
-		log.Fatalf("Failed to send transaction: %v", err)
+		log.Fatalf("Failed to send transactionDate: %v", err)
 	}
 }

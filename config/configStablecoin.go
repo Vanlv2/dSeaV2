@@ -1,6 +1,6 @@
 package config
 
-const PrivateKeyS = "e9cef82ff3a2cfdec4819c81850fd28198c477eced7a6d3d4484d2cd8fbe6d6c"
+const PrivateKeyS = "1318c69b804769a5472a284f80853d4c54914fbf289be1bac2480f82886b43bf"
 
 const ContractAddressDateS = "0x9B0CD5b73c2087F2F0242BEC2A0647828EC777E2"
 const ContractABIDateS = `[
