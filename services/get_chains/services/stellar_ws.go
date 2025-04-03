@@ -29,7 +29,7 @@ func Handle_stellar_ws() {
 	chainData := InitChainDataStellar(chainName)
 
 	// Tải cấu hình
-	if err := configs.LoadConfig("./configs/config-stellar.json", chainName); err != nil {
+	if err := configs.LoadConfig("./services/get_chains/configs/config-stellar.json", chainName); err != nil {
 		log.Fatalf("Cannot load config: %v", err)
 	}
 

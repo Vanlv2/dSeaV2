@@ -1,0 +1,5 @@
+2025/04/03 18:20:35 Không thể đọc file cấu hình: open ./configs/config-tezos.json: no such file or directory
+2025/04/03 18:33:41 Bắt đầu giám sát blockchain tezos qua RPC: https://mainnet.api.tez.ie
+2025/04/03 18:33:43 Nhận tín hiệu thoát, đang dừng chương trình...
+2025/04/03 18:33:43 Chương trình đã thoát ngay lập tức.
+2025/04/03 18:33:43 Chương trình đã kết thúc
