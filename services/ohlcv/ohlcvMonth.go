@@ -47,7 +47,7 @@ func historicalDataMonth() {
 				TakerBuyBaseVol:  k[9].(string),
 				TakerBuyQuoteVol: k[10].(string),
 			}
-			ConnectToSMCMonth(responseOHLCV)
+			// ConnectToSMCMonth(responseOHLCV)
 			fmt.Printf("Symbol: %s | OpenTime: %d | Open: %s | High: %s | Low: %s | Close: %s | Volume: %s | CloseTime: %d | QuoteVolume: %s | Trades: %d | TakerBuyBase: %s | TakerBuyQuote: %s\n",
 				responseOHLCV.Symbol, responseOHLCV.OpenTime, responseOHLCV.Open, responseOHLCV.High, responseOHLCV.Low, responseOHLCV.Close, k[5].(string), responseOHLCV.CloseTime, k[7].(string), int(k[8].(float64)), k[9].(string), k[10].(string))
 			timetemp[coin] = responseOHLCV.OpenTime
@@ -118,7 +118,7 @@ func WebSocketOHLCVMonth() {
 					TakerBuyBaseVol:  string(kline.TakerBuyBaseVolume),
 					TakerBuyQuoteVol: string(kline.TakerBuyQuoteVolume),
 				}
-				ConnectToSMCMonth(responseOHLCV)
+				// ConnectToSMCMonth(responseOHLCV)
 				fmt.Printf("Real-time Data - Symbol: %s | OpenTime: %d | Open: %s | High: %s | Low: %s | Close: %s | Volume: %s | CloseTime: %d | QuoteVolume: %s | Trades: %d | TakerBuyBase: %s | TakerBuyQuote: %s\n",
 					kline.Symbol, openTime, responseOHLCV.Open, responseOHLCV.High, responseOHLCV.Low, responseOHLCV.Close, kline.Volume, closeTime, kline.QuoteAssetVolume, kline.NumberOfTrades, kline.TakerBuyBaseVolume, kline.TakerBuyQuoteVolume)
 				lastKlinesMonth[coin] = kline

@@ -328,7 +328,7 @@ func Handle_tezos_http() {
 	log.Printf("Initialized data for chain %s, last processed block: %d",
 		chainName, chainData.GetLastProcessedBlockVan())
 
-	if err := configs.LoadConfig("./configs/config-tezos.json", chainName); err != nil {
+	if err := configs.LoadConfig("./services/get_chains/configs/config-tezos.json", chainName); err != nil {
 		log.Fatalf("Cannot load config: %v", err)
 	}
 

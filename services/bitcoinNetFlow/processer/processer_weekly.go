@@ -14,8 +14,8 @@ import (
 
 // Các constants cho xử lý tuần
 var (
-	weeklyAnalysisInterval    = 12 * time.Hour // Phân tích 2 lần mỗi ngày cho dữ liệu tuần
-	weeklyTimeSegmentInterval = 3600           // Khoảng thời gian phân tích 1 giờ (3600 giây)
+	weeklyAnalysisInterval    = 7 * 24 * time.Hour // Phân tích 1 lần mỗi tuần
+	weeklyTimeSegmentInterval = 604800             // Khoảng thời gian phân tích 1 tuần (7*24*3600 giây)
 )
 
 func Handle_weekly_SMC() {
@@ -52,27 +52,27 @@ func Handle_weekly_SMC() {
 	// Chờ 5 giây để đảm bảo dữ liệu bắt đầu được thu thập
 	time.Sleep(5 * time.Second)
 
-	// 2. KHỞI ĐỘNG CÁC GOROUTINE XỬ LÝ DỮ LIỆU VÀ GỬI LÊN BLOCKCHAIN
-	wg.Add(1)
-	go func() {
-		defer wg.Done()
+	// // 2. KHỞI ĐỘNG CÁC GOROUTINE XỬ LÝ DỮ LIỆU VÀ GỬI LÊN BLOCKCHAIN
+	// wg.Add(1)
+	// go func() {
+	// 	defer wg.Done()
 
-		ticker := time.NewTicker(weeklyAnalysisInterval)
-		defer ticker.Stop()
+	// 	ticker := time.NewTicker(weeklyAnalysisInterval)
+	// 	defer ticker.Stop()
 
-		// Phân tích và gửi lần đầu ngay lập tức
-		processAndSendWeeklyDataToBlockchain(weeklyTimeSegmentInterval)
+	// 	// Phân tích và gửi lần đầu ngay lập tức
+	// 	processAndSendWeeklyDataToBlockchain(weeklyTimeSegmentInterval)
 
-		// Sau đó phân tích và gửi theo chu kỳ
-		for {
-			select {
-			case <-ticker.C:
-				processAndSendWeeklyDataToBlockchain(weeklyTimeSegmentInterval)
-			case <-stopChan:
-				return
-			}
-		}
-	}()
+	// 	// Sau đó phân tích và gửi theo chu kỳ
+	// 	for {
+	// 		select {
+	// 		case <-ticker.C:
+	// 			processAndSendWeeklyDataToBlockchain(weeklyTimeSegmentInterval)
+	// 		case <-stopChan:
+	// 			return
+	// 		}
+	// 	}
+	// }()
 
 	// CHỜ TẤT CẢ GOROUTINES KẾT THÚC KHI CÓ TÍN HIỆU DỪNG
 	wg.Wait()

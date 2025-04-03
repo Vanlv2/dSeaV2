@@ -12,10 +12,10 @@ import (
 	sendData "main/services/bitcoinNetFlow/smart_contract/send_data"
 )
 
-// Các constants cần được định nghĩa ở đâu đó trong package
+// Các constants cho xử lý ngày
 var (
-	analysisInterval    = 6 * time.Second // Hoặc một giá trị phù hợp
-	timeSegmentInterval = 6               // Hoặc một giá trị phù hợp (5 phút = 300 giây)
+	analysisInterval    = 24 * time.Hour // Phân tích 1 lần mỗi ngày
+	timeSegmentInterval = 86400          // Khoảng thời gian phân tích 1 ngày (24*3600 giây)
 )
 
 func Handle_daily_SMC() {
@@ -52,27 +52,27 @@ func Handle_daily_SMC() {
 	// Chờ 5 giây để đảm bảo dữ liệu bắt đầu được thu thập
 	time.Sleep(5 * time.Second)
 
-	// 2. KHỞI ĐỘNG CÁC GOROUTINE XỬ LÝ DỮ LIỆU VÀ GỬI LÊN BLOCKCHAIN
-	wg.Add(1)
-	go func() {
-		defer wg.Done()
+	// // 2. KHỞI ĐỘNG CÁC GOROUTINE XỬ LÝ DỮ LIỆU VÀ GỬI LÊN BLOCKCHAIN
+	// wg.Add(1)
+	// go func() {
+	// 	defer wg.Done()
 
-		ticker := time.NewTicker(analysisInterval)
-		defer ticker.Stop()
+	// 	ticker := time.NewTicker(analysisInterval)
+	// 	defer ticker.Stop()
 
-		// Phân tích và gửi lần đầu ngay lập tức
-		processAndSendDailyDataToBlockchain(timeSegmentInterval)
+	// 	// Phân tích và gửi lần đầu ngay lập tức
+	// 	processAndSendDailyDataToBlockchain(timeSegmentInterval)
 
-		// Sau đó phân tích và gửi theo chu kỳ
-		for {
-			select {
-			case <-ticker.C:
-				processAndSendDailyDataToBlockchain(timeSegmentInterval)
-			case <-stopChan:
-				return
-			}
-		}
-	}()
+	// 	// Sau đó phân tích và gửi theo chu kỳ
+	// 	for {
+	// 		select {
+	// 		case <-ticker.C:
+	// 			processAndSendDailyDataToBlockchain(timeSegmentInterval)
+	// 		case <-stopChan:
+	// 			return
+	// 		}
+	// 	}
+	// }()
 
 	// CHỜ TẤT CẢ GOROUTINES KẾT THÚC KHI CÓ TÍN HIỆU DỪNG
 	wg.Wait()

@@ -1,1 +1,22 @@
 2025/04/03 07:33:50 Initialized data for chain algorand
+2025/04/03 18:21:05 Initialized data for chain algorand
+2025/04/03 18:21:05 Warning: Cannot load config: open ./configs/config-algorand.json: no such file or directory, using default settings
+2025/04/03 18:21:05 ======= BẮT ĐẦU QUÉT NGƯỢC BLOCKCHAIN ALGORAND algorand =======
+2025/04/03 18:21:05 Sẽ quét lùi 1000 blocks từ block hiện tại
+2025/04/03 18:21:05 API URL: https://mainnet-api.algonode.cloud
+2025/04/03 18:21:05 Indexer URL: https://mainnet-idx.algonode.cloud
+2025/04/03 18:21:05 ==================================
+2025/04/03 18:21:05 Fetching current block from: https://mainnet-api.algonode.cloud/v2/status
+2025/04/03 18:33:59 Initialized data for chain algorand
+2025/04/03 18:33:59 Warning: Cannot load config: open ./configs/config-algorand.json: no such file or directory, using default settings
+2025/04/03 18:33:59 ======= BẮT ĐẦU QUÉT NGƯỢC BLOCKCHAIN ALGORAND algorand =======
+2025/04/03 18:33:59 Sẽ quét lùi 1000 blocks từ block hiện tại
+2025/04/03 18:33:59 API URL: https://mainnet-api.algonode.cloud
+2025/04/03 18:33:59 Indexer URL: https://mainnet-idx.algonode.cloud
+2025/04/03 18:33:59 ==================================
+2025/04/03 18:33:59 Fetching current block from: https://mainnet-api.algonode.cloud/v2/status
+2025/04/03 18:34:00 Current block is: 48660290
+2025/04/03 18:34:00 Starting backward scan from block 48660290 to block 48659290
+2025/04/03 18:34:00 Processing block 48660290
+2025/04/03 18:34:00 🔍 Fetching block info: 48660290
+2025/04/03 18:34:00 ✅ Fetched block: 48660290

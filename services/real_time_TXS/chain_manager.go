@@ -1,4 +1,4 @@
-package main
+package real_time_TXS
 
 import (
 	"math/big"
