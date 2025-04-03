@@ -14,9 +14,10 @@ import (
 
 // Các constants cho xử lý tháng
 var (
-	monthlyAnalysisInterval    = 24 * time.Hour // Phân tích 1 lần mỗi ngày cho dữ liệu tháng
-	monthlyTimeSegmentInterval = 14400          // Khoảng thời gian phân tích 4 giờ (14400 giây)
+	monthlyAnalysisInterval    = 30 * 24 * time.Hour // Phân tích 1 lần mỗi tháng (xấp xỉ)
+	monthlyTimeSegmentInterval = 2592000             // Khoảng thời gian phân tích 1 tháng (30*24*3600 giây)
 )
+
 
 func Handle_monthly_SMC() {
 	// Tạo channel để xử lý tín hiệu dừng
@@ -52,27 +53,27 @@ func Handle_monthly_SMC() {
 	// Chờ 5 giây để đảm bảo dữ liệu bắt đầu được thu thập
 	time.Sleep(5 * time.Second)
 
-	// 2. KHỞI ĐỘNG CÁC GOROUTINE XỬ LÝ DỮ LIỆU VÀ GỬI LÊN BLOCKCHAIN
-	wg.Add(1)
-	go func() {
-		defer wg.Done()
+	// // 2. KHỞI ĐỘNG CÁC GOROUTINE XỬ LÝ DỮ LIỆU VÀ GỬI LÊN BLOCKCHAIN
+	// wg.Add(1)
+	// go func() {
+	// 	defer wg.Done()
 
-		ticker := time.NewTicker(monthlyAnalysisInterval)
-		defer ticker.Stop()
+	// 	ticker := time.NewTicker(monthlyAnalysisInterval)
+	// 	defer ticker.Stop()
 
-		// Phân tích và gửi lần đầu ngay lập tức
-		processAndSendMonthlyDataToBlockchain(monthlyTimeSegmentInterval)
+	// 	// Phân tích và gửi lần đầu ngay lập tức
+	// 	processAndSendMonthlyDataToBlockchain(monthlyTimeSegmentInterval)
 
-		// Sau đó phân tích và gửi theo chu kỳ
-		for {
-			select {
-			case <-ticker.C:
-				processAndSendMonthlyDataToBlockchain(monthlyTimeSegmentInterval)
-			case <-stopChan:
-				return
-			}
-		}
-	}()
+	// 	// Sau đó phân tích và gửi theo chu kỳ
+	// 	for {
+	// 		select {
+	// 		case <-ticker.C:
+	// 			processAndSendMonthlyDataToBlockchain(monthlyTimeSegmentInterval)
+	// 		case <-stopChan:
+	// 			return
+	// 		}
+	// 	}
+	// }()
 
 	// CHỜ TẤT CẢ GOROUTINES KẾT THÚC KHI CÓ TÍN HIỆU DỪNG
 	wg.Wait()

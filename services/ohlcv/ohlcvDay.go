@@ -47,7 +47,7 @@ func historicalDataDay() {
 				TakerBuyBaseVol:  k[9].(string),
 				TakerBuyQuoteVol: k[10].(string),
 			}
-			ConnectToSMCDay(responseOHLCV)
+			// ConnectToSMCDay(responseOHLCV)
 			fmt.Printf("Symbol: %s | OpenTime: %d | Open: %s | High: %s | Low: %s | Close: %s | Volume: %s | CloseTime: %d | QuoteVolume: %s | Trades: %d | TakerBuyBase: %s | TakerBuyQuote: %s\n",
 				responseOHLCV.Symbol, responseOHLCV.OpenTime, responseOHLCV.Open, responseOHLCV.High, responseOHLCV.Low, responseOHLCV.Close, k[5].(string), responseOHLCV.CloseTime, k[7].(string), int(k[8].(float64)), k[9].(string), k[10].(string))
 			timetemp[coin] = responseOHLCV.OpenTime
@@ -104,21 +104,21 @@ func WebSocketOHLCVDay() {
 			closeTime := kline.CloseTime
 
 			if kline.OpenTime != lastKlinesDay[coin].OpenTime && timetemp[coin] != openTime {
-				responseOHLCV := ResponseOHLCV{
-					Symbol:           kline.Symbol,
-					OpenTime:         openTime,
-					Open:             strToBigInt(string(kline.Open)),
-					High:             strToBigInt(string(kline.High)),
-					Low:              strToBigInt(string(kline.Low)),
-					Close:            strToBigInt(string(kline.Close)),
-					Volume:           string(kline.Volume),
-					CloseTime:        new(big.Int).SetUint64(uint64(kline.CloseTime)),
-					QuoteAssetVolume: string(kline.QuoteAssetVolume),
-					NumberOfTrades:   new(big.Int).SetUint64(uint64(kline.NumberOfTrades)),
-					TakerBuyBaseVol:  string(kline.TakerBuyBaseVolume),
-					TakerBuyQuoteVol: string(kline.TakerBuyQuoteVolume),
-				}
-				ConnectToSMCDay(responseOHLCV)
+				// responseOHLCV := ResponseOHLCV{
+				// 	Symbol:           kline.Symbol,
+				// 	OpenTime:         openTime,
+				// 	Open:             strToBigInt(string(kline.Open)),
+				// 	High:             strToBigInt(string(kline.High)),
+				// 	Low:              strToBigInt(string(kline.Low)),
+				// 	Close:            strToBigInt(string(kline.Close)),
+				// 	Volume:           string(kline.Volume),
+				// 	CloseTime:        new(big.Int).SetUint64(uint64(kline.CloseTime)),
+				// 	QuoteAssetVolume: string(kline.QuoteAssetVolume),
+				// 	NumberOfTrades:   new(big.Int).SetUint64(uint64(kline.NumberOfTrades)),
+				// 	TakerBuyBaseVol:  string(kline.TakerBuyBaseVolume),
+				// 	TakerBuyQuoteVol: string(kline.TakerBuyQuoteVolume),
+				// }
+				// ConnectToSMCDay(responseOHLCV)
 				fmt.Printf("Real-time Data - Symbol: %s | OpenTime: %d | Open: %s | High: %s | Low: %s | Close: %s | Volume: %s | CloseTime: %d | QuoteVolume: %s | Trades: %d | TakerBuyBase: %s | TakerBuyQuote: %s\n",
 					kline.Symbol, openTime, kline.Open, kline.High, kline.Low, kline.Close, kline.Volume, closeTime, kline.QuoteAssetVolume, kline.NumberOfTrades, kline.TakerBuyBaseVolume, kline.TakerBuyQuoteVolume)
 				lastKlinesDay[coin] = kline

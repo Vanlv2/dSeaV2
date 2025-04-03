@@ -1,1 +1,14 @@
 2025/04/03 09:31:09 Cannot load config: open ./configs/config-stellar.json: no such file or directory
+2025/04/03 18:21:05 ======= BẮT ĐẦU QUÁ TRÌNH XỬ LÝ CHAIN COSMOS cosmos =======
+2025/04/03 18:21:05 Bước 1: Quét ngược về quá khứ (1h0m0s)
+2025/04/03 18:21:05 Cannot load config: open ./configs/config-stellar.json: no such file or directory
+2025/04/03 18:22:39 Cannot load config: open ./configs/config-stellar.json: no such file or directory
+2025/04/03 18:23:27 Cannot load config: open ./configs/config-stellar.json: no such file or directory
+2025/04/03 18:24:27 Initialized data for chain stellar, last processed ledger: 0
+2025/04/03 18:24:27 Cannot load config: open ./configs/config-stellar.json: no such file or directory
+2025/04/03 18:27:38 Cannot load config: open ./configs/config-stellar.json: no such file or directory
+2025/04/03 18:32:10 Cannot load config: open ./configs/config-stellar.json: no such file or directory
+2025/04/03 18:32:37 ======= BEGIN MONITORING STELLAR CHAIN stellar =======
+2025/04/03 18:32:37 Initialized data for chain stellar, starting from latest ledger: 56446579
+2025/04/03 18:32:37 Monitoring new ledgers every 5 seconds with missed ledger recovery...
+2025/04/03 18:32:37 ⏳ No new or missed ledgers detected. Latest ledger: 56446579, Last processed: 56446579

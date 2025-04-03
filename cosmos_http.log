@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2025/04/03 18:26:29 Khởi tạo dữ liệu cho chain cosmos, khối cuối cùng: 0
 2025/04/03 18:26:29 ======= BẮT ĐẦU QUÁ TRÌNH XỬ LÝ CHAIN COSMOS cosmos =======
 2025/04/03 18:26:29 Bước 1: Quét ngược về quá khứ (1h0m0s)
@@ -591,3 +592,9 @@
   "raw_data": ""
 }
 2025/04/03 18:31:41 ✅ Hoàn thành xử lý khối 25118628
+=======
+2025/04/03 18:21:05 Khởi tạo dữ liệu cho chain cosmos, khối cuối cùng: 0
+2025/04/03 18:21:30 Khởi tạo dữ liệu cho chain cosmos, khối cuối cùng: 0
+2025/04/03 18:21:30 ======= BẮT ĐẦU QUÁ TRÌNH XỬ LÝ CHAIN COSMOS cosmos =======
+2025/04/03 18:21:30 Bước 1: Quét ngược về quá khứ (1h0m0s)
+>>>>>>> origin/test

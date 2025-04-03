@@ -2565,6 +2565,7 @@
 2025/04/03 09:32:20 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
 2025/04/03 09:35:46 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
 2025/04/03 09:35:46 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+<<<<<<< HEAD
 2025/04/03 09:45:49 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
 2025/04/03 09:45:49 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: The system cannot find the path specified.
 2025/04/03 18:25:17 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
@@ -2575,3 +2576,45 @@
 2025/04/03 18:26:29 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: The system cannot find the path specified.
 2025/04/03 18:31:27 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
 2025/04/03 18:31:27 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: The system cannot find the path specified.
+=======
+2025/04/03 09:36:57 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 09:36:57 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 18:20:35 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 18:20:35 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 18:21:05 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 18:21:05 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 18:21:30 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 18:21:30 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 18:21:45 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 18:21:45 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 18:22:05 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 18:22:05 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 18:22:19 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 18:22:19 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 18:22:39 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 18:22:39 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 18:23:27 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 18:23:27 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 18:24:27 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 18:24:27 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 18:27:38 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 18:27:38 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 18:28:21 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 18:28:21 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 18:31:58 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 18:31:58 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 18:32:10 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 18:32:10 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 18:32:31 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 18:32:31 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 18:32:46 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 18:32:46 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 18:33:22 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 18:33:22 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 18:33:41 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 18:33:41 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 18:33:59 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 18:33:59 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 18:34:11 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 18:34:11 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+>>>>>>> origin/test

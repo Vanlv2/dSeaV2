@@ -124,7 +124,7 @@ func FearGreedindex() {
 		fmt.Printf("Value Classification: %s\n", formData.ValueClassification)
 		fmt.Println("-------------------")
 		// Gửi dữ liệu đến SMC (giả sử ConnectToSMC đã được định nghĩa)
-		ConnectToSMC(formData)
+		// ConnectToSMC(formData)
 	}
 
 	// Vòng lặp để log dữ liệu mới sau mỗi lần cập nhật
@@ -149,6 +149,6 @@ func FearGreedindex() {
 		fmt.Printf("Value Classification: %s\n", latest.ValueClassification)
 		fmt.Printf("Thời gian cập nhật tiếp theo: %d giây\n\n", timeUntilUpdate)
 		// Gửi dữ liệu mới nhất đến SMC
-		ConnectToSMC(latest)
+		// ConnectToSMC(latest)
 	}
 }
