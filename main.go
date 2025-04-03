@@ -4,17 +4,13 @@ import (
 	"log"
 
 	"main/services/bitcoinNetFlow"
-	"main/services/ohlcv"
-	"main/services/stablecoin"
 )
-
-// BinanceView KrakenView, binance, kraken, models
 
 func main() {
 	log.Println("Starting to fetch Binance coin prices...")
 
-	go ohlcv.RunOHLCV()
-	go stablecoin.Stablecoin()
+	// go narrativesPerforments.NarrativesPerforment()
+	// go stablecoin.Stablecoin()
 	go bitcoinNetFlow.BitcoinNetFlow()
 
 	select {}

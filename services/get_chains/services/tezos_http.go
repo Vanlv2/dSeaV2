@@ -10,10 +10,9 @@ import (
 	"os"
 	"time"
 
-	"main/configs"
-	"main/model"
+	"main/services/get_chains/configs"
+	"main/services/get_chains/model"
 )
-
 
 // Khởi tạo dữ liệu cho chuỗi Tezos
 func InitChainData(chainName string) *model.ChainDataTezos {

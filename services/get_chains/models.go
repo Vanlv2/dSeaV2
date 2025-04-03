@@ -1,4 +1,4 @@
-package main
+package get_chains
 
 import (
 	"math/big"
@@ -60,14 +60,14 @@ var chains = make(map[string]*ChainData)
 var chainsLock sync.RWMutex
 
 var chooseChain = map[string]string{
-	"ethereum":  "./config_chain/config-ethereum.json",
-	"bsc":       "./config_chain/config-bsc.json",
-	"avalanche": "./config_chain/config-avalanche.json",
-	"polygon":   "./config_chain/config-polygon.json",
-	"arbitrum":  "./config_chain/config-arbitrum.json",
-	"optimism":  "./config_chain/config-optimism.json",
-	"fantom":    "./config_chain/config-fantom.json",
-	"base":      "./config_chain/config-base.json",
-	"tron":      "./config_chain/config-tron.json",
+	"ethereum":  "./services/get_chains/config_chain/config-ethereum.json",
+	"bsc":       "./services/get_chains/config_chain/config-bsc.json",
+	"avalanche": "./services/get_chains/config_chain/config-avalanche.json",
+	"polygon":   "./services/get_chains/config_chain/config-polygon.json",
+	"arbitrum":  "./services/get_chains/config_chain/config-arbitrum.json",
+	"optimism":  "./services/get_chains/config_chain/config-optimism.json",
+	"fantom":    "./services/get_chains/config_chain/config-fantom.json",
+	"base":      "./services/get_chains/config_chain/config-base.json",
+	"tron":      "./services/get_chains/config_chain/config-tron.json",
 }
 var processLock sync.Mutex
