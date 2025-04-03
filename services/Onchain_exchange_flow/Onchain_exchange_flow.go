@@ -1,4 +1,4 @@
-package main
+package Onchain_exchange_flow
 
 import (
 	"fmt"
@@ -19,7 +19,7 @@ const (
 	bscscanAPIKey = "TZR6PYQJPSREBUJHTYWP948TXHD3MXNQ7W"
 )
 
-func main() {
+func Onchain_exchange_flow() {
 	// --- Lấy API Key từ biến môi trường ---
 	covalentApiKey := "cqt_rQPfJ7vGRjF6yqYwdmwfcPVJ4ByH"
 

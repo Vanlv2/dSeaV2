@@ -1,4 +1,4 @@
-package main
+package real_time_TXS
 
 import (
 	"context"
@@ -151,7 +151,7 @@ func run_chains() {
 	select {}
 }
 
-func main() {
+func Real_time_txs() {
 	InitTokenPrices()
 	go printGlobalTransactions()
 	run_chains()
