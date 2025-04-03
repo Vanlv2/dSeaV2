@@ -1,0 +1,6 @@
+{
+  "horizon_url": "https://horizon.stellar.org",
+  "network": "public",
+  "wssUrl": "wss://horizon.stellar.org",
+  "chain": "stellar"
+}

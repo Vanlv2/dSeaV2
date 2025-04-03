@@ -1,0 +1,8 @@
+{
+  "rpc": "https://bsc-mainnet.core.chainstack.com/8e6310f0dc371b60ddc0de98a4d5d1e3",
+  "wssRpc": "wss://bsc-mainnet.core.chainstack.com/8e6310f0dc371b60ddc0de98a4d5d1e3",
+  "wrappedBTCAddress": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+  "wrapWrappedBNBAddress": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+  "chain": "bsc",
+  "timeNeedToBlock": 100
+}

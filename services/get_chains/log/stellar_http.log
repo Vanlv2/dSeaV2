@@ -1,0 +1,6 @@
+2025/04/03 07:33:50 Bắt đầu theo dõi blockchain Tron theo thời gian thực...
+2025/04/03 07:33:50 Sử dụng node Tron chính: https://tron-rpc.publicnode.com/jsonrpc
+2025/04/03 07:33:50 ======= BẮT ĐẦU QUÁ TRÌNH XỬ LÝ CHAIN COSMOS cosmos =======
+2025/04/03 07:33:50 Bước 1: Quét ngược về quá khứ (1h0m0s)
+2025/04/03 07:33:50 Initialized data for chain stellar, last processed ledger: 0
+2025/04/03 07:33:50 Kết nối đến blockchain cosmos qua WebSocket: wss://cosmos-rpc.publicnode.com:443/websocket
