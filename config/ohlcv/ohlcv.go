@@ -5,6 +5,6 @@ const PrivateKeyDay = "1318c69b804769a5472a284f80853d4c54914fbf289be1bac2480f828
 const PrivateKeyWeek = "97bb2502444a7024cf9e703b309d6b37495ea1fc1cbcb6c22d55ded457ef0d6b"
 const PrivateKeyMonth = "e9cef82ff3a2cfdec4819c81850fd28198c477eced7a6d3d4484d2cd8fbe6d6c"
 
-const ContractAddressDay = "0x71D816f8ED8ad7F4C4D82a9a24f70908a3Da3057"
-const ContractAddressWeek = "0x2EA0A1CafD7517943C5E1601A9633cCef25dBb76"
-const ContractAddressMonth = "0x21aEA72Bc8eCc984375beBEa68e70d0248E240B5"
+const ContractAddressDay = "0xFf38207Ba2708f01a1Bf107Db21dF0f8A342920E"
+const ContractAddressWeek = "0xbD289012ded5642c6cd01Bd7702CCB25CFc40b76"
+const ContractAddressMonth = "0x249C92cB01267bedc73E6AD0525559F4CA715Ca9"

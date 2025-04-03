@@ -2,81 +2,6 @@ package ohlcvConfig
 
 const ContractABIWeek = `[
 	{
-		"inputs": [
-			{
-				"components": [
-					{
-						"internalType": "string",
-						"name": "symbol",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "openTime",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "open",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "high",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "low",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "close",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "volume",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "closeTime",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "quoteAssetVolume",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "numberOfTrades",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "takerBuyBaseVol",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "takerBuyQuoteVol",
-						"type": "string"
-					}
-				],
-				"internalType": "struct OHLCVWeek.FormData",
-				"name": "formData",
-				"type": "tuple"
-			}
-		],
-		"name": "recordData",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
 		"anonymous": false,
 		"inputs": [
 			{
@@ -92,24 +17,24 @@ const ContractABIWeek = `[
 						"type": "uint256"
 					},
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "open",
-						"type": "string"
+						"type": "uint256"
 					},
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "high",
-						"type": "string"
+						"type": "uint256"
 					},
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "low",
-						"type": "string"
+						"type": "uint256"
 					},
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "close",
-						"type": "string"
+						"type": "uint256"
 					},
 					{
 						"internalType": "string",
@@ -174,24 +99,24 @@ const ContractABIWeek = `[
 						"type": "uint256"
 					},
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "open",
-						"type": "string"
+						"type": "uint256"
 					},
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "high",
-						"type": "string"
+						"type": "uint256"
 					},
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "low",
-						"type": "string"
+						"type": "uint256"
 					},
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "close",
-						"type": "string"
+						"type": "uint256"
 					},
 					{
 						"internalType": "string",
@@ -260,24 +185,24 @@ const ContractABIWeek = `[
 						"type": "uint256"
 					},
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "open",
-						"type": "string"
+						"type": "uint256"
 					},
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "high",
-						"type": "string"
+						"type": "uint256"
 					},
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "low",
-						"type": "string"
+						"type": "uint256"
 					},
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "close",
-						"type": "string"
+						"type": "uint256"
 					},
 					{
 						"internalType": "string",
@@ -351,24 +276,24 @@ const ContractABIWeek = `[
 						"type": "uint256"
 					},
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "open",
-						"type": "string"
+						"type": "uint256"
 					},
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "high",
-						"type": "string"
+						"type": "uint256"
 					},
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "low",
-						"type": "string"
+						"type": "uint256"
 					},
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "close",
-						"type": "string"
+						"type": "uint256"
 					},
 					{
 						"internalType": "string",
@@ -437,24 +362,24 @@ const ContractABIWeek = `[
 						"type": "uint256"
 					},
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "open",
-						"type": "string"
+						"type": "uint256"
 					},
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "high",
-						"type": "string"
+						"type": "uint256"
 					},
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "low",
-						"type": "string"
+						"type": "uint256"
 					},
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "close",
-						"type": "string"
+						"type": "uint256"
 					},
 					{
 						"internalType": "string",
@@ -493,6 +418,81 @@ const ContractABIWeek = `[
 			}
 		],
 		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "symbol",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "openTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "open",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "high",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "low",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "close",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "volume",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "closeTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "quoteAssetVolume",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numberOfTrades",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "takerBuyBaseVol",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "takerBuyQuoteVol",
+						"type": "string"
+					}
+				],
+				"internalType": "struct OHLCVWeek.FormData",
+				"name": "formData",
+				"type": "tuple"
+			}
+		],
+		"name": "recordData",
+		"outputs": [],
+		"stateMutability": "nonpayable",
 		"type": "function"
 	}
 ]`

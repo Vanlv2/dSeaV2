@@ -2,17 +2,18 @@ package main
 
 import (
 	"log"
-	getChains "main/services/get_chains"
+	"main/services/get_chains"
 )
 
 func main() {
 	log.Println("Starting to fetch Binance coin prices...")
 
+	//done
 	// go ohlcv.RunOHLCV()
 	// go stablecoin.Stablecoin()
+	// go fearGreedindex.FearGreedindex()
 	// go bitcoinNetFlow.BitcoinNetFlow()
-	getChains.StartGetChains()
+	go get_chains.StartGetChains()
 
 	select {}
-	// WaitGroup để đảm bảo tất cả goroutines đều kết thúc an toàn
 }
