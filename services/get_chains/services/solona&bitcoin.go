@@ -79,25 +79,25 @@ func setupLoggers() error {
 	}
 
 	// Mở file log chung
-	mainLogFile, err := os.OpenFile("./log/crypto_market.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
+	mainLogFile, err := os.OpenFile("./services/get_chains/log/crypto_market.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
 	if err != nil {
 		return fmt.Errorf("không thể mở file log chính: %v", err)
 	}
 
 	// Mở file log cho BTC
-	btcLogFile, err := os.OpenFile("./log/btc_market.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
+	btcLogFile, err := os.OpenFile("./services/get_chains/log/btc_market.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
 	if err != nil {
 		return fmt.Errorf("không thể mở file log BTC: %v", err)
 	}
 
 	// Mở file log cho ETH
-	ethLogFile, err := os.OpenFile("./log/eth_market.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
+	ethLogFile, err := os.OpenFile("./services/get_chains/log/eth_market.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
 	if err != nil {
 		return fmt.Errorf("không thể mở file log ETH: %v", err)
 	}
 
 	// Mở file log cho SOL
-	solLogFile, err := os.OpenFile("./log/sol_market.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
+	solLogFile, err := os.OpenFile("./services/get_chains/log/sol_market.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
 	if err != nil {
 		return fmt.Errorf("không thể mở file log SOL: %v", err)
 	}

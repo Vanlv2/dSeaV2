@@ -10,8 +10,8 @@ import (
 	"os"
 	"time"
 
-	"main/configs"
-	"main/model"
+	"main/services/get_chains/configs"
+	"main/services/get_chains/model"
 )
 
 // Khởi tạo dữ liệu cho chuỗi Algorand
@@ -246,7 +246,7 @@ func Handle_algorand_http() {
 	}
 
 	// Mở file log
-	logFile, err := os.OpenFile("./log/algorand_http.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
+	logFile, err := os.OpenFile("./services/get_chains/log/algorand_http.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
 	if err != nil {
 		log.Fatalf("Cannot open log file: %v", err)
 	}

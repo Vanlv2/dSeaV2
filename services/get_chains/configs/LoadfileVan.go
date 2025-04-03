@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"main/model"
+	"main/services/get_chains/model"
 )
 
 // LoadConfig tải cấu hình từ file JSON và lưu vào ChainDataMap

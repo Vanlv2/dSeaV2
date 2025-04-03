@@ -1,14 +1,17 @@
 module main
 
-go 1.23.4
+go 1.23.3
 
 require (
 	github.com/beldur/kraken-go-api-client v0.0.0-20240207163059-7469c489f802
-	github.com/ethereum/go-ethereum v1.15.6
+	github.com/blocto/solana-go-sdk v1.30.0
+	github.com/ethereum/go-ethereum v1.15.7
 	github.com/gorilla/websocket v1.5.3
+	github.com/mr-tron/base58 v1.2.0
 )
 
 require (
+	filippo.io/edwards25519 v1.0.0-rc.1 // indirect
 	github.com/Microsoft/go-winio v0.6.2 // indirect
 	github.com/StackExchange/wmi v1.2.1 // indirect
 	github.com/bits-and-blooms/bitset v1.17.0 // indirect
