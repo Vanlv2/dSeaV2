@@ -1,4 +1,4 @@
-package main
+package get_chains
 
 import (
 	"encoding/json"

@@ -10,14 +10,14 @@ import (
 	"os"
 	"time"
 
-	"main/configs"
-	"main/model"
+	"main/services/get_chains/configs"
+	"main/services/get_chains/model"
 )
 
 // Hàm chính xử lý Stellar qua HTTP, bắt đầu từ ledger mới nhất tại thời điểm hiện tại
 func Handle_stellar_ws() {
 	chainName := "stellar"
-	logFile, err := os.OpenFile("./log/stellar_ws.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
+	logFile, err := os.OpenFile("./services/get_chains/log/stellar_ws.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
 	if err != nil {
 		log.Fatalf("Cannot open log file: %v", err)
 	}

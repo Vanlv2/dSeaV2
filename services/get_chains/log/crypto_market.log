@@ -2557,3 +2557,11 @@
 2025/04/03 07:33:56 [BIẾN ĐỘNG GIÁ] BTC TĂNG 0.07% trong 1 phút (83272.16 -> 83332.00 USDT)
 2025/04/03 07:33:56 Đóng kết nối WebSocket kline cho BTCUSDT
 2025/04/03 07:33:56 ======= KẾT THÚC XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 09:30:05 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 09:30:05 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 09:31:09 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 09:31:09 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 09:32:20 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 09:32:20 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory
+2025/04/03 09:35:46 ======= BẮT ĐẦU XỬ LÝ DỮ LIỆU TIỀN ĐIỆN TỬ =======
+2025/04/03 09:35:46 Lỗi khi đọc file cấu hình: open ./configs/config-binance.json: no such file or directory

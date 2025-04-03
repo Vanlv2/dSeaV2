@@ -1,4 +1,4 @@
-package main
+package get_chains
 
 import (
 	"context"
@@ -68,7 +68,7 @@ func handle_cosmos_ws() {
 	log.SetOutput(logFile)
 
 	// Đọc file cấu hình
-	configFile, err := os.ReadFile("./config_chain/config-cosmos.json")
+	configFile, err := os.ReadFile("./services/get_chains/config_chain/config-cosmos.json")
 	if err != nil {
 		log.Fatalf("Không thể đọc file cấu hình: %v", err)
 	}

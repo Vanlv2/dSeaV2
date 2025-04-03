@@ -1,4 +1,4 @@
-package main
+package get_chains
 
 import (
 	"encoding/json"
@@ -640,7 +640,7 @@ func handle_cosmos_http() {
 		chainName, chainData.LastProcessedBlock)
 
 	// Tải cấu hình
-	if err := load_cosmos_config("./config_chain/config-cosmos.json", chainName); err != nil {
+	if err := load_cosmos_config("./services/get_chains/config_chain/config-cosmos.json", chainName); err != nil {
 		log.Fatalf("Không thể tải cấu hình: %v", err)
 	}
 

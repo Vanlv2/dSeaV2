@@ -11,7 +11,7 @@ import (
 	"github.com/blocto/solana-go-sdk/client"
 	"github.com/mr-tron/base58"
 
-	"main/configs"
+	"main/services/get_chains/configs"
 )
 
 type Transaction struct {
