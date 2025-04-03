@@ -27,8 +27,6 @@ var coins = []string{
 // 	"btcusdt",
 // }
 
-// + 271158000)
-
 // StringOrFloat là kiểu tùy chỉnh để xử lý cả string và float64
 type StringOrFloat string
 
