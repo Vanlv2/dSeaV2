@@ -14,9 +14,10 @@ import (
 
 // Các constants cho xử lý tháng
 var (
-	monthlyAnalysisInterval    = 24 * time.Hour // Phân tích 1 lần mỗi ngày cho dữ liệu tháng
-	monthlyTimeSegmentInterval = 14400          // Khoảng thời gian phân tích 4 giờ (14400 giây)
+	monthlyAnalysisInterval    = 30 * 24 * time.Hour // Phân tích 1 lần mỗi tháng (xấp xỉ)
+	monthlyTimeSegmentInterval = 2592000             // Khoảng thời gian phân tích 1 tháng (30*24*3600 giây)
 )
+
 
 func Handle_monthly_SMC() {
 	// Tạo channel để xử lý tín hiệu dừng

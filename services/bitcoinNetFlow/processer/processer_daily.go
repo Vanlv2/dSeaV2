@@ -12,10 +12,10 @@ import (
 	sendData "main/services/bitcoinNetFlow/smart_contract/send_data"
 )
 
-// Các constants cần được định nghĩa ở đâu đó trong package
+// Các constants cho xử lý ngày
 var (
-	analysisInterval    = 6 * time.Second // Hoặc một giá trị phù hợp
-	timeSegmentInterval = 6               // Hoặc một giá trị phù hợp (5 phút = 300 giây)
+	analysisInterval    = 24 * time.Hour // Phân tích 1 lần mỗi ngày
+	timeSegmentInterval = 86400          // Khoảng thời gian phân tích 1 ngày (24*3600 giây)
 )
 
 func Handle_daily_SMC() {
