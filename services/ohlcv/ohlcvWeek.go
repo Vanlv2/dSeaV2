@@ -35,13 +35,13 @@ func historicalDataWeek() {
 		for _, k := range klines {
 			responseOHLCV := ResponseOHLCV{
 				Symbol:           strings.ToUpper(coin),
-				OpenTime:         new(big.Int).SetUint64(uint64(k[0].(float64))),
-				Open:             k[1].(string),
-				High:             k[2].(string),
-				Low:              k[3].(string),
-				Close:            k[4].(string),
+				OpenTime:         new(big.Int).SetUint64(uint64(k[0].(float64)) + 271158000),
+				Open:             strToBigInt(k[1].(string)),
+				High:             strToBigInt(k[2].(string)),
+				Low:              strToBigInt(k[3].(string)),
+				Close:            strToBigInt(k[4].(string)),
 				Volume:           k[5].(string),
-				CloseTime:        new(big.Int).SetUint64(uint64(k[6].(float64))),
+				CloseTime:        new(big.Int).SetUint64(uint64(k[6].(float64)) + 271158000),
 				QuoteAssetVolume: k[7].(string),
 				NumberOfTrades:   new(big.Int).SetUint64(uint64(k[8].(float64))),
 				TakerBuyBaseVol:  k[9].(string),
@@ -49,7 +49,7 @@ func historicalDataWeek() {
 			}
 			ConnectToSMCWeek(responseOHLCV)
 			fmt.Printf("Symbol: %s | OpenTime: %d | Open: %s | High: %s | Low: %s | Close: %s | Volume: %s | CloseTime: %d | QuoteVolume: %s | Trades: %d | TakerBuyBase: %s | TakerBuyQuote: %s\n",
-				responseOHLCV.Symbol, responseOHLCV.OpenTime, k[1].(string), k[2].(string), k[3].(string), k[4].(string), k[5].(string), responseOHLCV.CloseTime, k[7].(string), int(k[8].(float64)), k[9].(string), k[10].(string))
+				responseOHLCV.Symbol, responseOHLCV.OpenTime, responseOHLCV.Open, responseOHLCV.High, responseOHLCV.Low, responseOHLCV.Close, k[5].(string), responseOHLCV.CloseTime, k[7].(string), int(k[8].(float64)), k[9].(string), k[10].(string))
 			timetemp[coin] = responseOHLCV.OpenTime
 		}
 	}
@@ -100,19 +100,19 @@ func WebSocketOHLCVWeek() {
 			lastMessageTime = time.Now()
 
 			kline := wsData.Kline
-			openTime := new(big.Int).SetUint64(uint64(kline.OpenTime))
+			openTime := new(big.Int).SetUint64(uint64(kline.OpenTime) + 271158000)
 			closeTime := kline.CloseTime
 
 			if kline.OpenTime != lastKlinesWeek[coin].OpenTime && timetemp[coin] != openTime {
 				responseOHLCV := ResponseOHLCV{
 					Symbol:           kline.Symbol,
 					OpenTime:         openTime,
-					Open:             string(kline.Open),
-					High:             string(kline.High),
-					Low:              string(kline.Low),
-					Close:            string(kline.Close),
+					Open:             strToBigInt(string(kline.Open)),
+					High:             strToBigInt(string(kline.High)),
+					Low:              strToBigInt(string(kline.Low)),
+					Close:            strToBigInt(string(kline.Close)),
 					Volume:           string(kline.Volume),
-					CloseTime:        new(big.Int).SetUint64(uint64(kline.CloseTime)),
+					CloseTime:        new(big.Int).SetUint64(uint64(kline.CloseTime) + 271158000),
 					QuoteAssetVolume: string(kline.QuoteAssetVolume),
 					NumberOfTrades:   new(big.Int).SetUint64(uint64(kline.NumberOfTrades)),
 					TakerBuyBaseVol:  string(kline.TakerBuyBaseVolume),

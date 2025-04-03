@@ -99,3 +99,518 @@
   "raw_data": ""
 }
 2025/04/03 09:35:54 ✅ Hoàn thành xử lý khối 25113136
+2025/04/03 09:45:49 Khởi tạo dữ liệu cho chain cosmos, khối cuối cùng: 0
+2025/04/03 09:45:49 ======= BẮT ĐẦU QUÁ TRÌNH XỬ LÝ CHAIN COSMOS cosmos =======
+2025/04/03 09:45:49 Bước 1: Quét ngược về quá khứ (1h0m0s)
+2025/04/03 09:45:50 ======= KHỞI ĐỘNG HỆ THỐNG NGƯỢC CHO CHAIN COSMOS cosmos =======
+2025/04/03 09:45:50 Bắt đầu quét từ khối hiện tại = 25113242
+2025/04/03 09:45:50 Thời gian mục tiêu: 2025-04-03 01:45:38.954875433 +0000 UTC
+2025/04/03 09:45:50 ==================================
+2025/04/03 09:45:50 🔍 Đang lấy thông tin khối: 25113242
+2025/04/03 09:45:51 ✅ Đã lấy khối: 25113242
+2025/04/03 09:45:51 BLOCK MỚI #25113242 | Chain: cosmoshub-4 | Time: 2025-04-03T02:45:38Z | Hash: 1F0098F674357E18D192CA59A0466ADFB5A6376BCF3EC502CA0FDE835280892E
+2025/04/03 09:45:51 Số lượng giao dịch trong block #25113242: 1
+2025/04/03 09:45:51 Đã ghi khối 25113242 (1 giao dịch) vào file cho chain cosmos
+2025/04/03 09:45:51 GIAO DỊCH TRONG BLOCK #25113242:
+{
+  "block_height": "25113242",
+  "block_hash": "1F0098F674357E18D192CA59A0466ADFB5A6376BCF3EC502CA0FDE835280892E",
+  "block_time": "2025-04-03T02:45:38.954875433Z",
+  "chain_id": "cosmos",
+  "tx_hash": "311B91BBF84FDA67C87527C01834FA564BBDD36C1F19E2194A518263E922348D",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos1kv2cr60l2ugy25cnwr3dfz2694h7mm8mdr76s9",
+  "amount": "2346",
+  "token": "uatom",
+  "total_amount": "2346uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:45:38Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:45:51 ✅ Hoàn thành xử lý khối 25113242
+2025/04/03 09:45:52 🔍 Đang lấy thông tin khối: 25113241
+2025/04/03 09:45:52 ✅ Đã lấy khối: 25113241
+2025/04/03 09:45:53 BLOCK MỚI #25113241 | Chain: cosmoshub-4 | Time: 2025-04-03T02:45:32Z | Hash: 3B3A052DE29C0231AF7849A5CF18456B0F88EAEA858D044143D77F2D85D6287C
+2025/04/03 09:45:53 Số lượng giao dịch trong block #25113241: 3
+2025/04/03 09:45:53 Đã ghi khối 25113241 (3 giao dịch) vào file cho chain cosmos
+2025/04/03 09:45:53 GIAO DỊCH TRONG BLOCK #25113241:
+{
+  "block_height": "25113241",
+  "block_hash": "3B3A052DE29C0231AF7849A5CF18456B0F88EAEA858D044143D77F2D85D6287C",
+  "block_time": "2025-04-03T02:45:32.886830704Z",
+  "chain_id": "cosmos",
+  "tx_hash": "0B7D24BD6A7E5772DB48118F8AC3CCA0CFF68AE1B9F777AB3B49CD520E704FE6",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos1mf42422ee8hc3gltx7clzp7tyen7hw4tqt5jwa",
+  "amount": "804",
+  "token": "uatom",
+  "total_amount": "804uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:45:32Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:45:53 GIAO DỊCH TRONG BLOCK #25113241:
+{
+  "block_height": "25113241",
+  "block_hash": "3B3A052DE29C0231AF7849A5CF18456B0F88EAEA858D044143D77F2D85D6287C",
+  "block_time": "2025-04-03T02:45:32.886830704Z",
+  "chain_id": "cosmos",
+  "tx_hash": "7FDBEDBAC29219C94E39D145E4DA9798D49AAA241090D27187E5940CB9A69C2F",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos1mf42422ee8hc3gltx7clzp7tyen7hw4tqt5jwa",
+  "amount": "2415",
+  "token": "uatom",
+  "total_amount": "2415uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:45:32Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:45:53 GIAO DỊCH TRONG BLOCK #25113241:
+{
+  "block_height": "25113241",
+  "block_hash": "3B3A052DE29C0231AF7849A5CF18456B0F88EAEA858D044143D77F2D85D6287C",
+  "block_time": "2025-04-03T02:45:32.886830704Z",
+  "chain_id": "cosmos",
+  "tx_hash": "6FE990BDED5288CEF1B021B9E7D736FEC291A8EC20242495788252624B430679",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos1mf42422ee8hc3gltx7clzp7tyen7hw4tqt5jwa",
+  "amount": "583",
+  "token": "uatom",
+  "total_amount": "583uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:45:32Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:45:53 ✅ Hoàn thành xử lý khối 25113241
+2025/04/03 09:45:54 🔍 Đang lấy thông tin khối: 25113240
+2025/04/03 09:45:54 ✅ Đã lấy khối: 25113240
+2025/04/03 09:45:55 BLOCK MỚI #25113240 | Chain: cosmoshub-4 | Time: 2025-04-03T02:45:26Z | Hash: 16DFC3470EB145799E8176A58760D7455DC3E17E942A5B36355CAC688D9A1A9A
+2025/04/03 09:45:55 Số lượng giao dịch trong block #25113240: 2
+2025/04/03 09:45:55 Đã ghi khối 25113240 (2 giao dịch) vào file cho chain cosmos
+2025/04/03 09:45:55 GIAO DỊCH TRONG BLOCK #25113240:
+{
+  "block_height": "25113240",
+  "block_hash": "16DFC3470EB145799E8176A58760D7455DC3E17E942A5B36355CAC688D9A1A9A",
+  "block_time": "2025-04-03T02:45:26.890743442Z",
+  "chain_id": "cosmos",
+  "tx_hash": "9A20FBEF28F40C1A6ABA304AE7BE50BE25D261E96DDF82BF83C073CE38F642C0",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos1yxv746y5egu3l2p0q8pvv99lavgr6ptvuspc0g",
+  "amount": "275",
+  "token": "uatom",
+  "total_amount": "275uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:45:26Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:45:55 GIAO DỊCH TRONG BLOCK #25113240:
+{
+  "block_height": "25113240",
+  "block_hash": "16DFC3470EB145799E8176A58760D7455DC3E17E942A5B36355CAC688D9A1A9A",
+  "block_time": "2025-04-03T02:45:26.890743442Z",
+  "chain_id": "cosmos",
+  "tx_hash": "2C4494394E4DFEF28B30459422743004859DA2DD867C91B2C336255DACDA927E",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos1yxv746y5egu3l2p0q8pvv99lavgr6ptvuspc0g",
+  "amount": "8561",
+  "token": "uatom",
+  "total_amount": "8561uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:45:26Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:45:55 ✅ Hoàn thành xử lý khối 25113240
+2025/04/03 09:45:55 🔍 Đang lấy thông tin khối: 25113239
+2025/04/03 09:45:55 ✅ Đã lấy khối: 25113239
+2025/04/03 09:45:56 BLOCK MỚI #25113239 | Chain: cosmoshub-4 | Time: 2025-04-03T02:45:20Z | Hash: 6412AFF731C4D6835F16E67BCAE314A8DB0FD9114A0F7A6967DB537C0B010ED7
+2025/04/03 09:45:56 Số lượng giao dịch trong block #25113239: 1
+2025/04/03 09:45:56 Đã ghi khối 25113239 (1 giao dịch) vào file cho chain cosmos
+2025/04/03 09:45:56 GIAO DỊCH TRONG BLOCK #25113239:
+{
+  "block_height": "25113239",
+  "block_hash": "6412AFF731C4D6835F16E67BCAE314A8DB0FD9114A0F7A6967DB537C0B010ED7",
+  "block_time": "2025-04-03T02:45:20.856980901Z",
+  "chain_id": "cosmos",
+  "tx_hash": "DD22744BB06AEAC124F0CDFCB4CD1C75C048B871D4D8B619F9E8CC39FE390443",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos1upc05nc9pwhhagnkr3f2dft327qxsxfe4t6msw",
+  "amount": "3924",
+  "token": "uatom",
+  "total_amount": "3924uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:45:20Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:45:56 ✅ Hoàn thành xử lý khối 25113239
+2025/04/03 09:45:56 🔍 Đang lấy thông tin khối: 25113238
+2025/04/03 09:45:57 ✅ Đã lấy khối: 25113238
+2025/04/03 09:45:57 BLOCK MỚI #25113238 | Chain: cosmoshub-4 | Time: 2025-04-03T02:45:14Z | Hash: C7B748316370A3061004B3ECEBF8A862D8FBF61E8657A3A4DEEDE376F6FA9559
+2025/04/03 09:45:57 Số lượng giao dịch trong block #25113238: 1
+2025/04/03 09:45:57 Đã ghi khối 25113238 (1 giao dịch) vào file cho chain cosmos
+2025/04/03 09:45:57 GIAO DỊCH TRONG BLOCK #25113238:
+{
+  "block_height": "25113238",
+  "block_hash": "C7B748316370A3061004B3ECEBF8A862D8FBF61E8657A3A4DEEDE376F6FA9559",
+  "block_time": "2025-04-03T02:45:14.817638646Z",
+  "chain_id": "cosmos",
+  "tx_hash": "8B979B7D61927CAA41D634426820DD5B4AD945CEFB35D944D4345D45C651BA60",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos1qrxwan7srvknxwsm264l0nlc56uw6fd328ge77",
+  "amount": "1750",
+  "token": "uatom",
+  "total_amount": "1750uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:45:14Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:45:57 ✅ Hoàn thành xử lý khối 25113238
+2025/04/03 09:45:57 🔍 Đang lấy thông tin khối: 25113237
+2025/04/03 09:45:58 ✅ Đã lấy khối: 25113237
+2025/04/03 09:45:58 BLOCK MỚI #25113237 | Chain: cosmoshub-4 | Time: 2025-04-03T02:45:08Z | Hash: B8C98BBE2B5C8BBC261FC8BF57B9BF7E4ED127823D6107330C14B87B4C81DA65
+2025/04/03 09:45:58 Số lượng giao dịch trong block #25113237: 2
+2025/04/03 09:45:58 Đã ghi khối 25113237 (2 giao dịch) vào file cho chain cosmos
+2025/04/03 09:45:58 GIAO DỊCH TRONG BLOCK #25113237:
+{
+  "block_height": "25113237",
+  "block_hash": "B8C98BBE2B5C8BBC261FC8BF57B9BF7E4ED127823D6107330C14B87B4C81DA65",
+  "block_time": "2025-04-03T02:45:08.274428551Z",
+  "chain_id": "cosmos",
+  "tx_hash": "E2BF1FBB75F74C39B997363B8D7C316C0C34DD4CCE1B0B3D1566F00B87FCB5CD",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos13c8wx7mmrgpcm529uv83a7ta7dseaapfrd7lee",
+  "amount": "418",
+  "token": "uatom",
+  "total_amount": "418uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:45:08Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:45:58 GIAO DỊCH TRONG BLOCK #25113237:
+{
+  "block_height": "25113237",
+  "block_hash": "B8C98BBE2B5C8BBC261FC8BF57B9BF7E4ED127823D6107330C14B87B4C81DA65",
+  "block_time": "2025-04-03T02:45:08.274428551Z",
+  "chain_id": "cosmos",
+  "tx_hash": "B860665DA4C8860BCA2D4CDD3502405CC9B07A5BD0B330FF0021F42F30E26C12",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos13c8wx7mmrgpcm529uv83a7ta7dseaapfrd7lee",
+  "amount": "2937",
+  "token": "uatom",
+  "total_amount": "2937uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:45:08Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:45:58 ✅ Hoàn thành xử lý khối 25113237
+2025/04/03 09:45:59 🔍 Đang lấy thông tin khối: 25113236
+2025/04/03 09:45:59 ✅ Đã lấy khối: 25113236
+2025/04/03 09:45:59 BLOCK MỚI #25113236 | Chain: cosmoshub-4 | Time: 2025-04-03T02:45:02Z | Hash: 89153F709BE990F6AE2F28F3F3E3B0CB33E1043A2C31D2858B307B790583FB36
+2025/04/03 09:45:59 Số lượng giao dịch trong block #25113236: 4
+2025/04/03 09:45:59 Đã ghi khối 25113236 (4 giao dịch) vào file cho chain cosmos
+2025/04/03 09:45:59 GIAO DỊCH TRONG BLOCK #25113236:
+{
+  "block_height": "25113236",
+  "block_hash": "89153F709BE990F6AE2F28F3F3E3B0CB33E1043A2C31D2858B307B790583FB36",
+  "block_time": "2025-04-03T02:45:02.116426126Z",
+  "chain_id": "cosmos",
+  "tx_hash": "1DADB8CE8E53979AA699AAC9F16AC7F1AD5B3686363697CA6D76224F2D3B4A38",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos1ld8myknpkjf6t0uw8n2tt684kszd4r3rlrzwdc",
+  "amount": "8640",
+  "token": "uatom",
+  "total_amount": "8640uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:45:02Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:45:59 GIAO DỊCH TRONG BLOCK #25113236:
+{
+  "block_height": "25113236",
+  "block_hash": "89153F709BE990F6AE2F28F3F3E3B0CB33E1043A2C31D2858B307B790583FB36",
+  "block_time": "2025-04-03T02:45:02.116426126Z",
+  "chain_id": "cosmos",
+  "tx_hash": "9B2ED25F261605A82A30340683E3C9B9009AE56684660E44A905D39742826057",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos1ld8myknpkjf6t0uw8n2tt684kszd4r3rlrzwdc",
+  "amount": "1009",
+  "token": "uatom",
+  "total_amount": "1009uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:45:02Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:45:59 GIAO DỊCH TRONG BLOCK #25113236:
+{
+  "block_height": "25113236",
+  "block_hash": "89153F709BE990F6AE2F28F3F3E3B0CB33E1043A2C31D2858B307B790583FB36",
+  "block_time": "2025-04-03T02:45:02.116426126Z",
+  "chain_id": "cosmos",
+  "tx_hash": "DE7DC1E7ED5E31B10474FCAFD9F7FA1CE218395AB6A3852F7CF39B6E2363C2B6",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos1ld8myknpkjf6t0uw8n2tt684kszd4r3rlrzwdc",
+  "amount": "582",
+  "token": "uatom",
+  "total_amount": "582uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:45:02Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:45:59 GIAO DỊCH TRONG BLOCK #25113236:
+{
+  "block_height": "25113236",
+  "block_hash": "89153F709BE990F6AE2F28F3F3E3B0CB33E1043A2C31D2858B307B790583FB36",
+  "block_time": "2025-04-03T02:45:02.116426126Z",
+  "chain_id": "cosmos",
+  "tx_hash": "C9B676E7651B2D5F6D6F81793678627259CCE58E656C07301B305E3A7E1C2801",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos1ld8myknpkjf6t0uw8n2tt684kszd4r3rlrzwdc",
+  "amount": "454",
+  "token": "uatom",
+  "total_amount": "454uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:45:02Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:45:59 ✅ Hoàn thành xử lý khối 25113236
+2025/04/03 09:46:00 🔍 Đang lấy thông tin khối: 25113235
+2025/04/03 09:46:00 ✅ Đã lấy khối: 25113235
+2025/04/03 09:46:01 BLOCK MỚI #25113235 | Chain: cosmoshub-4 | Time: 2025-04-03T02:44:55Z | Hash: 2DAB2D2F50EB8A470A4C239614214A0FCEA90747EAA0A7D51405226ED3C51D4B
+2025/04/03 09:46:01 Số lượng giao dịch trong block #25113235: 1
+2025/04/03 09:46:01 Đã ghi khối 25113235 (1 giao dịch) vào file cho chain cosmos
+2025/04/03 09:46:01 GIAO DỊCH TRONG BLOCK #25113235:
+{
+  "block_height": "25113235",
+  "block_hash": "2DAB2D2F50EB8A470A4C239614214A0FCEA90747EAA0A7D51405226ED3C51D4B",
+  "block_time": "2025-04-03T02:44:55.94403595Z",
+  "chain_id": "cosmos",
+  "tx_hash": "A69221997AC568E4D24DBCF48A87296D8149E00A54879D7D963EDC0981D7FF68",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos1668wcrfwsfy0rmryek6ctmdkrm9yx27c00y4lm",
+  "amount": "494",
+  "token": "uatom",
+  "total_amount": "494uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:44:55Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:46:01 ✅ Hoàn thành xử lý khối 25113235
+2025/04/03 09:46:01 🔍 Đang lấy thông tin khối: 25113234
+2025/04/03 09:46:02 ✅ Đã lấy khối: 25113234
+2025/04/03 09:46:02 BLOCK MỚI #25113234 | Chain: cosmoshub-4 | Time: 2025-04-03T02:44:49Z | Hash: D4DDE42FAB5846263247D426C079F8F49D4321A0FDD4B34CE5133AECC5E4A114
+2025/04/03 09:46:02 Số lượng giao dịch trong block #25113234: 4
+2025/04/03 09:46:02 Đã ghi khối 25113234 (4 giao dịch) vào file cho chain cosmos
+2025/04/03 09:46:02 GIAO DỊCH TRONG BLOCK #25113234:
+{
+  "block_height": "25113234",
+  "block_hash": "D4DDE42FAB5846263247D426C079F8F49D4321A0FDD4B34CE5133AECC5E4A114",
+  "block_time": "2025-04-03T02:44:49.672361668Z",
+  "chain_id": "cosmos",
+  "tx_hash": "CE7C3CE43CCFF8887E4F01511813E8D7758278CC07FFC78D38329371FD20B2A0",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos16t2937fqnm9ceg42k8veupnprwqj4puhluady7",
+  "amount": "1964",
+  "token": "uatom",
+  "total_amount": "1964uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:44:49Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:46:02 GIAO DỊCH TRONG BLOCK #25113234:
+{
+  "block_height": "25113234",
+  "block_hash": "D4DDE42FAB5846263247D426C079F8F49D4321A0FDD4B34CE5133AECC5E4A114",
+  "block_time": "2025-04-03T02:44:49.672361668Z",
+  "chain_id": "cosmos",
+  "tx_hash": "6D3C732F4F37337C7C80ADE9B2089BAB02969328774E2CB7ADF512CA57650823",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos16t2937fqnm9ceg42k8veupnprwqj4puhluady7",
+  "amount": "411",
+  "token": "uatom",
+  "total_amount": "411uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:44:49Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:46:02 GIAO DỊCH TRONG BLOCK #25113234:
+{
+  "block_height": "25113234",
+  "block_hash": "D4DDE42FAB5846263247D426C079F8F49D4321A0FDD4B34CE5133AECC5E4A114",
+  "block_time": "2025-04-03T02:44:49.672361668Z",
+  "chain_id": "cosmos",
+  "tx_hash": "F5FA0E8A1871A9F7050339D2470BE89D59C4EB3565B051820D90F5E6BED90012",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos16t2937fqnm9ceg42k8veupnprwqj4puhluady7",
+  "amount": "594",
+  "token": "uatom",
+  "total_amount": "594uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:44:49Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:46:02 GIAO DỊCH TRONG BLOCK #25113234:
+{
+  "block_height": "25113234",
+  "block_hash": "D4DDE42FAB5846263247D426C079F8F49D4321A0FDD4B34CE5133AECC5E4A114",
+  "block_time": "2025-04-03T02:44:49.672361668Z",
+  "chain_id": "cosmos",
+  "tx_hash": "9CDE3D63DD3BB9ECFB8F9E0CF4B194D9AF488E94D761ADD259C8FBAC1933C606",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos16t2937fqnm9ceg42k8veupnprwqj4puhluady7",
+  "amount": "2337",
+  "token": "uatom",
+  "total_amount": "2337uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:44:49Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:46:02 ✅ Hoàn thành xử lý khối 25113234
+2025/04/03 09:46:03 🔍 Đang lấy thông tin khối: 25113233
+2025/04/03 09:46:04 ✅ Đã lấy khối: 25113233
+2025/04/03 09:46:04 BLOCK MỚI #25113233 | Chain: cosmoshub-4 | Time: 2025-04-03T02:44:43Z | Hash: 0F65C1264BA05382001A39A56E6EC5210F8CE75412626D4BC3CB9985375BCDDA
+2025/04/03 09:46:04 Số lượng giao dịch trong block #25113233: 5
+2025/04/03 09:46:04 Đã ghi khối 25113233 (5 giao dịch) vào file cho chain cosmos
+2025/04/03 09:46:04 GIAO DỊCH TRONG BLOCK #25113233:
+{
+  "block_height": "25113233",
+  "block_hash": "0F65C1264BA05382001A39A56E6EC5210F8CE75412626D4BC3CB9985375BCDDA",
+  "block_time": "2025-04-03T02:44:43.365239419Z",
+  "chain_id": "cosmos",
+  "tx_hash": "A4E463D6472BFF20C26D887D1D1DF68B7E6D703E50E5A0733A3002B69F76A04B",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos1vz42ewp04wwepjed7z4qenj925gpakgvvxjf2w",
+  "amount": "198",
+  "token": "uatom",
+  "total_amount": "198uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:44:43Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:46:04 GIAO DỊCH TRONG BLOCK #25113233:
+{
+  "block_height": "25113233",
+  "block_hash": "0F65C1264BA05382001A39A56E6EC5210F8CE75412626D4BC3CB9985375BCDDA",
+  "block_time": "2025-04-03T02:44:43.365239419Z",
+  "chain_id": "cosmos",
+  "tx_hash": "BF263F3007639DFB52B279836862F5E56A4F842F950EBC4D4069CFE145614B10",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos1vz42ewp04wwepjed7z4qenj925gpakgvvxjf2w",
+  "amount": "6445",
+  "token": "uatom",
+  "total_amount": "6445uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:44:43Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:46:04 GIAO DỊCH TRONG BLOCK #25113233:
+{
+  "block_height": "25113233",
+  "block_hash": "0F65C1264BA05382001A39A56E6EC5210F8CE75412626D4BC3CB9985375BCDDA",
+  "block_time": "2025-04-03T02:44:43.365239419Z",
+  "chain_id": "cosmos",
+  "tx_hash": "A461D4420DE0BFB3D3C1F035FE6A525D5935BD4C2A6CC33F0D986633315C1D5E",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos1vz42ewp04wwepjed7z4qenj925gpakgvvxjf2w",
+  "amount": "2060",
+  "token": "uatom",
+  "total_amount": "2060uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:44:43Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:46:04 GIAO DỊCH TRONG BLOCK #25113233:
+{
+  "block_height": "25113233",
+  "block_hash": "0F65C1264BA05382001A39A56E6EC5210F8CE75412626D4BC3CB9985375BCDDA",
+  "block_time": "2025-04-03T02:44:43.365239419Z",
+  "chain_id": "cosmos",
+  "tx_hash": "5EFBD674EA06F15ED46039DC0119E85D57FBCA08784E942F61AAF047D7521DB8",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos1vz42ewp04wwepjed7z4qenj925gpakgvvxjf2w",
+  "amount": "1759",
+  "token": "uatom",
+  "total_amount": "1759uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:44:43Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:46:04 GIAO DỊCH TRONG BLOCK #25113233:
+{
+  "block_height": "25113233",
+  "block_hash": "0F65C1264BA05382001A39A56E6EC5210F8CE75412626D4BC3CB9985375BCDDA",
+  "block_time": "2025-04-03T02:44:43.365239419Z",
+  "chain_id": "cosmos",
+  "tx_hash": "82D22602AB2B6180F005AD8F77EFCEA6DDFE1BA2F0372A2857534C60E97CDDC7",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos1vz42ewp04wwepjed7z4qenj925gpakgvvxjf2w",
+  "amount": "2349",
+  "token": "uatom",
+  "total_amount": "2349uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:44:43Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:46:04 ✅ Hoàn thành xử lý khối 25113233
+2025/04/03 09:46:05 🔍 Đang lấy thông tin khối: 25113232
+2025/04/03 09:46:05 ✅ Đã lấy khối: 25113232
+2025/04/03 09:46:06 BLOCK MỚI #25113232 | Chain: cosmoshub-4 | Time: 2025-04-03T02:44:37Z | Hash: C43A181943A971C4C560752DF33659B41E8EC1BA4703745F7DDA8323798A30E8
+2025/04/03 09:46:06 Số lượng giao dịch trong block #25113232: 2
+2025/04/03 09:46:06 Đã ghi khối 25113232 (2 giao dịch) vào file cho chain cosmos
+2025/04/03 09:46:06 GIAO DỊCH TRONG BLOCK #25113232:
+{
+  "block_height": "25113232",
+  "block_hash": "C43A181943A971C4C560752DF33659B41E8EC1BA4703745F7DDA8323798A30E8",
+  "block_time": "2025-04-03T02:44:37.363721323Z",
+  "chain_id": "cosmos",
+  "tx_hash": "CFAAB622A95CC0E392DADB365FEC95A000E4584651885ED45BA6A5F70142158F",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos1vp9yf9uq7zgtcm9mk82ejd9zpgfyly7pacm5f2",
+  "amount": "2611",
+  "token": "uatom",
+  "total_amount": "2611uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:44:37Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:46:06 GIAO DỊCH TRONG BLOCK #25113232:
+{
+  "block_height": "25113232",
+  "block_hash": "C43A181943A971C4C560752DF33659B41E8EC1BA4703745F7DDA8323798A30E8",
+  "block_time": "2025-04-03T02:44:37.363721323Z",
+  "chain_id": "cosmos",
+  "tx_hash": "6E7273141FE780770DA59AB621D891134F45CD87024D19FC5EA7006080A05816",
+  "from": "cosmos13pxn9n3qw79e03844rdadagmg0nshmwf7qvuye",
+  "to": "cosmos1vp9yf9uq7zgtcm9mk82ejd9zpgfyly7pacm5f2",
+  "amount": "2657",
+  "token": "uatom",
+  "total_amount": "2657uatom",
+  "tx_type": "Transfer",
+  "timestamp": "2025-04-03T02:44:37Z",
+  "event_signature": "",
+  "raw_data": ""
+}
+2025/04/03 09:46:06 ✅ Hoàn thành xử lý khối 25113232
