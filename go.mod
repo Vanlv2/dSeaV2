@@ -5,9 +5,9 @@ go 1.23.3
 require (
 	github.com/beldur/kraken-go-api-client v0.0.0-20240207163059-7469c489f802
 	github.com/blocto/solana-go-sdk v1.30.0
+	github.com/emirpasic/gods v1.18.1
 	github.com/ethereum/go-ethereum v1.15.7
 	github.com/gorilla/websocket v1.5.3
-	github.com/mr-tron/base58 v1.2.0
 )
 
 require (
@@ -28,6 +28,7 @@ require (
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/holiman/uint256 v1.3.2 // indirect
 	github.com/mmcloughlin/addchain v0.4.0 // indirect
+	github.com/mr-tron/base58 v1.2.0 // indirect
 	github.com/shirou/gopsutil v3.21.4-0.20210419000835-c7a38de76ee5+incompatible // indirect
 	github.com/supranational/blst v0.3.14 // indirect
 	github.com/tklauser/go-sysconf v0.3.12 // indirect
