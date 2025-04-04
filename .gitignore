@@ -1,0 +1,5 @@
+
+g files
+*.log
+services/get_chains/log/
+services/get_chains/*.log

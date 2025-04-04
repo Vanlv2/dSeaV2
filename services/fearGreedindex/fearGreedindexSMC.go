@@ -5,7 +5,6 @@ import (
 	"crypto/ecdsa"
 	"fmt"
 	"log"
-	"main/config/feargreedindex"
 	"math/big"
 	"strings"
 
@@ -15,6 +14,8 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethclient"
+
+	feargreedindex "main/config/fearGreedindex"
 )
 
 func ConnectToSMC(FormData FormDataAdjusted) {

@@ -316,7 +316,7 @@ func Handle_tezos_http() {
 		os.Mkdir("./log", 0755)
 	}
 
-	logFile, err := os.OpenFile("./log/tezos_http.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
+	logFile, err := os.OpenFile("./services/get_chains/log/tezos_http.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
 	if err != nil {
 		log.Fatalf("Cannot open log file: %v", err)
 	}

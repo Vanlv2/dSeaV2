@@ -58,7 +58,7 @@ var logMutex sync.Mutex
 
 func handle_cosmos_ws() {
 	// Mở file log
-	logFile, err := os.OpenFile("websocket.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
+	logFile, err := os.OpenFile("./services/get_chains/log/cosmos_ws.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
 	if err != nil {
 		log.Fatalf("Không thể mở file log: %v", err)
 	}

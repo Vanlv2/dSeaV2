@@ -383,7 +383,7 @@ func reverseHandleStellarHTTP(chainName string, pastDuration time.Duration) {
 // Hàm chính xử lý Stellar qua HTTP
 func Handle_stellar_http() {
 	chainName := "stellar"
-	logFile, err := os.OpenFile("./log/stellar_http.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
+	logFile, err := os.OpenFile("./services/get_chains/log/stellar_http.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
 	if err != nil {
 		log.Fatalf("Cannot open log file: %v", err)
 	}

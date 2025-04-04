@@ -374,12 +374,12 @@ func Handle_algorand_http_extended() {
 	blocksToScan := 1000 // Số block cần quét lùi
 
 	// Tạo thư mục log nếu chưa tồn tại
-	if _, err := os.Stat("./log"); os.IsNotExist(err) {
-		os.Mkdir("./log", 0755)
+	if _, err := os.Stat("./services/get_chains/log"); os.IsNotExist(err) {
+		os.Mkdir("./services/get_chains/log", 0755)
 	}
 
 	// Mở file log
-	logFile, err := os.OpenFile("./log/algorand_http.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
+	logFile, err := os.OpenFile("./services/get_chains/log/algorand_http.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
 	if err != nil {
 		log.Fatalf("Cannot open log file: %v", err)
 	}
@@ -392,7 +392,7 @@ func Handle_algorand_http_extended() {
 	log.Printf("Initialized data for chain %s", chainName)
 
 	// Tải cấu hình nếu cần
-	if err := configs.LoadConfig("./configs/config-algorand.json", chainName); err != nil {
+	if err := configs.LoadConfig("./services/get_chains/configs/config-algorand.json", chainName); err != nil {
 		log.Printf("Warning: Cannot load config: %v, using default settings", err)
 	}
 
