@@ -23529,3 +23529,20 @@
 }
 2025/04/03 07:33:59 ✅ Completed processing block 48646106
 2025/04/03 07:33:59 ⚠️ Không tìm thấy giao dịch nào trong khoảng từ khối 22184831 đến 22184838 cho chain ethereum
+2025/04/04 08:33:40 Initialized data for chain tezos, last processed block: 0
+2025/04/04 08:33:40 Kết nối đến blockchain cosmos qua WebSocket: wss://cosmos-rpc.publicnode.com:443/websocket
+2025/04/04 08:38:07 Initialized data for chain tezos, last processed block: 0
+2025/04/04 08:38:07 ======= BEGIN PROCESSING TEZOS CHAIN tezos =======
+2025/04/04 08:38:07 Step 1: Scanning backwards into the past (1h0m0s)
+2025/04/04 08:38:07 Bắt đầu quét blockchain Tron qua HTTP...
+2025/04/04 08:38:07 Đã khởi động quét blockchain Tron qua HTTP
+2025/04/04 08:43:56 Initialized data for chain tezos, last processed block: 0
+2025/04/04 08:43:56 ======= BEGIN PROCESSING TEZOS CHAIN tezos =======
+2025/04/04 08:43:56 Step 1: Scanning backwards into the past (1h0m0s)
+2025/04/04 08:43:56 Warning: Cannot load config: open ./configs/config-algorand.json: no such file or directory, using default settings
+2025/04/04 08:43:56 ======= BẮT ĐẦU QUÉT NGƯỢC BLOCKCHAIN ALGORAND algorand =======
+2025/04/04 08:43:56 Sẽ quét lùi 1000 blocks từ block hiện tại
+2025/04/04 08:43:56 API URL: https://mainnet-api.algonode.cloud
+2025/04/04 08:43:56 Indexer URL: https://mainnet-idx.algonode.cloud
+2025/04/04 08:43:56 ==================================
+2025/04/04 08:43:56 Fetching current block from: https://mainnet-api.algonode.cloud/v2/status

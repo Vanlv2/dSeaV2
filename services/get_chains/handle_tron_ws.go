@@ -20,8 +20,8 @@ var tronWSFileLogger *log.Logger
 // Thiết lập logger cho WebSocket Tron
 func setupTronWSLogger() {
 	// Tạo thư mục logs nếu chưa tồn tại
-	if _, err := os.Stat("logs"); os.IsNotExist(err) {
-		err := os.Mkdir("logs", 0755)
+	if _, err := os.Stat("./services/get_chains/logs"); os.IsNotExist(err) {
+		err := os.Mkdir("./services/get_chains/logs", 0755)
 		if err != nil {
 			log.Fatalf("Không thể tạo thư mục logs: %v", err)
 		}

@@ -176,7 +176,7 @@ func writeTransactionToFile(tx map[string]interface{}) {
 		return
 	}
 
-	filePath := "./transactions.log"
+	filePath := "./services/get_chains/log/transactions.log"
 	file, err := os.OpenFile(filePath, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0644)
 	if err != nil {
 		log.Printf("Không thể mở file %s: %v", filePath, err)
@@ -252,7 +252,7 @@ func importAllLogFiles() {
 	chains := []string{"bsc", "avalanche"}
 
 	for _, chain := range chains {
-		logFilePath := fmt.Sprintf("./block_data_%s.log", chain)
+		logFilePath := fmt.Sprintf("./services/get_chains/log/block_data_%s.log", chain)
 		if _, err := os.Stat(logFilePath); err == nil {
 			log.Printf("Tìm thấy file log cho chain %s, bắt đầu nhập dữ liệu...", chain)
 			if err := importLogFileToDatabase(logFilePath, chain); err != nil {

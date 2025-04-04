@@ -15,3 +15,6 @@
 2025/04/03 20:20:11 Không thể tạo thư mục logs: mkdir logs: file exists
 2025/04/03 20:20:45 ======= BẮT ĐẦU QUÁ TRÌNH XỬ LÝ CHAIN COSMOS cosmos =======
 2025/04/03 20:20:45 Bước 1: Quét ngược về quá khứ (1h0m0s)
+2025/04/04 08:38:07 Bắt đầu theo dõi blockchain Tron theo thời gian thực...
+2025/04/04 08:38:07 Sử dụng node Tron chính: https://tron-rpc.publicnode.com/jsonrpc
+2025/04/04 08:43:56 Đang kết nối đến wss://mainnet.veblocks.net:443/subscriptions/block

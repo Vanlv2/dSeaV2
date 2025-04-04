@@ -7,3 +7,7 @@
 2025/04/03 09:29:07 Initialized data for chain stellar, last processed ledger: 0
 2025/04/03 09:29:07 Cannot load config: open ./configs/config-stellar.json: no such file or directory
 2025/04/03 18:22:39 Initialized data for chain stellar, last processed ledger: 0
+2025/04/04 08:38:07 Đang kết nối đến wss://mainnet.veblocks.net:443/subscriptions/block
+2025/04/04 08:38:07 Initialized data for chain stellar, last processed ledger: 0
+2025/04/04 08:38:07 Bắt đầu quét các khối VeChain trong khoảng 1h0m0s vừa qua
+2025/04/04 08:43:56 Initialized data for chain stellar, last processed ledger: 0

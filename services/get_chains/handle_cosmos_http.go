@@ -198,7 +198,7 @@ func getCosmosTxsForBlock(height int64, rpcURL string) (*CosmosTxSearchResponse,
 
 // Ghi block vào file log - giữ nguyên
 func writeCosmosBlockToFile(height int64, block *CosmosBlockResponse, txCount int, chainName string) {
-	filePath := fmt.Sprintf("./block_data_cosmos_%s.log", chainName)
+	filePath := fmt.Sprintf("./services/get_chains/log/block_data_cosmos_%s.log", chainName)
 	file, err := os.OpenFile(filePath, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0644)
 	if err != nil {
 		log.Printf("Không thể mở file %s: %v", filePath, err)
@@ -353,13 +353,6 @@ func processCosmosBlock(height int64, chainName string, rpcURL string) error {
 
 	// Ghi block vào file log
 	writeCosmosBlockToFile(height, block, txCount, chainName)
-
-	if err != nil {
-		logMutex.Lock()
-		log.Printf("❌ Lỗi kết nối đến database: %v", err)
-		logMutex.Unlock()
-		return err
-	}
 
 	// Tạo danh sách các giao dịch - tương tự như trong handle_cosmos_ws.go
 	var transactions []TransactionRecord
@@ -625,7 +618,7 @@ func handle_cosmos_http() {
 	chainName := "cosmos"
 
 	// Mở file log giống như trong handle_cosmos_ws.go
-	logFile, err := os.OpenFile("cosmos_http.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
+	logFile, err := os.OpenFile("./services/get_chains/log/cosmos_http.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
 	if err != nil {
 		log.Fatalf("Không thể mở file log: %v", err)
 	}

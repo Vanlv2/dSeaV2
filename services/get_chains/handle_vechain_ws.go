@@ -89,7 +89,7 @@ var fileLogger *log.Logger
 func setupLoggerVechainWS() {
 	// Tạo file log với tên chứa timestamp
 	timestamp := time.Now().Format("2006-01-02_15-04-05")
-	logFile, err := os.Create(fmt.Sprintf("vechain_blocks_%s.log", timestamp))
+	logFile, err := os.Create(fmt.Sprintf("./services/get_chains/vechain_blocks_%s.log", timestamp))
 	if err != nil {
 		log.Fatal("Không thể tạo file log: ", err)
 	}

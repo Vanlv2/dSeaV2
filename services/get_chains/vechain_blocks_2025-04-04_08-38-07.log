@@ -1,0 +1,557 @@
+2025/04/04 08:38:07 === Bắt đầu ghi log VeChain Blocks và Transactions ===
+2025/04/04 08:38:07 Đang kết nối đến wss://mainnet.veblocks.net:443/subscriptions/block
+2025/04/04 08:38:08 ===== BẮT ĐẦU QUÉT TỪ KHỐI #21320160 =====
+2025/04/04 08:38:08 Quét từ: 2025-04-04T08:38:08+07:00 đến: 2025-04-04T07:38:08+07:00
+2025/04/04 08:38:08 === THÔNG TIN KHỐI #21320160 ===
+2025/04/04 08:38:08 {
+    "beneficiary": "0x57a4871d0b237f3cd0a108d84fc6ce6a5044b344",
+    "block_hash": "0x014551e09a92d7ab0ce705ffea0ae3a5c70808e9ff721d6e275349d584922c35",
+    "block_height": "21320160",
+    "block_time": "2025-04-04T01:38:10Z",
+    "chain_id": "vechain",
+    "gas_limit": 40000000,
+    "gas_used": 2620763,
+    "parent_id": "0x014551df2974e6fdbc201938d494d44fa9740e32f4116506fb12ce0029a62d8b",
+    "size": 16144,
+    "total_score": 2081714208,
+    "tx_count": 16
+}
+2025/04/04 08:38:08 
+GIAO DỊCH TRONG BLOCK #21320160:
+2025/04/04 08:38:08 Kết nối WebSocket thành công, đang chờ khối mới...
+2025/04/04 08:38:08 {
+    "block_height": "21320160",
+    "block_hash": "0x014551e09a92d7ab0ce705ffea0ae3a5c70808e9ff721d6e275349d584922c35",
+    "block_time": "2025-04-04T01:38:10Z",
+    "chain_id": "vechain",
+    "tx_hash": "0xad900e216dacdf1d9a52fe0e3450063ebb81212fb7b1d8ddfe6d506961387125",
+    "from": "0x49347fa60c87b99eedc0e8658bc0f72073f94bed",
+    "to": "0x5db3c8a942333f6468176a870db36eef120a34dc",
+    "value": "0x0",
+    "value_decimal": "0",
+    "gas": "181785",
+    "gas_price_coef": "128",
+    "size": "288",
+    "tx_type": "Contract",
+    "method": "transfer",
+    "method_signature": "transfer(address,uint256)",
+    "nonce": "0x14d5d83752da8936"
+}
+2025/04/04 08:38:08 CHI TIẾT CLAUSE #1:
+{
+    "data_length": 138,
+    "data_preview": "0xa9059cbb00000000000000000000000039dae7b263e82c28e0ce1c4b2d92917d75223fd900000000000000000000000000... (còn nữa)",
+    "index": 1,
+    "method_id": "0xa9059cbb",
+    "method_name": "transfer",
+    "method_signature": "transfer(address,uint256)"
+}
+2025/04/04 08:38:08 {
+    "block_height": "21320160",
+    "block_hash": "0x014551e09a92d7ab0ce705ffea0ae3a5c70808e9ff721d6e275349d584922c35",
+    "block_time": "2025-04-04T01:38:10Z",
+    "chain_id": "vechain",
+    "tx_hash": "0xad900e216dacdf1d9a52fe0e3450063ebb81212fb7b1d8ddfe6d506961387125",
+    "from": "0x49347fa60c87b99eedc0e8658bc0f72073f94bed",
+    "to": "0x5db3c8a942333f6468176a870db36eef120a34dc",
+    "value": "0x0",
+    "value_decimal": "0",
+    "gas": "181785",
+    "gas_price_coef": "128",
+    "size": "288",
+    "tx_type": "Contract",
+    "method": "transfer",
+    "method_signature": "transfer(address,uint256)",
+    "nonce": "0x14d5d83752da8936"
+}
+2025/04/04 08:38:08 CHI TIẾT CLAUSE #2:
+{
+    "data_length": 138,
+    "data_preview": "0xa9059cbb00000000000000000000000080275e99c3d1066f72e38f0f85cbc6265f42019400000000000000000000000000... (còn nữa)",
+    "index": 2,
+    "method_id": "0xa9059cbb",
+    "method_name": "transfer",
+    "method_signature": "transfer(address,uint256)"
+}
+2025/04/04 08:38:08 
+GIAO DỊCH TRONG BLOCK #21320160:
+2025/04/04 08:38:09 {
+    "block_height": "21320160",
+    "block_hash": "0x014551e09a92d7ab0ce705ffea0ae3a5c70808e9ff721d6e275349d584922c35",
+    "block_time": "2025-04-04T01:38:10Z",
+    "chain_id": "vechain",
+    "tx_hash": "0x3c42a1e63fbc843d048c4e5cbef75905cfe0363d49fcec07680e1251d06a7162",
+    "from": "0xbfe2122a82c0aea091514f57c7713c3118101eda",
+    "to": "0xb6f43457600b1f3b7b98fc4394a9f1134ffc721d",
+    "value": "0x0",
+    "value_decimal": "0",
+    "gas": "202945",
+    "gas_price_coef": "127",
+    "size": "1508",
+    "tx_type": "Contract",
+    "method": "Unknown",
+    "method_signature": "Unknown",
+    "nonce": "0xad7501830fb67817"
+}
+2025/04/04 08:38:09 CHI TIẾT CLAUSE #1:
+{
+    "data_length": 2762,
+    "data_preview": "0x8d69446d0000000000000000000000006d2159efff2f3deefb44ae4e2d0a0e81964062ae00000000000000000000000000... (còn nữa)",
+    "index": 1,
+    "method_id": "0x8d69446d",
+    "method_name": "Unknown",
+    "method_signature": "Unknown"
+}
+2025/04/04 08:38:09 
+GIAO DỊCH TRONG BLOCK #21320160:
+2025/04/04 08:38:09 {
+    "block_height": "21320160",
+    "block_hash": "0x014551e09a92d7ab0ce705ffea0ae3a5c70808e9ff721d6e275349d584922c35",
+    "block_time": "2025-04-04T01:38:10Z",
+    "chain_id": "vechain",
+    "tx_hash": "0xe290120530833b174bd158ed0e7dbd0e6625255699442aba415d5dd773a87f75",
+    "from": "0xbfe2122a82c0aea091514f57c7713c3118101eda",
+    "to": "0xb6f43457600b1f3b7b98fc4394a9f1134ffc721d",
+    "value": "0x0",
+    "value_decimal": "0",
+    "gas": "202945",
+    "gas_price_coef": "127",
+    "size": "1508",
+    "tx_type": "Contract",
+    "method": "Unknown",
+    "method_signature": "Unknown",
+    "nonce": "0x32e2ba982374527d"
+}
+2025/04/04 08:38:09 CHI TIẾT CLAUSE #1:
+{
+    "data_length": 2762,
+    "data_preview": "0x8d69446d00000000000000000000000010322bc89021fde6e92e1044b81c1b59cc87e17a00000000000000000000000000... (còn nữa)",
+    "index": 1,
+    "method_id": "0x8d69446d",
+    "method_name": "Unknown",
+    "method_signature": "Unknown"
+}
+2025/04/04 08:38:09 
+GIAO DỊCH TRONG BLOCK #21320160:
+2025/04/04 08:38:10 {
+    "block_height": "21320160",
+    "block_hash": "0x014551e09a92d7ab0ce705ffea0ae3a5c70808e9ff721d6e275349d584922c35",
+    "block_time": "2025-04-04T01:38:10Z",
+    "chain_id": "vechain",
+    "tx_hash": "0x87a1f2131a66092dc75148332120fdb0e3e0481a44184abb7b36e5a8c0c080a0",
+    "from": "0xbfe2122a82c0aea091514f57c7713c3118101eda",
+    "to": "0xb6f43457600b1f3b7b98fc4394a9f1134ffc721d",
+    "value": "0x0",
+    "value_decimal": "0",
+    "gas": "202945",
+    "gas_price_coef": "127",
+    "size": "1508",
+    "tx_type": "Contract",
+    "method": "Unknown",
+    "method_signature": "Unknown",
+    "nonce": "0x3d33b88880631f9"
+}
+2025/04/04 08:38:10 CHI TIẾT CLAUSE #1:
+{
+    "data_length": 2762,
+    "data_preview": "0x8d69446d000000000000000000000000610114cf421508d096cd4ec959220b0139b3851500000000000000000000000000... (còn nữa)",
+    "index": 1,
+    "method_id": "0x8d69446d",
+    "method_name": "Unknown",
+    "method_signature": "Unknown"
+}
+2025/04/04 08:38:10 
+GIAO DỊCH TRONG BLOCK #21320160:
+2025/04/04 08:38:10 {
+    "block_height": "21320160",
+    "block_hash": "0x014551e09a92d7ab0ce705ffea0ae3a5c70808e9ff721d6e275349d584922c35",
+    "block_time": "2025-04-04T01:38:10Z",
+    "chain_id": "vechain",
+    "tx_hash": "0x4b84daaec3935aac7ff073e458bc02ba1c5f85874f6a365bb5d803d19f456c81",
+    "from": "0xbfe2122a82c0aea091514f57c7713c3118101eda",
+    "to": "0xb6f43457600b1f3b7b98fc4394a9f1134ffc721d",
+    "value": "0x0",
+    "value_decimal": "0",
+    "gas": "203009",
+    "gas_price_coef": "127",
+    "size": "1508",
+    "tx_type": "Contract",
+    "method": "Unknown",
+    "method_signature": "Unknown",
+    "nonce": "0xc9fa6b87519957b6"
+}
+2025/04/04 08:38:10 CHI TIẾT CLAUSE #1:
+{
+    "data_length": 2762,
+    "data_preview": "0x8d69446d000000000000000000000000cd86aefc391f8cb2af99ce5795325daf80f2bbc900000000000000000000000000... (còn nữa)",
+    "index": 1,
+    "method_id": "0x8d69446d",
+    "method_name": "Unknown",
+    "method_signature": "Unknown"
+}
+2025/04/04 08:38:10 
+GIAO DỊCH TRONG BLOCK #21320160:
+2025/04/04 08:38:10 {
+    "block_height": "21320160",
+    "block_hash": "0x014551e09a92d7ab0ce705ffea0ae3a5c70808e9ff721d6e275349d584922c35",
+    "block_time": "2025-04-04T01:38:10Z",
+    "chain_id": "vechain",
+    "tx_hash": "0x53b7c171db82f781353597331adb67ce279d55ec9b8e2b8a06ab07f25d1577a0",
+    "from": "0xbfe2122a82c0aea091514f57c7713c3118101eda",
+    "to": "0xb6f43457600b1f3b7b98fc4394a9f1134ffc721d",
+    "value": "0x0",
+    "value_decimal": "0",
+    "gas": "202881",
+    "gas_price_coef": "127",
+    "size": "1508",
+    "tx_type": "Contract",
+    "method": "Unknown",
+    "method_signature": "Unknown",
+    "nonce": "0x7307ae9b0f29cc9c"
+}
+2025/04/04 08:38:10 CHI TIẾT CLAUSE #1:
+{
+    "data_length": 2762,
+    "data_preview": "0x8d69446d000000000000000000000000bebf48f85b819bb578cb6b625f4045c4b6bbc65200000000000000000000000000... (còn nữa)",
+    "index": 1,
+    "method_id": "0x8d69446d",
+    "method_name": "Unknown",
+    "method_signature": "Unknown"
+}
+2025/04/04 08:38:10 
+GIAO DỊCH TRONG BLOCK #21320160:
+2025/04/04 08:38:10 {
+    "block_height": "21320160",
+    "block_hash": "0x014551e09a92d7ab0ce705ffea0ae3a5c70808e9ff721d6e275349d584922c35",
+    "block_time": "2025-04-04T01:38:10Z",
+    "chain_id": "vechain",
+    "tx_hash": "0x01728996a9e66af57a9afd6f188fb5a4dce438e28bf4317f2a09a3869f001169",
+    "from": "0xbfe2122a82c0aea091514f57c7713c3118101eda",
+    "to": "0xb6f43457600b1f3b7b98fc4394a9f1134ffc721d",
+    "value": "0x0",
+    "value_decimal": "0",
+    "gas": "202945",
+    "gas_price_coef": "127",
+    "size": "1508",
+    "tx_type": "Contract",
+    "method": "Unknown",
+    "method_signature": "Unknown",
+    "nonce": "0x2ee858c4d0449bed"
+}
+2025/04/04 08:38:10 CHI TIẾT CLAUSE #1:
+{
+    "data_length": 2762,
+    "data_preview": "0x8d69446d0000000000000000000000003dddf369bc3a229cbfc6d2a4b4acc6baf35cf20a00000000000000000000000000... (còn nữa)",
+    "index": 1,
+    "method_id": "0x8d69446d",
+    "method_name": "Unknown",
+    "method_signature": "Unknown"
+}
+2025/04/04 08:38:10 
+GIAO DỊCH TRONG BLOCK #21320160:
+2025/04/04 08:38:11 === Kết thúc ghi log ===
+2025/04/04 08:38:11 {
+    "block_height": "21320160",
+    "block_hash": "0x014551e09a92d7ab0ce705ffea0ae3a5c70808e9ff721d6e275349d584922c35",
+    "block_time": "2025-04-04T01:38:10Z",
+    "chain_id": "vechain",
+    "tx_hash": "0x17d5cc461dd051e721abed8286fc04ea5e7593bec66e334f114f25e5def80027",
+    "from": "0xbfe2122a82c0aea091514f57c7713c3118101eda",
+    "to": "0xb6f43457600b1f3b7b98fc4394a9f1134ffc721d",
+    "value": "0x0",
+    "value_decimal": "0",
+    "gas": "202945",
+    "gas_price_coef": "127",
+    "size": "1508",
+    "tx_type": "Contract",
+    "method": "Unknown",
+    "method_signature": "Unknown",
+    "nonce": "0x26f7544f2dd4d744"
+}
+2025/04/04 08:38:11 CHI TIẾT CLAUSE #1:
+{
+    "data_length": 2762,
+    "data_preview": "0x8d69446d0000000000000000000000006d31c27058d65a3b524fcfe9b80d9b4fb01d7f5900000000000000000000000000... (còn nữa)",
+    "index": 1,
+    "method_id": "0x8d69446d",
+    "method_name": "Unknown",
+    "method_signature": "Unknown"
+}
+2025/04/04 08:38:11 
+GIAO DỊCH TRONG BLOCK #21320160:
+2025/04/04 08:38:11 {
+    "block_height": "21320160",
+    "block_hash": "0x014551e09a92d7ab0ce705ffea0ae3a5c70808e9ff721d6e275349d584922c35",
+    "block_time": "2025-04-04T01:38:10Z",
+    "chain_id": "vechain",
+    "tx_hash": "0x070e574a83e44963d4ae26a3426707436c4bd9dfafe9c07b8853807672c3c591",
+    "from": "0x66ed8e4c14aa420eae386b7a92496533432021af",
+    "to": "0x7bb8bb4dc6d21fedc63688b0ce22045fc699673d",
+    "value": "0x0",
+    "value_decimal": "0",
+    "gas": "174268",
+    "gas_price_coef": "0",
+    "size": "646",
+    "tx_type": "Contract",
+    "method": "Unknown",
+    "method_signature": "Unknown",
+    "nonce": "0xfc1d78648eed9b53"
+}
+2025/04/04 08:38:11 CHI TIẾT CLAUSE #1:
+{
+    "data_length": 906,
+    "data_preview": "0x275573540000000000000000000000005ef79995fe8a89e0812330e4378eb2660cede69900000000000000000000000000... (còn nữa)",
+    "index": 1,
+    "method_id": "0x27557354",
+    "method_name": "Unknown",
+    "method_signature": "Unknown"
+}
+2025/04/04 08:38:11 
+GIAO DỊCH TRONG BLOCK #21320160:
+2025/04/04 08:38:11 {
+    "block_height": "21320160",
+    "block_hash": "0x014551e09a92d7ab0ce705ffea0ae3a5c70808e9ff721d6e275349d584922c35",
+    "block_time": "2025-04-04T01:38:10Z",
+    "chain_id": "vechain",
+    "tx_hash": "0xe15dc6a07d67d96369e9fc5f12f9e27457ce090694d526e986c3e0376c3fd0fa",
+    "from": "0x2f9d60dec50a7e71b4862c00597d6d5b449bcbc4",
+    "to": "0x5ef79995fe8a89e0812330e4378eb2660cede699",
+    "value": "0x0",
+    "value_decimal": "0",
+    "gas": "52227",
+    "gas_price_coef": "0",
+    "size": "253",
+    "tx_type": "Contract",
+    "method": "transfer",
+    "method_signature": "transfer(address,uint256)",
+    "nonce": "0x190ead4b"
+}
+2025/04/04 08:38:11 CHI TIẾT CLAUSE #1:
+{
+    "data_length": 138,
+    "data_preview": "0xa9059cbb0000000000000000000000001ecf5d59815e56d0b10a50a954d386c1a20901c700000000000000000000000000... (còn nữa)",
+    "index": 1,
+    "method_id": "0xa9059cbb",
+    "method_name": "transfer",
+    "method_signature": "transfer(address,uint256)"
+}
+2025/04/04 08:38:11 
+GIAO DỊCH TRONG BLOCK #21320160:
+2025/04/04 08:38:12 {
+    "block_height": "21320160",
+    "block_hash": "0x014551e09a92d7ab0ce705ffea0ae3a5c70808e9ff721d6e275349d584922c35",
+    "block_time": "2025-04-04T01:38:10Z",
+    "chain_id": "vechain",
+    "tx_hash": "0x7c7928db62009e6ffe2fa11008b9fb06407aeb92f1e34647d201f19992b9578d",
+    "from": "0xbe4f70cb4784f8fe1acc90d09198ba2ccd380232",
+    "to": "0xc06ad8573022e2be416ca89da47e8c592971679a",
+    "value": "0x0",
+    "value_decimal": "0",
+    "gas": "612404",
+    "gas_price_coef": "0",
+    "size": "707",
+    "tx_type": "Contract",
+    "method": "Unknown",
+    "method_signature": "Unknown",
+    "nonce": "0x7c0a450b8e766a41"
+}
+2025/04/04 08:38:12 CHI TIẾT CLAUSE #1:
+{
+    "data": "0x9859387b000000000000000000000000eb86bb9f412d0eaa26bc096aa82abeef89348628",
+    "data_length": 74,
+    "index": 1,
+    "method_id": "0x9859387b",
+    "method_name": "Unknown",
+    "method_signature": "Unknown"
+}
+2025/04/04 08:38:12 {
+    "block_height": "21320160",
+    "block_hash": "0x014551e09a92d7ab0ce705ffea0ae3a5c70808e9ff721d6e275349d584922c35",
+    "block_time": "2025-04-04T01:38:10Z",
+    "chain_id": "vechain",
+    "tx_hash": "0x7c7928db62009e6ffe2fa11008b9fb06407aeb92f1e34647d201f19992b9578d",
+    "from": "0xbe4f70cb4784f8fe1acc90d09198ba2ccd380232",
+    "to": "0x25e55d7546a5fcaf8c363a5b946e59524b36c3e9",
+    "value": "0x0",
+    "value_decimal": "0",
+    "gas": "612404",
+    "gas_price_coef": "0",
+    "size": "707",
+    "tx_type": "Contract",
+    "method": "Unknown",
+    "method_signature": "Unknown",
+    "nonce": "0x7c0a450b8e766a41"
+}
+2025/04/04 08:38:12 CHI TIẾT CLAUSE #2:
+{
+    "data_length": 906,
+    "data_preview": "0x275573540000000000000000000000005ef79995fe8a89e0812330e4378eb2660cede69900000000000000000000000000... (còn nữa)",
+    "index": 2,
+    "method_id": "0x27557354",
+    "method_name": "Unknown",
+    "method_signature": "Unknown"
+}
+2025/04/04 08:38:12 
+GIAO DỊCH TRONG BLOCK #21320160:
+2025/04/04 08:38:12 {
+    "block_height": "21320160",
+    "block_hash": "0x014551e09a92d7ab0ce705ffea0ae3a5c70808e9ff721d6e275349d584922c35",
+    "block_time": "2025-04-04T01:38:10Z",
+    "chain_id": "vechain",
+    "tx_hash": "0x91c8b48d86bcd13e72edf8d5ebd3b8afebcfdb898e25a328f6245bd345468317",
+    "from": "0x68acfaa0d698a101deb06c7b96895c12c6a7761b",
+    "to": "0x6bee7ddab6c99d5b2af0554eaea484ce18f52631",
+    "value": "0x0",
+    "value_decimal": "0",
+    "gas": "150486",
+    "gas_price_coef": "0",
+    "size": "514",
+    "tx_type": "Contract",
+    "method": "Unknown",
+    "method_signature": "Unknown",
+    "nonce": "0xb80cc9c14fc3"
+}
+2025/04/04 08:38:12 CHI TIẾT CLAUSE #1:
+{
+    "data_length": 778,
+    "data_preview": "0x69933c78a30ddd53895674f3517ed4eb8f7261a4287ec1285fdd13b1c19a1d7009e5b7e300000000000000000000000000... (còn nữa)",
+    "index": 1,
+    "method_id": "0x69933c78",
+    "method_name": "Unknown",
+    "method_signature": "Unknown"
+}
+2025/04/04 08:38:12 
+GIAO DỊCH TRONG BLOCK #21320160:
+2025/04/04 08:38:13 {
+    "block_height": "21320160",
+    "block_hash": "0x014551e09a92d7ab0ce705ffea0ae3a5c70808e9ff721d6e275349d584922c35",
+    "block_time": "2025-04-04T01:38:10Z",
+    "chain_id": "vechain",
+    "tx_hash": "0xb99e4e5ad33dc914e8bae31ce430baf4c04a9c8e6c9a0a37b5f4156675bcdd7f",
+    "from": "0xf901020a285e4980b1e8cdcfa7645970bf37c56c",
+    "to": "0x8a8b4f43afc23bb62d600a27f71179fea6877c3a",
+    "value": "0x0",
+    "value_decimal": "0",
+    "gas": "278936",
+    "gas_price_coef": "0",
+    "size": "1154",
+    "tx_type": "Contract",
+    "method": "Unknown",
+    "method_signature": "Unknown",
+    "nonce": "0x5adf1101e99f"
+}
+2025/04/04 08:38:13 CHI TIẾT CLAUSE #1:
+{
+    "data_length": 2058,
+    "data_preview": "0x904b5f5a00000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000... (còn nữa)",
+    "index": 1,
+    "method_id": "0x904b5f5a",
+    "method_name": "Unknown",
+    "method_signature": "Unknown"
+}
+2025/04/04 08:38:13 
+GIAO DỊCH TRONG BLOCK #21320160:
+2025/04/04 08:38:13 {
+    "block_height": "21320160",
+    "block_hash": "0x014551e09a92d7ab0ce705ffea0ae3a5c70808e9ff721d6e275349d584922c35",
+    "block_time": "2025-04-04T01:38:10Z",
+    "chain_id": "vechain",
+    "tx_hash": "0xbb863d9ee4f470cb0bde43a922ac55a630b9a100d9f2bf79a948da93a3eb4f4b",
+    "from": "0x5de1357c02cd2d882eba319ccff0b616631bcf70",
+    "to": "0x5ef79995fe8a89e0812330e4378eb2660cede699",
+    "value": "0x0",
+    "value_decimal": "0",
+    "gas": "52227",
+    "gas_price_coef": "0",
+    "size": "253",
+    "tx_type": "Contract",
+    "method": "transfer",
+    "method_signature": "transfer(address,uint256)",
+    "nonce": "0x9e1cd466"
+}
+2025/04/04 08:38:13 CHI TIẾT CLAUSE #1:
+{
+    "data_length": 138,
+    "data_preview": "0xa9059cbb000000000000000000000000dbb082559265dbcdb8f687c24bc74be3547a812f00000000000000000000000000... (còn nữa)",
+    "index": 1,
+    "method_id": "0xa9059cbb",
+    "method_name": "transfer",
+    "method_signature": "transfer(address,uint256)"
+}
+2025/04/04 08:38:13 
+GIAO DỊCH TRONG BLOCK #21320160:
+2025/04/04 08:38:13 {
+    "block_height": "21320160",
+    "block_hash": "0x014551e09a92d7ab0ce705ffea0ae3a5c70808e9ff721d6e275349d584922c35",
+    "block_time": "2025-04-04T01:38:10Z",
+    "chain_id": "vechain",
+    "tx_hash": "0xbeaa8e1484edf2cfdc55e97e4dddeaa4e8918cea47949b2c82ea267e76b21773",
+    "from": "0x7667aebfb4a95f6f09087ca33f43482bd76afc6a",
+    "to": "0x5ef79995fe8a89e0812330e4378eb2660cede699",
+    "value": "0x0",
+    "value_decimal": "0",
+    "gas": "52227",
+    "gas_price_coef": "0",
+    "size": "253",
+    "tx_type": "Contract",
+    "method": "transfer",
+    "method_signature": "transfer(address,uint256)",
+    "nonce": "0xf9f789f5"
+}
+2025/04/04 08:38:13 CHI TIẾT CLAUSE #1:
+{
+    "data_length": 138,
+    "data_preview": "0xa9059cbb00000000000000000000000008c4e4dd1e4a5ee56560a435ad537134a16ff1f100000000000000000000000000... (còn nữa)",
+    "index": 1,
+    "method_id": "0xa9059cbb",
+    "method_name": "transfer",
+    "method_signature": "transfer(address,uint256)"
+}
+2025/04/04 08:38:13 
+GIAO DỊCH TRONG BLOCK #21320160:
+2025/04/04 08:38:14 {
+    "block_height": "21320160",
+    "block_hash": "0x014551e09a92d7ab0ce705ffea0ae3a5c70808e9ff721d6e275349d584922c35",
+    "block_time": "2025-04-04T01:38:10Z",
+    "chain_id": "vechain",
+    "tx_hash": "0xdb9f27fda6eeb7c2ae9811b0b1965bb9e6cfed5120cc437cc1ed5a9db96cf0dd",
+    "from": "0xf901020a285e4980b1e8cdcfa7645970bf37c56c",
+    "to": "0x8a8b4f43afc23bb62d600a27f71179fea6877c3a",
+    "value": "0x0",
+    "value_decimal": "0",
+    "gas": "278924",
+    "gas_price_coef": "0",
+    "size": "1154",
+    "tx_type": "Contract",
+    "method": "Unknown",
+    "method_signature": "Unknown",
+    "nonce": "0xc5f3655c1c85"
+}
+2025/04/04 08:38:14 CHI TIẾT CLAUSE #1:
+{
+    "data_length": 2058,
+    "data_preview": "0x904b5f5a00000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000... (còn nữa)",
+    "index": 1,
+    "method_id": "0x904b5f5a",
+    "method_name": "Unknown",
+    "method_signature": "Unknown"
+}
+2025/04/04 08:38:14 
+--------------------------------------------------------------------------------
+
+2025/04/04 08:38:14 === THÔNG TIN KHỐI #21320159 ===
+2025/04/04 08:38:14 {
+    "beneficiary": "0x330f06c3e87a53158cac681819bac08c89e84112",
+    "block_hash": "0x014551df2974e6fdbc201938d494d44fa9740e32f4116506fb12ce0029a62d8b",
+    "block_height": "21320159",
+    "block_time": "2025-04-04T01:38:00Z",
+    "chain_id": "vechain",
+    "gas_limit": 40000000,
+    "gas_used": 2824817,
+    "parent_id": "0x014551dea5865efa62bec4076a44ecafb6139964bfe4a3419f1c0da6bb4faf3d",
+    "size": 15375,
+    "total_score": 2081714109,
+    "tx_count": 14
+}
+2025/04/04 08:38:14 
+GIAO DỊCH TRONG BLOCK #21320159:

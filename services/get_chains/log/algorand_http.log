@@ -34,3 +34,12 @@
 2025/04/03 20:20:11 Đã khởi động quét blockchain Tron qua HTTP
 2025/04/03 20:20:11 Đang kết nối đến wss://mainnet.veblocks.net:443/subscriptions/block
 2025/04/03 20:20:45 Initialized data for chain algorand
+2025/04/04 08:33:40 Bắt đầu quét blockchain Tron qua HTTP...
+2025/04/04 08:38:07 Initialized data for chain algorand
+2025/04/04 08:38:07 Warning: Cannot load config: open ./configs/config-algorand.json: no such file or directory, using default settings
+2025/04/04 08:38:07 ======= BẮT ĐẦU QUÉT NGƯỢC BLOCKCHAIN ALGORAND algorand =======
+2025/04/04 08:38:07 Sẽ quét lùi 1000 blocks từ block hiện tại
+2025/04/04 08:38:07 API URL: https://mainnet-api.algonode.cloud
+2025/04/04 08:38:07 Indexer URL: https://mainnet-idx.algonode.cloud
+2025/04/04 08:38:07 ==================================
+2025/04/04 08:43:56 Initialized data for chain algorand
